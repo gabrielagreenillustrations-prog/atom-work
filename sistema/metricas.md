@@ -1,15 +1,18 @@
 # Métricas
 
-Última revisión: **2026-09-28** (sesión 12) · Decisiones: [0004](../decisiones/04-organismos/atom-sidepanel-metricas/0004-errores-reemplaza-fallidos.md) · [0025](../decisiones/04-organismos/atom-sidepanel-metricas/0025-titulos-de-side-panels-de-metricas.md) (reemplazada por [0067](../decisiones/05-paginas/metricas/0067-metricas-de-plantilla-en-todas-las-superficies.md)) · [0014](../decisiones/04-organismos/atom-sidepanel-metricas/0014-ejemplo-calidad-baja.md) · [0063](../decisiones/05-paginas/metricas/0063-metricas-de-resultados.md) · [0064](../decisiones/05-paginas/metricas/0064-valores-de-resultados-coherentes.md) · [0041](../decisiones/04-organismos/atom-sidepanel-metricas/0041-side-panels-de-metricas-con-overlay.md) · [0044](../decisiones/04-organismos/atom-sidepanel-metricas/0044-tooltip-codigo-de-error.md) · [0050](../decisiones/01-fundamentos/fechas/0050-fechas-sin-relativas.md) · [0056](../decisiones/06-proceso-y-fuentes/handoff/0056-handoff-v2.md) · [0057](../decisiones/04-organismos/atom-sidepanel-metricas/0057-panel-de-metricas-v2.md) · [0058](../decisiones/04-organismos/atom-sidepanel-metricas/0058-automatizaciones-dos-versiones-del-panel.md) · [0060](../decisiones/04-organismos/atom-sidepanel-metricas/0060-panel-v2-icono-de-informacion-arriba-a-la-derecha.md) · [0062](../decisiones/04-organismos/atom-sidepanel-metricas/0062-panel-v1-solo-el-panel-de-origen.md) · [0065](../decisiones/05-paginas/metricas/0065-panel-v1-cuatro-metricas-y-errores-meta.md) · [0067](../decisiones/05-paginas/metricas/0067-metricas-de-plantilla-en-todas-las-superficies.md) · [0068](../decisiones/06-proceso-y-fuentes/handoff/0068-panel-de-metricas-en-su-archivo.md) · [0069](../decisiones/05-paginas/metricas/0069-panel-sin-reporte-de-errores-e-iconos.md)
+Última revisión: **2026-09-28** (sesión 12) · Decisiones: [0004](../decisiones/04-organismos/atom-sidepanel-metricas/0004-errores-reemplaza-fallidos.md) · [0025](../decisiones/04-organismos/atom-sidepanel-metricas/0025-titulos-de-side-panels-de-metricas.md) (reemplazada por [0067](../decisiones/05-paginas/metricas/0067-metricas-de-plantilla-en-todas-las-superficies.md)) · [0014](../decisiones/04-organismos/atom-sidepanel-metricas/0014-ejemplo-calidad-baja.md) · [0063](../decisiones/05-paginas/metricas/0063-metricas-de-resultados.md) · [0064](../decisiones/05-paginas/metricas/0064-valores-de-resultados-coherentes.md) · [0041](../decisiones/04-organismos/atom-sidepanel-metricas/0041-side-panels-de-metricas-con-overlay.md) · [0044](../decisiones/04-organismos/atom-sidepanel-metricas/0044-tooltip-codigo-de-error.md) · [0050](../decisiones/01-fundamentos/fechas/0050-fechas-sin-relativas.md) · [0056](../decisiones/06-proceso-y-fuentes/handoff/0056-handoff-v2.md) · [0057](../decisiones/04-organismos/atom-sidepanel-metricas/0057-panel-de-metricas-v2.md) · [0058](../decisiones/04-organismos/atom-sidepanel-metricas/0058-automatizaciones-dos-versiones-del-panel.md) · [0060](../decisiones/04-organismos/atom-sidepanel-metricas/0060-panel-v2-icono-de-informacion-arriba-a-la-derecha.md) · [0062](../decisiones/04-organismos/atom-sidepanel-metricas/0062-panel-v1-solo-el-panel-de-origen.md) · [0065](../decisiones/05-paginas/metricas/0065-panel-v1-cuatro-metricas-y-errores-meta.md) · [0067](../decisiones/05-paginas/metricas/0067-metricas-de-plantilla-en-todas-las-superficies.md) · [0068](../decisiones/06-proceso-y-fuentes/handoff/0068-panel-de-metricas-en-su-archivo.md) · [0069](../decisiones/05-paginas/metricas/0069-panel-sin-reporte-de-errores-e-iconos.md) · [0075](../decisiones/05-paginas/metricas/0075-panel-oficial-en-la-entrega.md)
 
 ---
 
 ## Dónde está
 
-Los casos del panel, en sus dos versiones, están en el archivo *Métricas por plantilla inicial en flujos y campañas* (page Actual UI,
-sección «Handoff Design System · Panel de métricas de plantilla»), junto con el benchmark, la ideación de Resultados simplificados y la
-exploración de la grilla. En los handoffs queda la apertura: Campañas `01.6 · 01` y Automatizaciones
-`03.9 · 01` — decisión [0068](../decisiones/06-proceso-y-fuentes/handoff/0068-panel-de-metricas-en-su-archivo.md).
+El panel que se entrega está en la entrega del archivo *Métricas por plantilla inicial en flujos y campañas*
+(page Actual UI, sección «Métricas por plantilla inicial en flujos y campañas», Ready for dev): HU 2, HU3 y
+casos edge, con sus interacciones — decisión [0075](../decisiones/05-paginas/metricas/0075-panel-oficial-en-la-entrega.md).
+En los handoffs está el caso de uso que lo abre, con el copy de cada módulo: Campañas `01.6 · 01–02` y
+Automatizaciones `03.9 · 01–02`. La sección «Handoff Design System · Panel de métricas de plantilla» del
+mismo archivo conserva las versiones anteriores (v1 y nuevo DS), el benchmark, la ideación de Resultados
+simplificados y la exploración de la grilla ([0068](../decisiones/06-proceso-y-fuentes/handoff/0068-panel-de-metricas-en-su-archivo.md)).
 
 ## Dos versiones
 
@@ -19,6 +22,8 @@ exploración de la grilla. En los handoffs queda la apertura: Campañas `01.6 ·
 | Nuevo DS (antes, pages Handoff v2) | El del nuevo DS, con los cambios de la [0057](../decisiones/04-organismos/atom-sidepanel-metricas/0057-panel-de-metricas-v2.md) y la [0060](../decisiones/04-organismos/atom-sidepanel-metricas/0060-panel-v2-icono-de-informacion-arriba-a-la-derecha.md). Salvo «Panel v1» y «En la tabla de Resultados», lo que sigue describe esta versión. |
 
 ## Panel v1
+
+Es el que se entrega, con la grilla A y el nombre de la plantilla hasta 3 líneas — [0075](../decisiones/05-paginas/metricas/0075-panel-oficial-en-la-entrega.md).
 
 Decisiones [0065](../decisiones/05-paginas/metricas/0065-panel-v1-cuatro-metricas-y-errores-meta.md) y [0069](../decisiones/05-paginas/metricas/0069-panel-sin-reporte-de-errores-e-iconos.md).
 
@@ -44,9 +49,9 @@ Decisiones [0065](../decisiones/05-paginas/metricas/0065-panel-v1-cuatro-metrica
 Valores de ejemplo en todos los paneles: 100 enviados; 85 entregados (85 %); 50 leídos (59 %); 35
 respondidos (41 %); 10 errores de Meta: 5 mensajes (50 %), 3 (30 %) y 2 (20 %).
 
-### Grilla de las cards (exploración, sin decidir)
+### Grilla de las cards
 
-Con la jerarquía de v2 (sin flecha de tendencia, cantidad y porcentaje en la misma línea, ícono de
+Va la A, las cuatro en una fila ([0075](../decisiones/05-paginas/metricas/0075-panel-oficial-en-la-entrega.md)). Con la jerarquía de v2 (sin flecha de tendencia, cantidad y porcentaje en la misma línea, ícono de
 información arriba a la derecha) y los nombres, tooltips e íconos de v1, en «Exploración · Grid de
 métricas (v1 con la jerarquía de v2)»: A, las cuatro en una fila; B, tres en una fila y una abajo;
 C, una arriba y tres en una fila.
@@ -126,9 +131,9 @@ Todos los paneles llevan un subtítulo en el ❖ atom- section-heading y un badg
 
 | Dónde | Subtítulo | Badge |
 |---|---|---|
-| Campañas estáticas (01.6 · 01/02/04/05) | *"Analiza el rendimiento de los envíos y el impacto de esta campaña."* | `Calidad Alta` |
+| Campañas (01.6 · 02 y la entrega del archivo de métricas) | *"Analiza el rendimiento de cada plantilla utilizada en esta campaña."* ([0075](../decisiones/05-paginas/metricas/0075-panel-oficial-en-la-entrega.md)) | `Calidad Alta` |
 | Campañas dinámicas (01.8 · 15–16) | *"Analiza las métricas acumuladas de todos los envíos generados y el impacto de esta configuración."* | `Calidad Alta` |
-| Gestión de flujos (03.9) | *"Analiza el rendimiento de los envíos y el impacto de las plantillas de este flujo."* | `Calidad pendiente` |
+| Gestión de flujos (03.9 · 02 y la entrega del archivo de métricas) | *"Analiza el rendimiento de cada plantilla utilizada en este flujo."* ([0075](../decisiones/05-paginas/metricas/0075-panel-oficial-en-la-entrega.md)) | `Calidad Alta` en `03.9 · 02`; `Calidad pendiente` en algunos casos de la entrega |
 
 ## Overlay y código de error
 

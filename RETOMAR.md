@@ -116,6 +116,9 @@ Teléfono de Historial y Canal de Resultados de campañas ([0072](decisiones/04-
 volvió al ícono con menú ([0073](decisiones/05-paginas/historial-de-conversaciones/0073-historial-canal-con-menu-y-telefono-con-copiar.md)).
 Los handoffs de los dos archivos siguen la estructura de *Conversaciones - Adopción DS 1.0*: secciones
 «Handoff …», un título por caso de uso, una card por HU y una descripción por fila ([0074](decisiones/06-proceso-y-fuentes/handoff/0074-estructura-del-handoff-como-conversaciones.md)).
+El panel de métricas que se entrega es la grilla A: reemplazó al anterior en la entrega del archivo de
+métricas, y los handoffs llevan la apertura y el panel abierto con el copy de cada módulo (`01.6 · 01–02`,
+`03.9 · 01–02`, [0075](decisiones/05-paginas/metricas/0075-panel-oficial-en-la-entrega.md)).
 Quedaron tres grillas para las cards del panel, para elegir.
 
 ### Esperando una respuesta mía
@@ -150,7 +153,6 @@ Quedaron tres grillas para las cards del panel, para elegir.
 | Ideación | Entregados (120) y el reparto de errores por categoría son valores de ejemplo; los porcentajes usan una base provisoria (cards sobre Clientes, estatus sobre Enviados, categorías sobre el total de errores). |
 | Benchmark del panel de métricas | La propuesta de drill-down es interpretación: ¿qué categorías lleva cada card y sobre qué base se calcula cada %? Ahora está en el archivo de métricas. |
 | Panel v1 y la fila de la tabla | El panel muestra 100 enviados de una plantilla (1/10) y la fila «Encuesta satisfacción Q2» tiene 5 enviados en total. ¿Se alinean los números? |
-| Dos `01.6 · 01` | Hay dos frames «01.6 · 01 - Side panel · Métricas de plantilla · Acceso desde el menú» (`628:170112` y `681:190591`). ¿Cuál queda? |
 | Ancho de `01.3 · 01` | La referencia mide 1579 px y la Fecha de envío queda debajo de Acciones; las demás tablas sueltas miden 1726 px. Quedó como está. |
 | «Simular» | Pediste sacar el snackbar porque la acción ya no existe, pero «Simular» sigue en 7 menús de `03.3`, en el modal `03.5 · 05` y en dos cards. ¿Sale todo? |
 | «Snackbars y errores» | Esa sección de tu lista vino vacía. ¿Faltaba algo? |
@@ -158,7 +160,6 @@ Quedaron tres grillas para las cards del panel, para elegir.
 | Página de destino del panel | Lo moví a la page *Actual UI* (la del link). El archivo tiene también *Nueva UI*: ¿la versión con el nuevo DS va ahí? |
 | Número en el menú | Los menús de campañas de Flujo y el flujo de `03.3 · 04` dicen «(10)», como el ejemplo del panel (1/10). `03.3 · 06` (Webhook) y `08` (Tipificación) quedaron sin número. ¿Va otro número en alguno? |
 | Enviados | Leí «Enviados: 1se queda igual» como una palomita (`check`). ¿Es así o quedaba el ícono anterior (`user`)? |
-| Grilla de las cards | Tres opciones en el archivo de métricas: A, cuatro en una fila; B, tres y una abajo; C, una arriba y tres. ¿Cuál va? |
 | Cerrar «Detalles del flujo» con el nombre en edición | Guardar al cerrar el modal o al hacer clic fuera de él: di mi recomendación en el reporte de la sesión 12. ¿Va así? `close` ¿descarta el cambio? |
 | «Número asociado» en «Detalles del flujo» | `03.4 · 07` (un número) y la lista de `03.4 · 02` muestran `copy` siempre visible. No son tablas y quedaron igual. ¿Pasan al pattern de copiar en hover? |
 | Filtros abiertos de Historial (`04.2 · 04–06`) | Siguen con la tabla desacoplada y el Canal como ícono; no les llegó el pattern de copiar. ¿Se rearman con la tabla del resto? |
@@ -167,6 +168,9 @@ Quedaron tres grillas para las cards del panel, para elegir.
 | Frame vacío en Campañas | En la page *Campañas Handoff v1*, fuera de la sección, hay un frame «02.1 · 06 - Tabla · Tooltip Nombre truncado» sin contenido (`637:617816`). ¿Se borra? |
 | Ícono de Activar | Propuesta: `circle-check`; alternativa: `toggle-on` con `toggle-off` para Desactivar. ¿Cuál va? |
 | `03.3 · 19–21` (Lista dinámica) | Ya no están en el archivo de Automatizaciones (`179:572526`, `179:572820`, `179:573114`) y los artefactos conservan sus filas. ¿Se borraron a propósito? |
+| Sección «Handoff Design System» del archivo de métricas | El panel que se entrega ya está en la entrega del archivo ([0075](decisiones/05-paginas/metricas/0075-panel-oficial-en-la-entrega.md)). La sección aparte sigue con las versiones anteriores (v1 y nuevo DS), el benchmark, la ideación y la exploración de la grilla. ¿Se borra, se deja como referencia o se mueve alguna parte? |
+| Navegación en `01.6 · 02` y `03.9 · 02` | Campañas muestra el panel de una plantilla, sin navegación (la fila es de tipo Plantilla); Automatizaciones, el de varias, en 1/10 (el menú dice «(10)»). Fue interpretación mía. ¿Va así? |
+| `01.6 · 03` | `681:190591` también se llamaba `01.6 · 01` y muestra el hover en «Ver plantilla»: lo nombré `01.6 · 03 - Menú de fila · Hover en Ver plantilla` y la vista previa pasó a `01.6 · 03.1`, porque `01.6 · 04–18` ya son los casos anteriores del panel en el archivo de métricas. ¿Queda? |
 | Lista en Actualizando | En pausa por el benchmark. Para verla: esperar la actualización agendada de la lista dinámica de prueba, agregar clientes por CSV en QA o armar el frame desde el código. Las dos listas de prueba siguen en QA (`K8eBSkS3bsBt7G5d7nL9`, `1nqAMaHaQtAJWEqVWzGu`); se borran solo con tu OK. |
 
 ### Para decidir

@@ -162,7 +162,7 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | [0062](04-organismos/atom-sidepanel-metricas/0062-panel-v1-solo-el-panel-de-origen.md) | v1: del archivo de origen solo queda el panel |
 
 **Antes:** [0005](04-organismos/atom-sidepanel-metricas/0005-contador-en-metricas.md) → [0025](04-organismos/atom-sidepanel-metricas/0025-titulos-de-side-panels-de-metricas.md) → [0067](05-paginas/metricas/0067-metricas-de-plantilla-en-todas-las-superficies.md)  
-**Ver también:** [0021](01-fundamentos/iconografia/0021-iconos-de-side-panels.md) (íconos de los botones), [0056](06-proceso-y-fuentes/handoff/0056-handoff-v2.md) (page Handoff v2), [0065](05-paginas/metricas/0065-panel-v1-cuatro-metricas-y-errores-meta.md) (métricas y errores del panel v1), [0067](05-paginas/metricas/0067-metricas-de-plantilla-en-todas-las-superficies.md) (nombre), [0068](06-proceso-y-fuentes/handoff/0068-panel-de-metricas-en-su-archivo.md) (el panel vive en su archivo), [0069](05-paginas/metricas/0069-panel-sin-reporte-de-errores-e-iconos.md) (sin «Reporte de errores», íconos)  
+**Ver también:** [0021](01-fundamentos/iconografia/0021-iconos-de-side-panels.md) (íconos de los botones), [0056](06-proceso-y-fuentes/handoff/0056-handoff-v2.md) (page Handoff v2), [0065](05-paginas/metricas/0065-panel-v1-cuatro-metricas-y-errores-meta.md) (métricas y errores del panel v1), [0067](05-paginas/metricas/0067-metricas-de-plantilla-en-todas-las-superficies.md) (nombre), [0068](06-proceso-y-fuentes/handoff/0068-panel-de-metricas-en-su-archivo.md) (el panel vive en su archivo), [0069](05-paginas/metricas/0069-panel-sin-reporte-de-errores-e-iconos.md) (sin «Reporte de errores», íconos), [0075](05-paginas/metricas/0075-panel-oficial-en-la-entrega.md) (el panel que se entrega)  
 
 #### ❖ atom-dialog · Modales · regla vigente: [sistema/modales-y-overlay.md](../sistema/modales-y-overlay.md)
 
@@ -185,6 +185,7 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | [0065](05-paginas/metricas/0065-panel-v1-cuatro-metricas-y-errores-meta.md) | Panel de métricas v1: cuatro métricas y solo errores de Meta · salvo botones e ícono de Enviados ([0069](05-paginas/metricas/0069-panel-sin-reporte-de-errores-e-iconos.md)) |
 | [0067](05-paginas/metricas/0067-metricas-de-plantilla-en-todas-las-superficies.md) | «Métricas de plantilla» en todas las superficies; «(N)» solo en el menú |
 | [0069](05-paginas/metricas/0069-panel-sin-reporte-de-errores-e-iconos.md) | Panel: sin «Reporte de errores»; Enviados con `check` |
+| [0075](05-paginas/metricas/0075-panel-oficial-en-la-entrega.md) | El panel que se entrega: grilla A, dentro de la entrega del archivo de métricas; los handoffs llevan la apertura y el panel abierto |
 
 **Antes:** columnas de Resultados: [0036](04-organismos/atom-data-table/columnas-resultados/0036-no-entregados-visible.md) → [0063](05-paginas/metricas/0063-metricas-de-resultados.md)  
 **Ver también:** el panel de métricas en [Organismos](#-atom-sidepanel--panel-de-métricas--regla-vigente-sistemametricasmd) ([0004](04-organismos/atom-sidepanel-metricas/0004-errores-reemplaza-fallidos.md), [0044](04-organismos/atom-sidepanel-metricas/0044-tooltip-codigo-de-error.md), [0062](04-organismos/atom-sidepanel-metricas/0062-panel-v1-solo-el-panel-de-origen.md)); dónde está el panel: [0068](06-proceso-y-fuentes/handoff/0068-panel-de-metricas-en-su-archivo.md)  
@@ -240,8 +241,10 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | [0013](06-proceso-y-fuentes/handoff/0013-reglas-sin-ui-no-se-llevan.md) | Las reglas sin representación visual no se llevan al handoff |
 | [0045](06-proceso-y-fuentes/handoff/0045-handoff-orden-de-la-grilla.md) | La numeración sigue el orden de la grilla |
 | [0056](06-proceso-y-fuentes/handoff/0056-handoff-v2.md) | Campañas: page «Handoff v2» con lo nuevo; la page «Campañas» queda como producción |
-| [0068](06-proceso-y-fuentes/handoff/0068-panel-de-metricas-en-su-archivo.md) | El panel de métricas vive en su archivo; los handoffs llevan solo la apertura |
+| [0068](06-proceso-y-fuentes/handoff/0068-panel-de-metricas-en-su-archivo.md) | El panel de métricas vive en su archivo; los handoffs llevan solo la apertura · en parte, reemplazada por [0075](05-paginas/metricas/0075-panel-oficial-en-la-entrega.md) |
 | [0074](06-proceso-y-fuentes/handoff/0074-estructura-del-handoff-como-conversaciones.md) | La estructura del archivo de Conversaciones · Adopción DS 1.0: título por caso de uso, card por HU y descripción por fila |
+
+**Ver también:** [0075](05-paginas/metricas/0075-panel-oficial-en-la-entrega.md) (el panel se entrega dentro de la entrega del archivo de métricas; los handoffs llevan la apertura y el panel abierto)
 
 ---
 
@@ -316,13 +319,14 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | [0065](05-paginas/metricas/0065-panel-v1-cuatro-metricas-y-errores-meta.md) | Panel de métricas v1: cuatro métricas y solo errores de Meta | vigente; la [0069](05-paginas/metricas/0069-panel-sin-reporte-de-errores-e-iconos.md) cambia los botones y el ícono de Enviados | 2026-09-28 |
 | [0066](05-paginas/gestion-de-flujos/0066-descargar-flujo-y-detalles-del-flujo.md) | Gestión de flujos: «Descargar flujo» y modal «Detalles del flujo» | vigente | 2026-09-28 |
 | [0067](05-paginas/metricas/0067-metricas-de-plantilla-en-todas-las-superficies.md) | «Métricas de plantilla» en todas las superficies | vigente | 2026-09-28 |
-| [0068](06-proceso-y-fuentes/handoff/0068-panel-de-metricas-en-su-archivo.md) | El panel de métricas vive en su archivo; los handoffs llevan solo la apertura | vigente | 2026-09-28 |
+| [0068](06-proceso-y-fuentes/handoff/0068-panel-de-metricas-en-su-archivo.md) | El panel de métricas vive en su archivo; los handoffs llevan solo la apertura | vigente; dónde se entrega el panel y qué llevan los handoffs, reemplazado por [0075](05-paginas/metricas/0075-panel-oficial-en-la-entrega.md) | 2026-09-28 |
 | [0069](05-paginas/metricas/0069-panel-sin-reporte-de-errores-e-iconos.md) | Panel de métricas: sin «Reporte de errores» e íconos de las cards | vigente | 2026-09-28 |
 | [0070](05-paginas/historial-de-conversaciones/0070-historial-nombre-del-cliente-y-busqueda.md) | Historial: «Nombre del cliente», búsqueda por nombre o teléfono y Telegram | vigente | 2026-09-28 |
 | [0071](05-paginas/gestion-de-flujos/0071-editar-el-nombre-en-detalles-del-flujo.md) | «Detalles del flujo»: el nombre se edita como los campos del preview channel | vigente | 2026-09-28 |
 | [0072](04-organismos/atom-data-table/0072-numero-copiable-en-tablas.md) | Tablas: un número o una cuenta que se copia va como texto, con copiar en hover | vigente; Historial · Canal, reemplazado por [0073](05-paginas/historial-de-conversaciones/0073-historial-canal-con-menu-y-telefono-con-copiar.md) | 2026-09-28 |
 | [0073](05-paginas/historial-de-conversaciones/0073-historial-canal-con-menu-y-telefono-con-copiar.md) | Historial: Canal vuelve al ícono con menú; solo Teléfono usa el pattern de copiar | vigente | 2026-09-28 |
 | [0074](06-proceso-y-fuentes/handoff/0074-estructura-del-handoff-como-conversaciones.md) | Handoff: la estructura del archivo de Conversaciones · Adopción DS 1.0 | vigente | 2026-09-28 |
+| [0075](05-paginas/metricas/0075-panel-oficial-en-la-entrega.md) | El panel de métricas que se entrega: la grilla A, dentro de la entrega del archivo de métricas | vigente | 2026-09-28 |
 
 ## Formato
 

@@ -132,11 +132,18 @@ la versión publicada anterior."*
 
 ## Side panel de métricas de plantillas
 
-Los casos del panel, v1 y con el nuevo DS, están en el archivo *Métricas por plantilla inicial en flujos y campañas*, page Actual UI,
-sección «Handoff Design System · Panel de métricas de plantilla» — decisión
-[0068](../../decisiones/06-proceso-y-fuentes/handoff/0068-panel-de-metricas-en-su-archivo.md). En este archivo queda la apertura:
-`03.9 · 01`, «Métricas de plantilla (10)» en el menú de más acciones de la fila de `03.3 · 04`, con
-su card. La page Handoff v2 conserva solo una card que dice dónde está el panel.
+En este archivo está el caso de uso que abre el panel — decisión
+[0075](../../decisiones/05-paginas/metricas/0075-panel-oficial-en-la-entrega.md):
+
+| Frame | Qué muestra |
+|---|---|
+| `03.9 · 01` | «Métricas de plantilla (10)» en el menú de más acciones de la fila de `03.3 · 04` |
+| `03.9 · 02` | El panel abierto, con el copy de flujos: «Analiza el rendimiento de cada plantilla utilizada en este flujo.» Varias plantillas, en 1/10 |
+
+El panel que se entrega y sus interacciones están en el archivo *Métricas por plantilla inicial en flujos y campañas*,
+page Actual UI, sección «Métricas por plantilla inicial en flujos y campañas». Las versiones anteriores siguen en la
+sección «Handoff Design System · Panel de métricas de plantilla» ([0068](../../decisiones/06-proceso-y-fuentes/handoff/0068-panel-de-metricas-en-su-archivo.md)).
+La page Handoff v2 conserva solo una card que dice dónde está el panel.
 
 Nombre: «Métricas de plantilla»; el número de plantillas va solo en el menú, hasta 10 —
 [0067](../../decisiones/05-paginas/metricas/0067-metricas-de-plantilla-en-todas-las-superficies.md). Sin «Reporte de errores» —

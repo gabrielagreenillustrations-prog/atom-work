@@ -129,16 +129,20 @@ La tabla de dinámicas va a la derecha de la de estáticas, cada grupo a la altu
 
 ## Side panel de métricas
 
-En este archivo queda la apertura — decisión [0068](../../decisiones/06-proceso-y-fuentes/handoff/0068-panel-de-metricas-en-su-archivo.md):
+En este archivo está el caso de uso que abre el panel — decisión [0075](../../decisiones/05-paginas/metricas/0075-panel-oficial-en-la-entrega.md):
 
 | Frame | Qué muestra |
 |---|---|
-| `01.6 · 01` (dos frames) | «Métricas de plantilla» en el `❖ atom-dropdown-menu` de la fila de «Encuesta satisfacción Q2», de tipo Plantilla |
-| `01.6 · 03` | Vista previa de plantilla (no es del panel de métricas) |
+| `01.6 · 01` | «Métricas de plantilla» en el `❖ atom-dropdown-menu` de la fila de «Encuesta satisfacción Q2», de tipo Plantilla |
+| `01.6 · 02` | El panel abierto, con el copy de campañas: «Analiza el rendimiento de cada plantilla utilizada en esta campaña.» Una sola plantilla, sin navegación |
+| `01.6 · 03` | Hover en «Ver plantilla», en el mismo menú |
+| `01.6 · 03.1` | Vista previa de plantilla (no es del panel de métricas) |
 
-Los casos del panel —v1 (`01.6 · 02`, `04–18`), nuevo DS (`01.6 · 01–10` y dinámicas `01.8 · 15–17`),
-el benchmark y la ideación de Resultados simplificados— están en el archivo *Métricas por plantilla inicial en flujos y campañas*,
-page Actual UI, sección «Handoff Design System · Panel de métricas de plantilla». Nombre: [0067](../../decisiones/05-paginas/metricas/0067-metricas-de-plantilla-en-todas-las-superficies.md); sin «Reporte de errores»:
+El panel que se entrega y sus interacciones están en el archivo *Métricas por plantilla inicial en flujos y campañas*,
+page Actual UI, sección «Métricas por plantilla inicial en flujos y campañas». Las versiones anteriores (v1 y nuevo DS,
+con dinámicas `01.8 · 15–17`), el benchmark y la ideación de Resultados simplificados siguen en la sección
+«Handoff Design System · Panel de métricas de plantilla» del mismo archivo ([0068](../../decisiones/06-proceso-y-fuentes/handoff/0068-panel-de-metricas-en-su-archivo.md)).
+Nombre: [0067](../../decisiones/05-paginas/metricas/0067-metricas-de-plantilla-en-todas-las-superficies.md); sin «Reporte de errores»:
 [0069](../../decisiones/05-paginas/metricas/0069-panel-sin-reporte-de-errores-e-iconos.md). Detalle en `sistema/metricas.md`.
 
 ### Ideación: Resultados simplificados (en el archivo de métricas)

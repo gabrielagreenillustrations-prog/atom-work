@@ -1,6 +1,6 @@
 # 0068 — El panel de métricas vive en su archivo; los handoffs llevan solo la apertura
 
-**Estado:** vigente
+**Estado:** vigente; dónde se entrega el panel y qué llevan los handoffs, reemplazado por [0075](../../05-paginas/metricas/0075-panel-oficial-en-la-entrega.md)
 **Fecha:** 2026-09-28
 **Componente:** ❖ atom-sidepanel · Panel de métricas
 **Alcance:** Campañas y Automatizaciones, pages Handoff v1 y Handoff v2, y el archivo *Métricas por

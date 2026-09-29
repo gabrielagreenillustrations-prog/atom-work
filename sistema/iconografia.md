@@ -82,6 +82,7 @@ Depende de qué componente envuelve el ícono:
 | Instancia `v7-icon (pro)` | **`icon-name#1:13`**. La propiedad `Glyph` suele venir vacía y no sirve. |
 | Íconos de marca (`whatsapp`, `facebook-messenger`, `instagram`, `telegram`) | Además del nombre, la fuente del texto del ícono (`icon` en `v7-icon (pro)`, `↳ font-icon` en `❖ atom-icon`) pasa a **Font Awesome 7 Brands** (override de instancia). Sin eso se ve el nombre en texto o un glifo roto. |
 | Botones (`❖ atom-button`) | **`Icon Name#2590:0`** del `↳ Left ❖ atom-icon` / `↳ Right ❖ atom-icon` interno |
+| Celdas de tabla (`↳ ImageProps` en `_table-data-cell`) y slots | **`Icon Name#2590:0`** del `❖ atom-icon` vigente (`Weight` Regular o Solid). Si la celda trae el `❖ atom-icon (DEPRECATED)`, primero `swapComponent` al vigente — decisión [0077](../decisiones/01-fundamentos/iconografia/0077-atom-icon-vigente-en-las-tablas.md) |
 | Ítems de menú (`❖ atom-list-item`) | **`Glyph#1374:1`** del `❖ atom-icon (DEPRECATED)` interno |
 | `❖ atom-alert` | **`Glyph#1374:1`** del `❖ atom-icon` interno |
 | Tags (`❖ atom-tag`) | **`Glyph#1374:1`** del `❖ atom-icon` interno, con `hasIcon` = Yes |

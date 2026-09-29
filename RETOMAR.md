@@ -119,6 +119,10 @@ Los handoffs de los dos archivos siguen la estructura de *Conversaciones - Adopc
 El panel de métricas que se entrega es la grilla A: reemplazó al anterior en la entrega del archivo de
 métricas, y los handoffs llevan la apertura y el panel abierto con el copy de cada módulo (`01.6 · 01–02`,
 `03.9 · 01–02`, [0075](decisiones/05-paginas/metricas/0075-panel-oficial-en-la-entrega.md)).
+Con las respuestas de diseño: cerrar «Detalles del flujo» con el nombre en edición descarta el cambio, como Esc o `close`
+([0076](decisiones/05-paginas/gestion-de-flujos/0076-cerrar-detalles-con-el-nombre-en-edicion.md)); las celdas de las tablas de Automatizaciones usan el `❖ atom-icon` vigente
+([0077](decisiones/01-fundamentos/iconografia/0077-atom-icon-vigente-en-las-tablas.md)); `03.3 · 01` muestra `ellipsis-vertical`; los filtros abiertos de Historial usan la tabla
+de las demás pantallas; «Número asociado» en los modales queda como está, y `03.4 · 04` lo eliminó diseño.
 Quedaron tres grillas para las cards del panel, para elegir.
 
 ### Esperando una respuesta mía
@@ -134,7 +138,6 @@ Quedaron tres grillas para las cards del panel, para elegir.
 | Menú suelto «Opciones completas (03.3 · 04)» (`23:413916`) | Ya no está en el archivo, y tampoco en la versión de las 8:44 del 24 sep. ¿Lo borraste vos? La fila de Lista dinámica se rearmó como `03.3 · 19–21`. |
 | Menú del canal en Historial (`04.3 · 03–06`) | La card `10:44938` dice que se abre al pasar el cursor sobre el ícono; en el lote dijiste «al cliquear». ¿Hover o click? |
 | Buscadores en Hovered | Historial: 16 de 24 buscadores están en *Hovered*. Resultados: 64 frames (entre ellos las pantallas base `01.1 · 02` y `01.8 · 02`) usan *Hovered* con el botón en Enabled; `01.8 · 03` y `01.8 · 04` ya pasaron a la variante base. ¿Pasan todos a la base? Además, el buscador abierto sin texto está en *Hovered* en estáticas (`01.2 · 05`) y en *Focused* en dinámicas (`01.8 · 06`). |
-| Filtros abiertos de Historial (`04.2 · 04–06`) | Su tabla es un frame desacoplado con la versión anterior y no la migré (el encabezado de fecha sí está al día). Migrarla implica rearmar el panel de filtro abierto con overrides. ¿La migro? |
 | Tabla del modal `03.4 · 05` | Sigue con la `❖ atom-table` anterior (las fechas ya están al día): meter la tabla nueva en el slot del diálogo deja capas rotas. ¿Queda así o se arma el modal de otra forma? |
 | Columna Canal · un canal | «Atención al cliente» muestra la cuenta de Messenger «Tienda Online GT». Tu lista pide «ícono + número visible» y la referencia usa un WhatsApp con número. ¿Va un número? |
 | Ícono `globe` en la columna Canal | «Soporte técnico» lleva `globe` con «3 canales», como «Soporte web» en la referencia. ¿Es el ícono de Plugin web o el de varios tipos de canal? |
@@ -160,17 +163,14 @@ Quedaron tres grillas para las cards del panel, para elegir.
 | Página de destino del panel | Lo moví a la page *Actual UI* (la del link). El archivo tiene también *Nueva UI*: ¿la versión con el nuevo DS va ahí? |
 | Número en el menú | Los menús de campañas de Flujo y el flujo de `03.3 · 04` dicen «(10)», como el ejemplo del panel (1/10). `03.3 · 06` (Webhook) y `08` (Tipificación) quedaron sin número. ¿Va otro número en alguno? |
 | Enviados | Leí «Enviados: 1se queda igual» como una palomita (`check`). ¿Es así o quedaba el ícono anterior (`user`)? |
-| Cerrar «Detalles del flujo» con el nombre en edición | Guardar al cerrar el modal o al hacer clic fuera de él: di mi recomendación en el reporte de la sesión 12. ¿Va así? `close` ¿descarta el cambio? |
-| «Número asociado» en «Detalles del flujo» | `03.4 · 07` (un número) y la lista de `03.4 · 02` muestran `copy` siempre visible. No son tablas y quedaron igual. ¿Pasan al pattern de copiar en hover? |
-| Filtros abiertos de Historial (`04.2 · 04–06`) | Siguen con la tabla desacoplada y el Canal como ícono; no les llegó el pattern de copiar. ¿Se rearman con la tabla del resto? |
-| `03.3 · 01` | El botón de acciones abierto muestra `+` en vez de los tres puntos. No lo toqué. |
-| `03.4 · 04` | El frame entero se ve con un velo gris, también el modal; tiene la misma estructura que `03.4 · 01`. No encontré la capa que lo produce. |
 | Frame vacío en Campañas | En la page *Campañas Handoff v1*, fuera de la sección, hay un frame «02.1 · 06 - Tabla · Tooltip Nombre truncado» sin contenido (`637:617816`). ¿Se borra? |
 | Ícono de Activar | Propuesta: `circle-check`; alternativa: `toggle-on` con `toggle-off` para Desactivar. ¿Cuál va? |
 | `03.3 · 19–21` (Lista dinámica) | Ya no están en el archivo de Automatizaciones (`179:572526`, `179:572820`, `179:573114`) y los artefactos conservan sus filas. ¿Se borraron a propósito? |
 | Sección «Handoff Design System» del archivo de métricas | El panel que se entrega ya está en la entrega del archivo ([0075](decisiones/05-paginas/metricas/0075-panel-oficial-en-la-entrega.md)). La sección aparte sigue con las versiones anteriores (v1 y nuevo DS), el benchmark, la ideación y la exploración de la grilla. ¿Se borra, se deja como referencia o se mueve alguna parte? |
 | Navegación en `01.6 · 02` y `03.9 · 02` | Campañas muestra el panel de una plantilla, sin navegación (la fila es de tipo Plantilla); Automatizaciones, el de varias, en 1/10 (el menú dice «(10)»). Fue interpretación mía. ¿Va así? |
 | `01.6 · 03` | `681:190591` también se llamaba `01.6 · 01` y muestra el hover en «Ver plantilla»: lo nombré `01.6 · 03 - Menú de fila · Hover en Ver plantilla` y la vista previa pasó a `01.6 · 03.1`, porque `01.6 · 04–18` ya son los casos anteriores del panel en el archivo de métricas. ¿Queda? |
+| «Detalles del flujo» con el campo vacío | Si el campo queda vacío y se aprieta Enter o se hace clic fuera: ¿error como en `03.4 · 19` o vuelve al nombre anterior? ([0076](decisiones/05-paginas/gestion-de-flujos/0076-cerrar-detalles-con-el-nombre-en-edicion.md)) |
+| Íconos dentro de otros componentes | Menús, sidebar, tags, snackbars y empty states siguen con el `❖ atom-icon (DEPRECATED)` que traen de la librería; solo cambié los de las celdas de las tablas ([0077](decisiones/01-fundamentos/iconografia/0077-atom-icon-vigente-en-las-tablas.md)). ¿Se cambian también? |
 | Lista en Actualizando | En pausa por el benchmark. Para verla: esperar la actualización agendada de la lista dinámica de prueba, agregar clientes por CSV en QA o armar el frame desde el código. Las dos listas de prueba siguen en QA (`K8eBSkS3bsBt7G5d7nL9`, `1nqAMaHaQtAJWEqVWzGu`); se borran solo con tu OK. |
 
 ### Para decidir

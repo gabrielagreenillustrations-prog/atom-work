@@ -33,8 +33,8 @@ la fila más reciente va arriba y la fecha se trunca si no entra — decisión
 [0035](../../decisiones/01-fundamentos/fechas/0035-formato-de-fecha-premade.md). Los side panels usan el mismo formato.
 
 Cargando usa la variante *Loading* y el vacío, *Empty*; el vacío del side panel (`04.4 · 07`) también
-es *Empty*. Los filtros abiertos (`04.2 · 04–06`) siguen con la tabla anterior, desacoplada (pregunta
-en `RETOMAR.md`); su encabezado de fecha ya tiene los 163 px y la flecha.
+es *Empty*. Los filtros abiertos (`04.2 · 04–06`) usan la misma `❖ atom-data-table` que las demás pantallas,
+con Canal como ícono, y el panel de filtro abierto encima (pedido de diseño).
 
 ## Columnas
 

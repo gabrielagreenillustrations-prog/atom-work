@@ -1,6 +1,6 @@
 # 0071 — «Detalles del flujo»: el nombre se edita como los campos del preview channel
 
-**Estado:** vigente
+**Estado:** vigente; el pendiente sobre cerrar el modal lo resuelve la [0076](0076-cerrar-detalles-con-el-nombre-en-edicion.md)
 **Fecha:** 2026-09-28
 **Módulo:** Automatizaciones · Gestión de flujos
 **Componente:** ❖ atom-list-item, ❖ atom-icon-button, ❖ atom-tooltip, ❖ atom-text-field, ❖ atom-snackbar

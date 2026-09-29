@@ -236,6 +236,14 @@ seguir trabajando.
 traían; en `03.6 · 01` se veía `circle-check`. Se cambia con `swapComponent` al `❖ atom-icon` de la
 Web Library y, después, `Glyph#1374:1` y la fuente.
 
+**Del `❖ atom-icon (DEPRECATED)` al vigente.** `swapComponent` al `❖ atom-icon` del set
+`4cd26eac74667a30dddfe8249656cd0d1411a516` (`Weight=Regular` o `Solid`) y después `Icon Name#2590:0` con
+el glifo. Antes del swap hay que guardar el tamaño, el alto de línea y los fills del texto `↳ font-icon`, y
+volver a ponerlos: el componente vigente mide 10 × 10 con texto de 8 px. En los de marca, la fuente pasa a
+Font Awesome 7 Brands. Dentro de una tabla, cada swap y cada `setProperties` tardan cerca de un segundo:
+1604 íconos llevaron más de una hora. `findAll` sobre frames con capas rotas falla («node does not
+exist»): conviene un recorrido propio con `try/catch` por hijo.
+
 **Cambiar variantes en bloque es lento.** Las 68 tablas de Gestión de flujos (872 celdas de Canal)
 tardaron cerca de media hora, unas dos tablas por minuto. Dejar el progreso en `window.__x` y
 leerlo aparte con `RR()`, sin esperar el final.

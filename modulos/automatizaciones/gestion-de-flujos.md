@@ -94,10 +94,13 @@ Clientes (archivo *Design Audit | Migración Módulos*, página Clientes, secci�
 | `03.4 · 18` | Guardado: vuelve a texto con el nombre nuevo y el snackbar Success de `03.7 · 03`, sin cerrar el modal. |
 | `03.4 · 19` | Nombre en uso: el campo en *Error focused*, ícono `circle-info` y `❖ atom-tooltip` «El nombre ya está en uso.». |
 
-El cambio se guarda con Enter o con un clic fuera del campo. Interpretación, no está en la
-referencia: que `close` descarta el cambio y el snackbar de 18. El ícono de error va en
-`fg/status/error`; la referencia usa `fg/status/on-error`. Sin definir: qué pasa si se cierra el
-modal con el campo en edición. Los nombres son valores de ejemplo.
+El cambio se guarda con Enter o con un clic fuera del campo. Cerrar el modal con el nombre en edición
+descarta el cambio sin avisar; con un nombre inválido o el campo vacío, al cerrar queda el nombre
+anterior. Es lo mismo que pasa con Esc o con `close` — decisión
+[0076](../../decisiones/05-paginas/gestion-de-flujos/0076-cerrar-detalles-con-el-nombre-en-edicion.md).
+Interpretación, no está en la referencia: el snackbar de 18. El ícono de error va en
+`fg/status/error`; la referencia usa `fg/status/on-error`. Sin definir: qué pasa con Enter o un clic
+fuera del campo cuando está vacío. Los nombres son valores de ejemplo.
 
 ---
 

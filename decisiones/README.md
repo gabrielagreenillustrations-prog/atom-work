@@ -49,6 +49,7 @@ el campo **Componente**; se suma su fila en «Por número» y su lugar en «Por 
 | [0015](01-fundamentos/iconografia/0015-iconos-de-menus-de-acciones.md) | Íconos de los menús de acciones |
 | [0051](01-fundamentos/iconografia/0051-detener-con-stop-circle.md) | Detener: `stop-circle` en todas las acciones |
 | [0021](01-fundamentos/iconografia/0021-iconos-de-side-panels.md) | Íconos de los botones de los side panels de métricas |
+| [0077](01-fundamentos/iconografia/0077-atom-icon-vigente-en-las-tablas.md) | Celdas de las tablas: el `❖ atom-icon` vigente, no el deprecated |
 
 **Antes:** [0007](01-fundamentos/iconografia/0007-iconografia-activar-desactivar.md) → [0015](01-fundamentos/iconografia/0015-iconos-de-menus-de-acciones.md)  
 
@@ -212,6 +213,7 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | [0048](05-paginas/gestion-de-flujos/0048-gestion-filtro-estado.md) | Canal, «No conectado» y filtro «Estado» con `circle-dot` |
 | [0066](05-paginas/gestion-de-flujos/0066-descargar-flujo-y-detalles-del-flujo.md) | «Descargar flujo», modal «Detalles del flujo» y sin snackbar de simular |
 | [0071](05-paginas/gestion-de-flujos/0071-editar-el-nombre-en-detalles-del-flujo.md) | El nombre de «Detalles del flujo» se edita como los campos del preview channel |
+| [0076](05-paginas/gestion-de-flujos/0076-cerrar-detalles-con-el-nombre-en-edicion.md) | «Detalles del flujo»: cerrar con el nombre en edición descarta el cambio, como Esc o `close` |
 
 **Antes:** [0019](05-paginas/gestion-de-flujos/0019-gestion-canal-y-estado-de-flujo.md) → [0048](05-paginas/gestion-de-flujos/0048-gestion-filtro-estado.md)  
 **Ver también:** [0012](03-moleculas/atom-dropdown-menu/0012-mensaje-entrante-editar-y-publicar.md), [0028](03-moleculas/atom-dropdown-menu/0028-mapa-de-menus-de-gestion.md) (menús), [0072](04-organismos/atom-data-table/0072-numero-copiable-en-tablas.md) (columna Canal), [0039](03-moleculas/atom-filter/0039-filtro-canal-conectado-con-descripcion.md) (filtro Canal conectado)  
@@ -322,11 +324,13 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | [0068](06-proceso-y-fuentes/handoff/0068-panel-de-metricas-en-su-archivo.md) | El panel de métricas vive en su archivo; los handoffs llevan solo la apertura | vigente; dónde se entrega el panel y qué llevan los handoffs, reemplazado por [0075](05-paginas/metricas/0075-panel-oficial-en-la-entrega.md) | 2026-09-28 |
 | [0069](05-paginas/metricas/0069-panel-sin-reporte-de-errores-e-iconos.md) | Panel de métricas: sin «Reporte de errores» e íconos de las cards | vigente | 2026-09-28 |
 | [0070](05-paginas/historial-de-conversaciones/0070-historial-nombre-del-cliente-y-busqueda.md) | Historial: «Nombre del cliente», búsqueda por nombre o teléfono y Telegram | vigente | 2026-09-28 |
-| [0071](05-paginas/gestion-de-flujos/0071-editar-el-nombre-en-detalles-del-flujo.md) | «Detalles del flujo»: el nombre se edita como los campos del preview channel | vigente | 2026-09-28 |
+| [0071](05-paginas/gestion-de-flujos/0071-editar-el-nombre-en-detalles-del-flujo.md) | «Detalles del flujo»: el nombre se edita como los campos del preview channel | vigente; el pendiente de cerrar el modal, en la [0076](05-paginas/gestion-de-flujos/0076-cerrar-detalles-con-el-nombre-en-edicion.md) | 2026-09-28 |
 | [0072](04-organismos/atom-data-table/0072-numero-copiable-en-tablas.md) | Tablas: un número o una cuenta que se copia va como texto, con copiar en hover | vigente; Historial · Canal, reemplazado por [0073](05-paginas/historial-de-conversaciones/0073-historial-canal-con-menu-y-telefono-con-copiar.md) | 2026-09-28 |
 | [0073](05-paginas/historial-de-conversaciones/0073-historial-canal-con-menu-y-telefono-con-copiar.md) | Historial: Canal vuelve al ícono con menú; solo Teléfono usa el pattern de copiar | vigente | 2026-09-28 |
 | [0074](06-proceso-y-fuentes/handoff/0074-estructura-del-handoff-como-conversaciones.md) | Handoff: la estructura del archivo de Conversaciones · Adopción DS 1.0 | vigente | 2026-09-28 |
 | [0075](05-paginas/metricas/0075-panel-oficial-en-la-entrega.md) | El panel de métricas que se entrega: la grilla A, dentro de la entrega del archivo de métricas | vigente | 2026-09-28 |
+| [0076](05-paginas/gestion-de-flujos/0076-cerrar-detalles-con-el-nombre-en-edicion.md) | «Detalles del flujo»: cerrar con el nombre en edición descarta el cambio | vigente | 2026-09-28 |
+| [0077](01-fundamentos/iconografia/0077-atom-icon-vigente-en-las-tablas.md) | Íconos: el `❖ atom-icon` vigente en las celdas de las tablas | vigente | 2026-09-28 |
 
 ## Formato
 

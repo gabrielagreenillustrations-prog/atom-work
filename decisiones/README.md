@@ -249,6 +249,12 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 
 **Ver también:** [0075](05-paginas/metricas/0075-panel-oficial-en-la-entrega.md) (el panel se entrega dentro de la entrega del archivo de métricas; los handoffs llevan la apertura y el panel abierto)
 
+#### Documentación
+
+| # | Decisión |
+|---|---|
+| [0079](06-proceso-y-fuentes/documentacion/0079-un-documento-por-submodulo.md) | Campañas y Automatizaciones: un documento por submódulo, similar al de Bandeja |
+
 ---
 
 ## Por número
@@ -333,6 +339,7 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | [0076](05-paginas/gestion-de-flujos/0076-cerrar-detalles-con-el-nombre-en-edicion.md) | «Detalles del flujo»: cerrar con el nombre en edición descarta el cambio | vigente; el campo vacío, en la [0078](05-paginas/gestion-de-flujos/0078-nombre-vacio-en-detalles-del-flujo.md) | 2026-09-28 |
 | [0077](01-fundamentos/iconografia/0077-atom-icon-vigente-en-las-tablas.md) | Íconos: el `❖ atom-icon` vigente en las celdas de las tablas | vigente | 2026-09-28 |
 | [0078](05-paginas/gestion-de-flujos/0078-nombre-vacio-en-detalles-del-flujo.md) | «Detalles del flujo»: con el nombre vacío, Enter muestra error y un clic fuera descarta | vigente | 2026-09-28 |
+| [0079](06-proceso-y-fuentes/documentacion/0079-un-documento-por-submodulo.md) | Documentación: un documento por submódulo, como la de Bandeja | vigente | 2026-09-29 |
 
 ## Formato
 

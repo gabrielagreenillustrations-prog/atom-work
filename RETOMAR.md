@@ -169,6 +169,8 @@ de las demás pantallas; «Número asociado» en los modales queda como está, y
 | Navegación en `01.6 · 02` y `03.9 · 02` | Campañas muestra el panel de una plantilla, sin navegación (la fila es de tipo Plantilla); Automatizaciones, el de varias, en 1/10 (el menú dice «(10)»). Fue interpretación mía. ¿Va así? |
 | `01.6 · 03` | `681:190591` también se llamaba `01.6 · 01` y muestra el hover en «Ver plantilla»: lo nombré `01.6 · 03 - Menú de fila · Hover en Ver plantilla` y la vista previa pasó a `01.6 · 03.1`, porque `01.6 · 04–18` ya son los casos anteriores del panel en el archivo de métricas. ¿Queda? |
 | Error con el nombre vacío | Con el campo vacío, Enter muestra error ([0078](decisiones/05-paginas/gestion-de-flujos/0078-nombre-vacio-en-detalles-del-flujo.md)). ¿Qué texto lleva el tooltip? ¿Armo un frame del caso? |
+| Documentación de Bandeja | La [0079](decisiones/06-proceso-y-fuentes/documentacion/0079-un-documento-por-submodulo.md) toma como modelo la documentación de Bandeja y no la tengo: en Chrome, Confluence está sin sesión. ¿Me pasás el link o un PDF? |
+| Submódulos de la documentación | Leí cuatro documentos: Resultados de campañas, Listas, Gestión de flujos e Historial de conversaciones. ¿Son esos? ¿*Listas con MCP* va dentro de Listas o aparte? |
 | Lista en Actualizando | En pausa por el benchmark. Para verla: esperar la actualización agendada de la lista dinámica de prueba, agregar clientes por CSV en QA o armar el frame desde el código. Las dos listas de prueba siguen en QA (`K8eBSkS3bsBt7G5d7nL9`, `1nqAMaHaQtAJWEqVWzGu`); se borran solo con tu OK. |
 
 ### Para decidir
@@ -186,7 +188,7 @@ de las demás pantallas; «Número asociado» en los modales queda como está, y
 | Qué | Estado |
 |---|---|
 | Subir a GitHub | El remoto (`gabrielagreenillustrations-prog/atom-work`) sigue vacío. Desde la sesión no se puede: el proxy de la nube no tiene el repo autorizado y el equipo no tiene credenciales de GitHub. Falta `git push -u origin main` desde tu Mac. Hasta entonces, el link del prompt de arranque no muestra nada. |
-| FRD en Confluence | La skill «FRD de migración a DS» se compartió como link de claude.ai; con la cuenta de esta sesión, claude.ai responde «Este elemento no está disponible. Puede que no exista o que no tengas acceso a él». Interpretación, sin verificar: el link es de la organización de Claude de quien la compartió. Para generar el FRD hace falta la skill como archivo (`.zip` o `.skill`) o acceso a ese link. |
+| FRD en Confluence | Estructura: un documento por submódulo, similar al de Bandeja ([0079](decisiones/06-proceso-y-fuentes/documentacion/0079-un-documento-por-submodulo.md)). La skill «FRD de migración a DS» se compartió como link de claude.ai; con la cuenta de esta sesión, claude.ai responde «Este elemento no está disponible. Puede que no exista o que no tengas acceso a él». Interpretación, sin verificar: el link es de la organización de Claude de quien la compartió. Para generar el FRD hace falta la skill como archivo (`.zip` o `.skill`) o acceso a ese link. |
 
 ### Sin revisar
 

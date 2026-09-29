@@ -124,6 +124,7 @@ el campo **Componente**; se suma su fila en «Por número» y su lugar en «Por 
 |---|---|
 | [0017](04-organismos/atom-data-table/0017-tablas-sticky-new.md) | Tablas con `❖ atom-table` · *Sticky New* |
 | [0031](04-organismos/atom-data-table/0031-historial-tablas-sticky-new.md) | Historial: tablas con `❖ atom-data-table` · *Sticky New* |
+| [0081](04-organismos/atom-data-table/0081-empty-state-paginacion-no-data-y-centrado.md) | Tablas en empty state: paginación `no-data` («Sin registros», «Sin páginas») y empty state centrado |
 
 *Columna Canal (Gestión de flujos)*
 
@@ -165,11 +166,17 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 **Antes:** [0005](04-organismos/atom-sidepanel-metricas/0005-contador-en-metricas.md) → [0025](04-organismos/atom-sidepanel-metricas/0025-titulos-de-side-panels-de-metricas.md) → [0067](05-paginas/metricas/0067-metricas-de-plantilla-en-todas-las-superficies.md)  
 **Ver también:** [0021](01-fundamentos/iconografia/0021-iconos-de-side-panels.md) (íconos de los botones), [0056](06-proceso-y-fuentes/handoff/0056-handoff-v2.md) (page Handoff v2), [0065](05-paginas/metricas/0065-panel-v1-cuatro-metricas-y-errores-meta.md) (métricas y errores del panel v1), [0067](05-paginas/metricas/0067-metricas-de-plantilla-en-todas-las-superficies.md) (nombre), [0068](06-proceso-y-fuentes/handoff/0068-panel-de-metricas-en-su-archivo.md) (el panel vive en su archivo), [0069](05-paginas/metricas/0069-panel-sin-reporte-de-errores-e-iconos.md) (sin «Reporte de errores», íconos), [0075](05-paginas/metricas/0075-panel-oficial-en-la-entrega.md) (el panel que se entrega)  
 
+#### ❖ atom-sidebar-complete · Sidebar
+
+| # | Decisión |
+|---|---|
+| [0080](04-organismos/atom-sidebar/0080-sidebar-nuevo-visible.md) | El sidebar nuevo (288 px) queda visible; el contenido empieza en x = 288 y lo suelto se realinea |
+
 #### ❖ atom-dialog · Modales · regla vigente: [sistema/modales-y-overlay.md](../sistema/modales-y-overlay.md)
 
 | # | Decisión |
 |---|---|
-| [0008](04-organismos/atom-dialog/0008-centrado-de-modales.md) | Se centran sobre el área de contenido |
+| [0008](04-organismos/atom-dialog/0008-centrado-de-modales.md) | Se centran sobre el área de contenido (con el sidebar nuevo, de 288: [0080](04-organismos/atom-sidebar/0080-sidebar-nuevo-visible.md)) |
 | [0047](04-organismos/atom-dialog/0047-detener-campana-flujo-de-mensaje-entrante.md) | Detener campaña: las conversaciones vuelven al «flujo de Mensaje entrante» |
 
 **Antes:** [0043](04-organismos/atom-dialog/0043-copy-de-detener-campana.md) → [0047](04-organismos/atom-dialog/0047-detener-campana-flujo-de-mensaje-entrante.md)  
@@ -181,7 +188,8 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 
 | # | Decisión |
 |---|---|
-| [0063](05-paginas/metricas/0063-metricas-de-resultados.md) | Resultados: Clientes · Enviados · Errores · Entregados · Leídos · Respondidos, con tooltips |
+| [0063](05-paginas/metricas/0063-metricas-de-resultados.md) | Resultados: Clientes · Enviados · Errores · Entregados · Leídos · Respondidos, con tooltips · salvo los colores ([0082](05-paginas/metricas/0082-colores-de-metricas-en-resultados.md)) |
+| [0082](05-paginas/metricas/0082-colores-de-metricas-en-resultados.md) | Resultados: Clientes, Enviados y Entregados en `fg/secondary`; Errores en rojo; Leídos en azul; Respondidos en verde |
 | [0064](05-paginas/metricas/0064-valores-de-resultados-coherentes.md) | Resultados: los valores cumplen la relación entre métricas |
 | [0065](05-paginas/metricas/0065-panel-v1-cuatro-metricas-y-errores-meta.md) | Panel de métricas v1: cuatro métricas y solo errores de Meta · salvo botones e ícono de Enviados ([0069](05-paginas/metricas/0069-panel-sin-reporte-de-errores-e-iconos.md)) |
 | [0067](05-paginas/metricas/0067-metricas-de-plantilla-en-todas-las-superficies.md) | «Métricas de plantilla» en todas las superficies; «(N)» solo en el menú |
@@ -323,7 +331,7 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | [0060](04-organismos/atom-sidepanel-metricas/0060-panel-v2-icono-de-informacion-arriba-a-la-derecha.md) | Panel de métricas (Handoff v2): ícono de información arriba a la derecha | vigente | 2026-09-26 |
 | [0061](03-moleculas/atom-snackbar/0061-snackbars-sin-nombre.md) | Snackbars sin el nombre de la campaña, el flujo o la lista | vigente | 2026-09-28 |
 | [0062](04-organismos/atom-sidepanel-metricas/0062-panel-v1-solo-el-panel-de-origen.md) | Panel de métricas v1: del archivo de origen solo queda el panel | vigente; la [0065](05-paginas/metricas/0065-panel-v1-cuatro-metricas-y-errores-meta.md) cambia el contenido del panel; la [0068](06-proceso-y-fuentes/handoff/0068-panel-de-metricas-en-su-archivo.md) lleva el panel a su archivo | 2026-09-28 |
-| [0063](05-paginas/metricas/0063-metricas-de-resultados.md) | Resultados: métricas Clientes · Enviados · Errores · Entregados · Leídos · Respondidos, con tooltips | vigente | 2026-09-28 |
+| [0063](05-paginas/metricas/0063-metricas-de-resultados.md) | Resultados: métricas Clientes · Enviados · Errores · Entregados · Leídos · Respondidos, con tooltips | vigente; los colores, reemplazados por [0082](05-paginas/metricas/0082-colores-de-metricas-en-resultados.md) | 2026-09-28 |
 | [0064](05-paginas/metricas/0064-valores-de-resultados-coherentes.md) | Resultados: los valores de las métricas cumplen su relación | vigente | 2026-09-28 |
 | [0065](05-paginas/metricas/0065-panel-v1-cuatro-metricas-y-errores-meta.md) | Panel de métricas v1: cuatro métricas y solo errores de Meta | vigente; la [0069](05-paginas/metricas/0069-panel-sin-reporte-de-errores-e-iconos.md) cambia los botones y el ícono de Enviados | 2026-09-28 |
 | [0066](05-paginas/gestion-de-flujos/0066-descargar-flujo-y-detalles-del-flujo.md) | Gestión de flujos: «Descargar flujo» y modal «Detalles del flujo» | vigente | 2026-09-28 |
@@ -340,6 +348,9 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | [0077](01-fundamentos/iconografia/0077-atom-icon-vigente-en-las-tablas.md) | Íconos: el `❖ atom-icon` vigente en las celdas de las tablas | vigente | 2026-09-28 |
 | [0078](05-paginas/gestion-de-flujos/0078-nombre-vacio-en-detalles-del-flujo.md) | «Detalles del flujo»: con el nombre vacío, Enter muestra error y un clic fuera descarta | vigente | 2026-09-28 |
 | [0079](06-proceso-y-fuentes/documentacion/0079-un-documento-por-submodulo.md) | Documentación: un documento por submódulo, como la de Bandeja | vigente | 2026-09-29 |
+| [0080](04-organismos/atom-sidebar/0080-sidebar-nuevo-visible.md) | El sidebar nuevo (`❖ atom-sidebar-complete`) queda visible en los dos archivos | vigente | 2026-09-29 |
+| [0081](04-organismos/atom-data-table/0081-empty-state-paginacion-no-data-y-centrado.md) | Tablas en empty state: paginación «no-data» y empty state centrado | vigente | 2026-09-29 |
+| [0082](05-paginas/metricas/0082-colores-de-metricas-en-resultados.md) | Resultados: colores de las métricas en la tabla | vigente | 2026-09-29 |
 
 ## Formato
 

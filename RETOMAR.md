@@ -124,6 +124,13 @@ Con las respuestas de diseño: cerrar «Detalles del flujo» con el nombre en ed
 ([0077](decisiones/01-fundamentos/iconografia/0077-atom-icon-vigente-en-las-tablas.md)); `03.3 · 01` muestra `ellipsis-vertical`; los filtros abiertos de Historial usan la tabla
 de las demás pantallas; «Número asociado» en los modales queda como está, y `03.4 · 04` lo eliminó diseño.
 
+La sesión 13 (29 sep) dejó visible el sidebar nuevo en los dos archivos, con el contenido desde x = 288 y lo suelto
+realineado ([0080](decisiones/04-organismos/atom-sidebar/0080-sidebar-nuevo-visible.md)); las tablas con empty state
+llevan la paginación en `no-data` y el empty state centrado ([0081](decisiones/04-organismos/atom-data-table/0081-empty-state-paginacion-no-data-y-centrado.md));
+y en Resultados Entregados pasó a `fg/secondary` y Leídos a azul ([0082](decisiones/05-paginas/metricas/0082-colores-de-metricas-en-resultados.md))
+(`historial/2026-09-29-sesion-13.md`). La documentación va en un documento por submódulo, como la de Bandeja
+([0079](decisiones/06-proceso-y-fuentes/documentacion/0079-un-documento-por-submodulo.md)).
+
 ### Esperando una respuesta mía
 
 | Qué | Pregunta |
@@ -171,6 +178,7 @@ de las demás pantallas; «Número asociado» en los modales queda como está, y
 | Error con el nombre vacío | Con el campo vacío, Enter muestra error ([0078](decisiones/05-paginas/gestion-de-flujos/0078-nombre-vacio-en-detalles-del-flujo.md)). ¿Qué texto lleva el tooltip? ¿Armo un frame del caso? |
 | Documentación de Bandeja | La [0079](decisiones/06-proceso-y-fuentes/documentacion/0079-un-documento-por-submodulo.md) toma como modelo la documentación de Bandeja y no la tengo: en Chrome, Confluence está sin sesión. ¿Me pasás el link o un PDF? |
 | Submódulos de la documentación | Leí cuatro documentos: Resultados de campañas, Listas, Gestión de flujos e Historial de conversaciones. ¿Son esos? ¿*Listas con MCP* va dentro de Listas o aparte? |
+| Errores en `01.3 · 05` y `06` | En los frames de tooltip de Leídos y Respondidos hay un valor de Errores (10) en `forms-and-inputs/fg/enabled`, no en rojo. ¿Pasa a `fg/status/error`? |
 | Lista en Actualizando | En pausa por el benchmark. Para verla: esperar la actualización agendada de la lista dinámica de prueba, agregar clientes por CSV en QA o armar el frame desde el código. Las dos listas de prueba siguen en QA (`K8eBSkS3bsBt7G5d7nL9`, `1nqAMaHaQtAJWEqVWzGu`); se borran solo con tu OK. |
 
 ### Para decidir

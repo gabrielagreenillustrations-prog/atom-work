@@ -1,6 +1,6 @@
 # 0063 — Resultados: métricas Clientes · Enviados · Errores · Entregados · Leídos · Respondidos
 
-**Estado:** vigente
+**Estado:** vigente; los colores, reemplazados por la [0082](0082-colores-de-metricas-en-resultados.md)
 **Fecha:** 2026-09-28
 **Módulo:** Resultados de campañas · métricas
 **Alcance:** Campañas · Resultados — todas las tablas de estáticas y dinámicas: page «Campañas

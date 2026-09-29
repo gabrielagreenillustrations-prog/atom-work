@@ -1,6 +1,6 @@
 # Modales y overlay
 
-Última revisión: **2026-09-28** (sesión 12) · Decisiones: [0008](../decisiones/04-organismos/atom-dialog/0008-centrado-de-modales.md) · [0041](../decisiones/04-organismos/atom-sidepanel-metricas/0041-side-panels-de-metricas-con-overlay.md) · [0062](../decisiones/04-organismos/atom-sidepanel-metricas/0062-panel-v1-solo-el-panel-de-origen.md)
+Última revisión: **2026-09-29** (sesión 13) · Decisiones: [0008](../decisiones/04-organismos/atom-dialog/0008-centrado-de-modales.md) · [0080](../decisiones/04-organismos/atom-sidebar/0080-sidebar-nuevo-visible.md) · [0041](../decisiones/04-organismos/atom-sidepanel-metricas/0041-side-panels-de-metricas-con-overlay.md) · [0062](../decisiones/04-organismos/atom-sidepanel-metricas/0062-panel-v1-solo-el-panel-de-origen.md)
 
 ---
 
@@ -12,13 +12,13 @@ El diálogo se centra sobre el **área de contenido, sin el sidebar**:
 left = anchoSidebar + (anchoFrame − anchoSidebar − anchoDiálogo) / 2
 ```
 
-Con frame 1280 y sidebar 264:
+Con frame 1280 y el sidebar nuevo, de 288 ([0080](../decisiones/04-organismos/atom-sidebar/0080-sidebar-nuevo-visible.md)):
 
 | Ancho del diálogo | `left` |
 |---|---|
-| 400 | **572** |
-| 488 | **528** |
-| 598 | **473** |
+| 400 | **584** |
+| 488 | **540** |
+| 598 | **485** |
 
 Verticalmente se centra sobre el frame completo.
 

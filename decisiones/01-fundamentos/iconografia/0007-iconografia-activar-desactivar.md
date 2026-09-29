@@ -1,6 +1,6 @@
 # 0007 — Iconografía de activar, desactivar y ver detalles
 
-**Estado:** vigente
+**Estado:** reemplazada por [0015](0015-iconos-de-menus-de-acciones.md)
 **Fecha:** 2026-09-23
 **Alcance:** los dos archivos, cualquier submódulo
 
@@ -14,7 +14,7 @@
 
 ## Por qué
 
-Los definió Miguel contra la HU de iconos. Reemplazan a lo que había, que era
+Los definió diseño contra la HU de iconos. Reemplazan a lo que había, que era
 inconsistente: `circle-minus` para desactivar, `play` para activar, `memo-circle-info`
 para ver detalles.
 

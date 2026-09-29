@@ -1,6 +1,6 @@
 # 0003 — Formato de fecha: 24 h sin sufijo
 
-**Estado:** vigente
+**Estado:** reemplazada por [0035](0035-formato-de-fecha-premade.md)
 **Fecha:** 2026-09-23
 **Alcance:** todas las tablas y side panels de Campañas y Automatizaciones
 

@@ -19,7 +19,7 @@ Mensaje entrante no está en esa lista, pero nuestro frame sí muestra la acció
 
 ## Por qué
 
-Miguel: *"simplemente no ocupé otros disparadores"*. La épica enumera los tres casos que
+Respuesta de diseño: *"simplemente no ocupé otros disparadores"*. La épica enumera los tres casos que
 cubrió, no los únicos válidos.
 
 Esto además es consistente con el código: `editLabelKey(state, connected)` devuelve

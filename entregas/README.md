@@ -2,7 +2,7 @@
 
 Qué documento define qué, y cuál manda sobre cuál.
 
-Última revisión: **2026-09-23**
+Última revisión: **2026-09-24**
 
 ---
 
@@ -19,22 +19,26 @@ Qué documento define qué, y cuál manda sobre cuál.
 
 | Entrega | fileKey | Define | Estado |
 |---|---|---|---|
-| **Épica 1** | — | Lógica de listas | **Reemplazada** por la Épica 2 · [0001](../decisiones/0001-epica-2-reemplaza-epica-1.md) |
+| **Épica 1** | — | Lógica de listas | **Reemplazada** por la Épica 2 · [0001](../decisiones/06-proceso-y-fuentes/fuentes/0001-epica-2-reemplaza-epica-1.md) |
 | **Épica 2 · Lógica de Listas** | `9PYkcl8kpG1hlAun2sweWU` | Columnas de Resultados, lógica de listas | Vigente |
-| **Épica 3 · Lógica de Listas Dinámicas y migración (Copy)** | `6l9KuqndV4WXq6KRrD99aG` | Edición de flujos publicados: menús, modales de advertencia, panel de métricas | Vigente — solo la página *Actual UI* · [0002](../decisiones/0002-fuente-valida-epica-3.md) |
+| **Épica 3 · Lógica de Listas Dinámicas y migración (Copy)** | `6l9KuqndV4WXq6KRrD99aG` | Edición de flujos publicados: menús, modales de advertencia, panel de métricas | Vigente — solo la página *Actual UI* · [0002](../decisiones/06-proceso-y-fuentes/fuentes/0002-fuente-valida-epica-3.md) |
+| **Crear listas AI, MCPs y CSV** | — | Listas: origen de la lista (selector «Crear nueva lista») y columna Origen | Vigente — la última entrega de Listas · [0018](../decisiones/03-moleculas/atom-filter/0018-listas-filtro-origen.md) · [0030](../decisiones/04-organismos/atom-data-table/columnas-listas/0030-listas-tabla-completa.md) |
 | **Global Patterns** | — | Diálogos, tablas, forms, controles, tokens | Vigente |
 | **Web Library** | — | Componentes `atom-*` | Vigente |
 
 ## Sin revisar
 
 - Épica 4 · Logs de conversaciones (Historial)
-- Métricas por plantilla inicial
+- Métricas por plantilla inicial. La [0025](../decisiones/04-organismos/atom-sidepanel-metricas/0025-titulos-de-side-panels-de-metricas.md)
+  sigue lo que diseño dijo de la última entrega de side panels de métricas; en la sesión 05 la
+  pestaña no tenía consola ni respondía a clicks, así que no se pudo leer.
 - Soportar ejecución de WhatsApp Flows sin importar el WABA
 
 ## Inconsistencias conocidas en las entregas
 
 **Global Patterns** no define formato de fecha y sus ejemplos se contradicen.
-Ver [0003](../decisiones/0003-formato-de-fecha.md).
+Ver [0035](../decisiones/01-fundamentos/fechas/0035-formato-de-fecha-premade.md), que reemplaza a la
+[0003](../decisiones/01-fundamentos/fechas/0003-formato-de-fecha.md).
 
 **Épica 3** tiene tres problemas internos:
 

@@ -1,6 +1,6 @@
 # Modales y overlay
 
-Última revisión: **2026-09-23** · Decisión: [0008](../decisiones/0008-centrado-de-modales.md)
+Última revisión: **2026-09-28** (sesión 12) · Decisiones: [0008](../decisiones/04-organismos/atom-dialog/0008-centrado-de-modales.md) · [0041](../decisiones/04-organismos/atom-sidepanel-metricas/0041-side-panels-de-metricas-con-overlay.md) · [0062](../decisiones/04-organismos/atom-sidepanel-metricas/0062-panel-v1-solo-el-panel-de-origen.md)
 
 ---
 
@@ -12,10 +12,18 @@ El diálogo se centra sobre el **área de contenido, sin el sidebar**:
 left = anchoSidebar + (anchoFrame − anchoSidebar − anchoDiálogo) / 2
 ```
 
-Con los valores habituales del handoff (frame 1280 · sidebar 264 · diálogo 400) →
-**`left = 572`**.
+Con frame 1280 y sidebar 264:
+
+| Ancho del diálogo | `left` |
+|---|---|
+| 400 | **572** |
+| 488 | **528** |
+| 598 | **473** |
 
 Verticalmente se centra sobre el frame completo.
+
+Lo que se abre sobre el diálogo —un dropdown, un tooltip— es hermano del diálogo en el frame y se
+mueve con él.
 
 ## Overlay (backdrop)
 
@@ -23,9 +31,18 @@ Verticalmente se centra sobre el frame completo.
 |---|---|
 | Fill | `bg/overlay-primary`, opacidad **0.70** |
 | Effect | `blur/surface/subtle` → `BACKGROUND_BLUR: 16` |
+| Tamaño | El del frame: (0, 0), 1280 × 832 |
 
 En Figma la capa se llama **`backdrop`**, no `overlay`. Es un RECTANGLE hijo directo
 del frame, hermano del `❖ atom-dialog`.
+
+Los side panels de métricas llevan el mismo backdrop — decisión
+[0041](../decisiones/04-organismos/atom-sidepanel-metricas/0041-side-panels-de-metricas-con-overlay.md): Campañas `01.6 · 01`, `02`, `06`,
+`08–10`, `01.8 · 15` y `17`; Automatizaciones `03.9 · 01`, `02` y `05–07`.
+
+Desde la [0062](../decisiones/04-organismos/atom-sidepanel-metricas/0062-panel-v1-solo-el-panel-de-origen.md), los frames v1 del panel también lo llevan (Campañas
+Handoff v1 `01.6 · 02` y `06–15`; Automatizaciones `03.9 · 02` y `05–09`); antes tenían un gris
+sin token.
 
 ## Estructura de un frame de modal
 
@@ -33,10 +50,19 @@ del frame, hermano del `❖ atom-dialog`.
 Frame
 ├── Layout        ← la pantalla de fondo
 ├── backdrop      ← RECTANGLE
-└── ❖ atom-dialog ← INSTANCE
+├── ❖ atom-dialog ← INSTANCE
+└── dropdown o tooltip abierto sobre el diálogo, si hay
 ```
+
+En Automatizaciones, los frames de modal tienen además un frame `Con datos` en x = 1280, fuera del
+área visible. Se quedan: diseño decidió no borrarlos (2026-09-24).
 
 ## Botones
 
 `Cancelar` (secundario) · acción principal a la derecha. En los modales de advertencia
 de edición: `Cancelar` / `Editar de todas formas`.
+
+## Estado
+
+Verificado el 2026-09-24: los 15 modales de Campañas y los 19 de Automatizaciones cumplen la
+posición, el tamaño del backdrop, el fill y el blur.

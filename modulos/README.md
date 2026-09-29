@@ -24,6 +24,6 @@ automatizaciones/
 | Artefacto | Para quién |
 |---|---|
 | Handoff Campañas y Automatizaciones Nuevo DS (`TQpRr7mtkYv19Z14pcbjqT`) | Manager. Es el único con links directos a cada frame. |
-| Handoff completo (4 pestañas, la 04 es *Revisión final*) | Detalle por frame con las notas de cambio |
+| Handoff Campañas y Automatizaciones (`FyJ8sjS4PDJkaXmBRnPHf3`, 4 pestañas, la 04 es *Revisión final*) | Detalle por frame con las notas de cambio |
 
 Regla: **los cambios globales se anotan una sola vez**, en la fila del componente.

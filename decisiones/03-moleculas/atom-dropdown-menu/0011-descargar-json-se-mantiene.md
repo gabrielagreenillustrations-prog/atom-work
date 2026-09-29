@@ -1,6 +1,6 @@
 # 0011 — "Descargar JSON" se mantiene aunque la épica no lo tenga
 
-**Estado:** vigente
+**Estado:** reemplazada por [0066](../../05-paginas/gestion-de-flujos/0066-descargar-flujo-y-detalles-del-flujo.md)
 **Fecha:** 2026-09-23
 **Alcance:** menús de fila de Gestión de flujos
 

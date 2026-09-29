@@ -18,6 +18,12 @@ y existe para responder tres preguntas cuando vuelvo a un diseño meses después
 ```
 RETOMAR.md                   ← dónde quedé y el prompt para abrir otra conversación
 decisiones/                  ← decisiones numeradas, con contexto y razón. No se editan.
+  01-fundamentos/            ← fechas, iconografía
+  02-atomos/                 ← atom-button
+  03-moleculas/              ← buscador, filtros, menús de acciones, snackbar
+  04-organismos/             ← tablas (y sus columnas), panel de métricas, modales
+  05-paginas/                ← Resultados de campañas, Gestión de flujos
+  06-proceso-y-fuentes/      ← épicas que mandan y reglas del handoff
 sistema/                     ← reglas transversales del DS: fechas, íconos, copy, modales…
 modulos/                     ← por módulo: qué es, cómo quedó, qué falta
 comportamiento-verificado/   ← reglas leídas del código de producción
@@ -45,7 +51,8 @@ Vale para todo el repo, no solo para las entregas. Si algo se dedujo, se dice qu
 Al cerrar una sesión de trabajo:
 
 1. Una entrada nueva en `historial/AAAA-MM-DD.md` — qué se hizo y qué se rompió.
-2. Las decisiones nuevas van a `decisiones/` con número, contexto y razón.
+2. Las decisiones nuevas van a la carpeta de su componente en `decisiones/`, con número, contexto y
+   razón, y se suman a los dos índices de `decisiones/README.md`.
 3. Los archivos de `sistema/` y `modulos/` que cambiaron se actualizan **en su lugar**
    (estos sí se editan: reflejan el estado vigente).
 4. `RETOMAR.md` se reescribe con dónde quedé.

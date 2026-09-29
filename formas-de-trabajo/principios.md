@@ -40,6 +40,12 @@ componente al que pertenece. Si la misma nota aparece en veinte filas, nadie la 
 Los copies que nosotros desalineamos y volvimos a alinear no son noticia para nadie.
 Las mejoras reales sí.
 
+## 6. Sin nombres propios en lo que se presenta
+
+En el repo, las cards de Figma y los artefactos no se nombra a personas del equipo. Quien pide o
+responde es «diseño»: «Pedido de diseño», «Respuesta de diseño», «Dato de diseño», «frames de
+diseño».
+
 ---
 
 ## Jerarquía de fuentes

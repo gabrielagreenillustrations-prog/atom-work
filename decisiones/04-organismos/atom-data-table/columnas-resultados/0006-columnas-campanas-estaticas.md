@@ -1,6 +1,6 @@
 # 0006 — Columnas de campañas estáticas: las 12 de la Épica 2
 
-**Estado:** vigente
+**Estado:** reemplazada por [0026](0026-fecha-de-envio-en-resultados.md)
 **Fecha:** 2026-09-23
 **Alcance:** tabla de Resultados de campañas — estáticas
 

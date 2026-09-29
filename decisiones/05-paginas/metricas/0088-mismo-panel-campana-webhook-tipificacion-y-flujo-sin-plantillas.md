@@ -36,9 +36,8 @@ muestran. Solo el empty."*
 ## Consecuencias
 
 - HU-02, fila «Gestión de flujos · Campaña, Webhook y Tipificación» (card `13076:24290`): `03.9 · 01`
-  (Campaña, «(10)»), `03.3 · 06` (Webhook) y `03.9 · 02` (el panel). `03.3 · 06` salió de la fila «Sin
-  número», que ya no existe. **Falta `03.3 · 08` (Tipificación)**, entre Webhook y el panel: copiarlo de
-  Automatizaciones necesita clics en pantalla y el Centro de notificaciones de macOS los bloqueaba.
+  (Campaña, «(10)»), `03.3 · 06` (Webhook), `03.3 · 08` (Tipificación, `15367:518498`, copiado de
+  Automatizaciones) y `03.9 · 02` (el panel). `03.3 · 06` salió de la fila «Sin número», que ya no existe.
 - HU-02, fila «Flujo sin plantillas» (card `15345:483540`): frame «Flujo sin plantillas» (`15359:512789`), copia
   de «No se pudieron cargar las métricas» (`15324:53549`) con la pantalla de Gestión de flujos, el subtítulo de
   flujos y el copy propuesto.

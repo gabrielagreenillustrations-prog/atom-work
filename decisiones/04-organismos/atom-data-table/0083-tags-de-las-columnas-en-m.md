@@ -1,6 +1,6 @@
 # 0083 — Tags de las columnas de tags en tamaño m
 
-**Estado:** vigente
+**Estado:** vigente para Campañas; la excepción de Gestión de flujos la reemplaza la [0089](0089-tags-de-estado-de-gestion-de-flujos-en-m.md)
 **Fecha:** 2026-09-29
 **Componente:** `❖ atom-data-table` · tags de las celdas (`↳ TagProps`)
 **Alcance:** Campañas — columna Estado de las tablas de «Campañas Handoff v1» y «Campañas Handoff v2».

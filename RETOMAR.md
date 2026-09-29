@@ -128,7 +128,7 @@ La sesión 13 (29 sep) dejó visible el sidebar nuevo en los dos archivos, con e
 realineado ([0080](decisiones/04-organismos/atom-sidebar/0080-sidebar-nuevo-visible.md)); las tablas con empty state
 llevan la paginación en `no-data` y el empty state centrado ([0081](decisiones/04-organismos/atom-data-table/0081-empty-state-paginacion-no-data-y-centrado.md));
 en Resultados Entregados pasó a `fg/secondary` y Leídos a azul ([0082](decisiones/05-paginas/metricas/0082-colores-de-metricas-en-resultados.md));
-los tags de la columna Estado de Campañas pasaron a m ([0083](decisiones/04-organismos/atom-data-table/0083-tags-de-las-columnas-en-m.md)); y las cards del panel de
+los tags de la columna Estado pasaron a m, en Campañas ([0083](decisiones/04-organismos/atom-data-table/0083-tags-de-las-columnas-en-m.md)) y en Gestión de flujos ([0089](decisiones/04-organismos/atom-data-table/0089-tags-de-estado-de-gestion-de-flujos-en-m.md)); y las cards del panel de
 métricas van en 2 × 2, con un caso de números largos ([0084](decisiones/05-paginas/metricas/0084-cards-del-panel-en-2x2.md)). Al final, la entrega de métricas por plantilla
 sigue las HU del FRD del 28-sep (`entregas/frd/`), con las pantallas, la tabla y los menús de los handoffs
 ([0085](decisiones/05-paginas/metricas/0085-entrega-de-metricas-alineada-al-frd.md)), y el panel lleva Enviados con `check`, «plantillas» en Errores Meta y el tooltip «Anterior»
@@ -190,6 +190,7 @@ sigue las HU del FRD del 28-sep (`entregas/frd/`), con las pantallas, la tabla y
 | Copy del flujo sin plantillas | Propuesta: «Este flujo no tiene plantillas» · «Las métricas aparecen cuando el flujo envía una plantilla.» ([0088](decisiones/05-paginas/metricas/0088-mismo-panel-campana-webhook-tipificacion-y-flujo-sin-plantillas.md)). ¿Va así? |
 | Lista dinámica y el panel | Su menú también tiene «Métricas de plantilla» (`03.3 · 19`). ¿Abre el mismo panel que Campaña, Webhook y Tipificación? |
 | Errores Meta en 0 | El FRD dice que «la card puede mostrar 0». Hoy, sin errores de Meta, el panel no muestra la sección. ¿Se agrega «0 Errores Meta»? |
+| Frame vacío en el archivo de métricas | En la page *Actual UI*, fuera de las secciones, hay un frame vacío «Flujo sin plantillas» de 1280 × 833 (`15369:524621`). No tengo registro de haberlo creado. ¿Se borra? |
 | Lista en Actualizando | En pausa por el benchmark. Para verla: esperar la actualización agendada de la lista dinámica de prueba, agregar clientes por CSV en QA o armar el frame desde el código. Las dos listas de prueba siguen en QA (`K8eBSkS3bsBt7G5d7nL9`, `1nqAMaHaQtAJWEqVWzGu`); se borran solo con tu OK. |
 
 ### Para decidir

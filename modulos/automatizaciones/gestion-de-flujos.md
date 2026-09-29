@@ -207,6 +207,14 @@ se llama «Conexión» o «Canal conectado», como el filtro?
 
 ---
 
+## Columna Estado
+
+Tags `↳ TagProps` en Size **m**, como en Campañas — decisión
+[0089](../../decisiones/04-organismos/atom-data-table/0089-tags-de-estado-de-gestion-de-flujos-en-m.md). Las specs de la columna Canal de
+la page Ideacion (`03.8`) conservan su tamaño.
+
+---
+
 ## Filtros
 
 Disparador · Canal · Canal conectado · Estado · F. Última edición — decisión

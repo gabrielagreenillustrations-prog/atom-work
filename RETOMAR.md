@@ -132,7 +132,7 @@ los tags de la columna Estado de Campañas pasaron a m ([0083](decisiones/04-org
 métricas van en 2 × 2, con un caso de números largos ([0084](decisiones/05-paginas/metricas/0084-cards-del-panel-en-2x2.md)). Al final, la entrega de métricas por plantilla
 sigue las HU del FRD del 28-sep (`entregas/frd/`), con las pantallas, la tabla y los menús de los handoffs
 ([0085](decisiones/05-paginas/metricas/0085-entrega-de-metricas-alineada-al-frd.md)), y el panel lleva Enviados con `check`, «plantillas» en Errores Meta y el tooltip «Anterior»
-([0086](decisiones/05-paginas/metricas/0086-panel-check-plantillas-y-anterior.md)) (`historial/2026-09-29-sesion-13.md`). La documentación va en un documento por submódulo, como la de Bandeja
+([0086](decisiones/05-paginas/metricas/0086-panel-check-plantillas-y-anterior.md)); los tooltips de las cards están en HU-02 ([0087](decisiones/05-paginas/metricas/0087-tooltips-de-las-cards-en-la-entrega.md)) (`historial/2026-09-29-sesion-13.md`). La documentación va en un documento por submódulo, como la de Bandeja
 ([0079](decisiones/06-proceso-y-fuentes/documentacion/0079-un-documento-por-submodulo.md)).
 
 ### Esperando una respuesta mía

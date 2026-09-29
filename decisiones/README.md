@@ -199,6 +199,7 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | [0084](05-paginas/metricas/0084-cards-del-panel-en-2x2.md) | Panel: las cuatro cards en 2 × 2, porcentaje en ancho automático y caso «Números largos» |
 | [0085](05-paginas/metricas/0085-entrega-de-metricas-alineada-al-frd.md) | La entrega de métricas sigue las HU del FRD del 28-sep, con las pantallas de los handoffs; lo demás, como casos de uso o casos edge |
 | [0086](05-paginas/metricas/0086-panel-check-plantillas-y-anterior.md) | Panel: Enviados con `check`, «5 plantillas» en Errores Meta, tooltips «Anterior» y «Siguiente», tooltip de Errores Meta con «nos devuelve» |
+| [0087](05-paginas/metricas/0087-tooltips-de-las-cards-en-la-entrega.md) | La entrega lleva los tooltips de Entregados, Leídos y Respondidos (HU-02) |
 
 **Antes:** columnas de Resultados: [0036](04-organismos/atom-data-table/columnas-resultados/0036-no-entregados-visible.md) → [0063](05-paginas/metricas/0063-metricas-de-resultados.md)  
 **Ver también:** el panel de métricas en [Organismos](#-atom-sidepanel--panel-de-métricas--regla-vigente-sistemametricasmd) ([0004](04-organismos/atom-sidepanel-metricas/0004-errores-reemplaza-fallidos.md), [0044](04-organismos/atom-sidepanel-metricas/0044-tooltip-codigo-de-error.md), [0062](04-organismos/atom-sidepanel-metricas/0062-panel-v1-solo-el-panel-de-origen.md)); dónde está el panel: [0068](06-proceso-y-fuentes/handoff/0068-panel-de-metricas-en-su-archivo.md)  
@@ -359,6 +360,7 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | [0084](05-paginas/metricas/0084-cards-del-panel-en-2x2.md) | Panel de métricas: las cuatro cards en 2 × 2 | vigente | 2026-09-29 |
 | [0085](05-paginas/metricas/0085-entrega-de-metricas-alineada-al-frd.md) | La entrega de métricas por plantilla, alineada al FRD del 28-sep | vigente | 2026-09-29 |
 | [0086](05-paginas/metricas/0086-panel-check-plantillas-y-anterior.md) | Panel de métricas: Enviados con check, «plantillas» en Errores Meta y tooltip «Anterior» | vigente | 2026-09-29 |
+| [0087](05-paginas/metricas/0087-tooltips-de-las-cards-en-la-entrega.md) | Los tooltips de las cards, en la entrega de métricas | vigente | 2026-09-29 |
 
 ## Formato
 

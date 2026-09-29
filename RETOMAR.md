@@ -187,6 +187,9 @@ sigue las HU del FRD del 28-sep (`entregas/frd/`), con las pantallas, la tabla y
 | Imágenes del FRD del 28-sep | No llegaron las tres imágenes de referencia de los CSV. Los CSV están en cards, en HU-01 y HU-03. ¿Me las pasás para sumarlas? |
 | Gestión de flujos sin número | En HU-02 usé `03.3 · 06` (Webhook, «Métricas de plantilla» sin «(N)») como caso de una plantilla en flujos. ¿Sirve o hay otro frame? |
 | «Activa en el flujo» en Campañas | Los paneles abiertos desde Resultados de campañas muestran el tag «Activa en el flujo». ¿Es el copy correcto para campañas? |
+| Tipificación en HU-02 | Falta copiar `03.3 · 08` (`10:24987`) de Automatizaciones a la fila «Campaña, Webhook y Tipificación» (x = 3810): el Centro de notificaciones bloqueaba los clics. |
+| Copy del flujo sin plantillas | Propuesta: «Este flujo no tiene plantillas» · «Las métricas aparecen cuando el flujo envía una plantilla.» ([0088](decisiones/05-paginas/metricas/0088-mismo-panel-campana-webhook-tipificacion-y-flujo-sin-plantillas.md)). ¿Va así? |
+| Lista dinámica y el panel | Su menú también tiene «Métricas de plantilla» (`03.3 · 19`). ¿Abre el mismo panel que Campaña, Webhook y Tipificación? |
 | Errores Meta en 0 | El FRD dice que «la card puede mostrar 0». Hoy, sin errores de Meta, el panel no muestra la sección. ¿Se agrega «0 Errores Meta»? |
 | Lista en Actualizando | En pausa por el benchmark. Para verla: esperar la actualización agendada de la lista dinámica de prueba, agregar clientes por CSV en QA o armar el frame desde el código. Las dos listas de prueba siguen en QA (`K8eBSkS3bsBt7G5d7nL9`, `1nqAMaHaQtAJWEqVWzGu`); se borran solo con tu OK. |
 

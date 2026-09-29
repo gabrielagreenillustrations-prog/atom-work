@@ -1,6 +1,6 @@
 # 0076 — «Detalles del flujo»: cerrar con el nombre en edición descarta el cambio
 
-**Estado:** vigente
+**Estado:** vigente; el campo vacío se define en la [0078](0078-nombre-vacio-en-detalles-del-flujo.md)
 **Fecha:** 2026-09-28
 **Módulo:** Automatizaciones · Gestión de flujos
 **Componente:** ❖ atom-dialog, ❖ atom-text-field, ❖ atom-icon-button

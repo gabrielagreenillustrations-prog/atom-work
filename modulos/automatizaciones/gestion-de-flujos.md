@@ -99,8 +99,10 @@ descarta el cambio sin avisar; con un nombre inválido o el campo vacío, al cer
 anterior. Es lo mismo que pasa con Esc o con `close` — decisión
 [0076](../../decisiones/05-paginas/gestion-de-flujos/0076-cerrar-detalles-con-el-nombre-en-edicion.md).
 Interpretación, no está en la referencia: el snackbar de 18. El ícono de error va en
-`fg/status/error`; la referencia usa `fg/status/on-error`. Sin definir: qué pasa con Enter o un clic
-fuera del campo cuando está vacío. Los nombres son valores de ejemplo.
+`fg/status/error`; la referencia usa `fg/status/on-error`. Con el campo vacío, Enter muestra el error y
+un clic fuera no guarda — decisión
+[0078](../../decisiones/05-paginas/gestion-de-flujos/0078-nombre-vacio-en-detalles-del-flujo.md); falta el texto de ese error. Los nombres son
+valores de ejemplo.
 
 ---
 

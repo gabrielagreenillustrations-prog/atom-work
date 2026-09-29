@@ -3,7 +3,7 @@
 Este archivo existe para abrir una conversación nueva con Claude sin volver a explicar
 nada. **Copiá el bloque de abajo y pegalo tal cual.**
 
-Última actualización: **2026-09-28**
+Última actualización: **2026-09-29**
 
 ---
 
@@ -123,7 +123,6 @@ Con las respuestas de diseño: cerrar «Detalles del flujo» con el nombre en ed
 ([0076](decisiones/05-paginas/gestion-de-flujos/0076-cerrar-detalles-con-el-nombre-en-edicion.md)); las celdas de las tablas de Automatizaciones usan el `❖ atom-icon` vigente
 ([0077](decisiones/01-fundamentos/iconografia/0077-atom-icon-vigente-en-las-tablas.md)); `03.3 · 01` muestra `ellipsis-vertical`; los filtros abiertos de Historial usan la tabla
 de las demás pantallas; «Número asociado» en los modales queda como está, y `03.4 · 04` lo eliminó diseño.
-Quedaron tres grillas para las cards del panel, para elegir.
 
 ### Esperando una respuesta mía
 
@@ -181,6 +180,13 @@ Quedaron tres grillas para las cards del panel, para elegir.
 5. **Revisión pausada** (sesión 10): la verificación contra Granola de las dos últimas reuniones de Campañas y la comparación del handoff con Global Patterns quedaron a medias, por pedido.
 6. **Reunión de Campañas** (check del 2026-09-24): la columna de error ya se llama «Errores» en la tabla ([0063](decisiones/05-paginas/metricas/0063-metricas-de-resultados.md)) y el panel v1, el de producción, sigue con «Fallidos». Quedan: scroll corrido en las pantallas de estáticas, estados de dinámicas, títulos de los modales informativos y reglas de los menús de `01.4`. Detalle en `modulos/campanas/resultados-de-campanas.md`.
 7. **Estado Inactivo** (lista de cambios de Gestión de flujos): Inactivo como estado del flujo, solo la acción Activar y, al activarlo, el estado anterior. La vista por defecto no muestra inactivos y las filas no van en gris ([0038](decisiones/05-paginas/gestion-de-flujos/0038-gestion-vista-por-defecto-sin-inactivos.md)). Validarlo con el equipo de diseño antes de llevarlo como patrón general.
+
+### Fuera de Figma
+
+| Qué | Estado |
+|---|---|
+| Subir a GitHub | El remoto (`gabrielagreenillustrations-prog/atom-work`) sigue vacío. Desde la sesión no se puede: el proxy de la nube no tiene el repo autorizado y el equipo no tiene credenciales de GitHub. Falta `git push -u origin main` desde tu Mac. Hasta entonces, el link del prompt de arranque no muestra nada. |
+| FRD en Confluence | La skill «FRD de migración a DS» se compartió como link de claude.ai de otra organización y con la cuenta de esta sesión no está disponible. Para generar el FRD hace falta la skill como archivo (`.zip` o `.skill`) o una cuenta en esa organización. |
 
 ### Sin revisar
 

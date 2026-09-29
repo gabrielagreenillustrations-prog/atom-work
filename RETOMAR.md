@@ -187,7 +187,6 @@ de las demás pantallas; «Número asociado» en los modales queda como está, y
 
 | Qué | Estado |
 |---|---|
-| Subir a GitHub | El remoto (`gabrielagreenillustrations-prog/atom-work`) sigue vacío. Desde la sesión no se puede: el proxy de la nube no tiene el repo autorizado y el equipo no tiene credenciales de GitHub. Falta `git push -u origin main` desde tu Mac. Hasta entonces, el link del prompt de arranque no muestra nada. |
 | FRD en Confluence | Estructura: un documento por submódulo, similar al de Bandeja ([0079](decisiones/06-proceso-y-fuentes/documentacion/0079-un-documento-por-submodulo.md)). La skill «FRD de migración a DS» se compartió como link de claude.ai; con la cuenta de esta sesión, claude.ai responde «Este elemento no está disponible. Puede que no exista o que no tengas acceso a él». Interpretación, sin verificar: el link es de la organización de Claude de quien la compartió. Para generar el FRD hace falta la skill como archivo (`.zip` o `.skill`) o acceso a ese link. |
 
 ### Sin revisar

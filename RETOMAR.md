@@ -129,7 +129,10 @@ realineado ([0080](decisiones/04-organismos/atom-sidebar/0080-sidebar-nuevo-visi
 llevan la paginación en `no-data` y el empty state centrado ([0081](decisiones/04-organismos/atom-data-table/0081-empty-state-paginacion-no-data-y-centrado.md));
 en Resultados Entregados pasó a `fg/secondary` y Leídos a azul ([0082](decisiones/05-paginas/metricas/0082-colores-de-metricas-en-resultados.md));
 los tags de la columna Estado de Campañas pasaron a m ([0083](decisiones/04-organismos/atom-data-table/0083-tags-de-las-columnas-en-m.md)); y las cards del panel de
-métricas van en 2 × 2, con un caso de números largos ([0084](decisiones/05-paginas/metricas/0084-cards-del-panel-en-2x2.md)) (`historial/2026-09-29-sesion-13.md`). La documentación va en un documento por submódulo, como la de Bandeja
+métricas van en 2 × 2, con un caso de números largos ([0084](decisiones/05-paginas/metricas/0084-cards-del-panel-en-2x2.md)). Al final, la entrega de métricas por plantilla
+sigue las HU del FRD del 28-sep (`entregas/frd/`), con las pantallas, la tabla y los menús de los handoffs
+([0085](decisiones/05-paginas/metricas/0085-entrega-de-metricas-alineada-al-frd.md)), y el panel lleva Enviados con `check`, «plantillas» en Errores Meta y el tooltip «Anterior»
+([0086](decisiones/05-paginas/metricas/0086-panel-check-plantillas-y-anterior.md)) (`historial/2026-09-29-sesion-13.md`). La documentación va en un documento por submódulo, como la de Bandeja
 ([0079](decisiones/06-proceso-y-fuentes/documentacion/0079-un-documento-por-submodulo.md)).
 
 ### Esperando una respuesta mía
@@ -180,6 +183,11 @@ métricas van en 2 × 2, con un caso de números largos ([0084](decisiones/05-pa
 | Documentación de Bandeja | La [0079](decisiones/06-proceso-y-fuentes/documentacion/0079-un-documento-por-submodulo.md) toma como modelo la documentación de Bandeja y no la tengo: en Chrome, Confluence está sin sesión. ¿Me pasás el link o un PDF? |
 | Submódulos de la documentación | Leí cuatro documentos: Resultados de campañas, Listas, Gestión de flujos e Historial de conversaciones. ¿Son esos? ¿*Listas con MCP* va dentro de Listas o aparte? |
 | Errores en `01.3 · 05` y `06` | En los frames de tooltip de Leídos y Respondidos hay un valor de Errores (10) en `forms-and-inputs/fg/enabled`, no en rojo. ¿Pasa a `fg/status/error`? |
+| Conectores de la entrega de métricas | Se perdieron los cinco (navegación, más de 10 plantillas y copiar el error) al reemplazar el overlay; no los puedo recrear por script. ¿Los volvés a trazar o se deja así? |
+| Imágenes del FRD del 28-sep | No llegaron las tres imágenes de referencia de los CSV. Los CSV están en cards, en HU-01 y HU-03. ¿Me las pasás para sumarlas? |
+| Gestión de flujos sin número | En HU-02 usé `03.3 · 06` (Webhook, «Métricas de plantilla» sin «(N)») como caso de una plantilla en flujos. ¿Sirve o hay otro frame? |
+| «Activa en el flujo» en Campañas | Los paneles abiertos desde Resultados de campañas muestran el tag «Activa en el flujo». ¿Es el copy correcto para campañas? |
+| Errores Meta en 0 | El FRD dice que «la card puede mostrar 0». Hoy, sin errores de Meta, el panel no muestra la sección. ¿Se agrega «0 Errores Meta»? |
 | Lista en Actualizando | En pausa por el benchmark. Para verla: esperar la actualización agendada de la lista dinámica de prueba, agregar clientes por CSV en QA o armar el frame desde el código. Las dos listas de prueba siguen en QA (`K8eBSkS3bsBt7G5d7nL9`, `1nqAMaHaQtAJWEqVWzGu`); se borran solo con tu OK. |
 
 ### Para decidir

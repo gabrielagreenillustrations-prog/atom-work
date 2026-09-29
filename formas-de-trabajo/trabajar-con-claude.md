@@ -53,6 +53,20 @@ y buscar frames `Frame N` de 100 × 100 sin hijos.
 **Cuando `app_type` responde «readback unchanged», el texto puede quedar duplicado.** Antes de
 Return, mirar el prompt; si está duplicado, cmd+a y `app_type` con `overwrite_existing`.
 
+**Copiar frames entre archivos.** La API no copia entre archivos y, en segundo plano, cmd+c y *Edit → Copy*
+están bloqueados. Con control de pantalla completa: seleccionar por consola, hacer foco en el canvas sin
+cambiar la selección (clic del medio en una zona vacía), cmd+c, esperar un momento, pasar a la otra
+pestaña, clic en una zona vacía para deseleccionar y cmd+v. Mirar antes que no haya una notificación encima
+del punto del clic: si el clic no llega, cmd+c no copia y cmd+v pega lo que había en el portapapeles.
+Después, contar por consola lo pegado.
+
+**Los conectores se borran con su punto de anclaje.** Si un conector está unido a una capa (por ejemplo,
+un overlay) y esa capa se borra, el conector desaparece. La API no crea conectores en archivos de diseño:
+antes de reemplazar capas, buscar conectores unidos a ellas.
+
+**Las capturas del MCP de Figma pueden venir atrasadas.** Para revisar un cambio recién hecho, exportar
+por consola (`exportAsync`) en lugar de `get_screenshot`.
+
 **Si un cambio hace crecer un side panel, mirar si la pantalla lo recorta.** Los paneles tienen alto
 fijo, sin recorte, y el contenido sigue hacia abajo; en la entrega de métricas lo recorta la pantalla.
 Si la pantalla tampoco recorta, el contenido sale por debajo del frame (pasó en Campañas `01.6 · 02` al

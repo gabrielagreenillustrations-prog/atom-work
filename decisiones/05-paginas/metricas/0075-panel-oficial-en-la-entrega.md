@@ -1,6 +1,6 @@
 # 0075 — El panel de métricas que se entrega: la grilla A, dentro de la entrega del archivo de métricas
 
-**Estado:** vigente; la grilla (cuatro cards en una fila), reemplazada por la [0084](0084-cards-del-panel-en-2x2.md)
+**Estado:** vigente; la grilla (cuatro cards en una fila), reemplazada por la [0084](0084-cards-del-panel-en-2x2.md); las pantallas y el menú anteriores de la entrega, por la [0085](0085-entrega-de-metricas-alineada-al-frd.md)
 **Fecha:** 2026-09-28
 **Componente:** ❖ atom-sidepanel · Panel de métricas
 **Alcance:** archivo *Métricas por plantilla inicial en flujos y campañas* (`tHgzwwQ5gbEzHjxPBvLODo`),

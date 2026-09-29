@@ -1,14 +1,17 @@
 # Métricas
 
-Última revisión: **2026-09-29** (sesión 13) · Decisiones: [0004](../decisiones/04-organismos/atom-sidepanel-metricas/0004-errores-reemplaza-fallidos.md) · [0025](../decisiones/04-organismos/atom-sidepanel-metricas/0025-titulos-de-side-panels-de-metricas.md) (reemplazada por [0067](../decisiones/05-paginas/metricas/0067-metricas-de-plantilla-en-todas-las-superficies.md)) · [0014](../decisiones/04-organismos/atom-sidepanel-metricas/0014-ejemplo-calidad-baja.md) · [0063](../decisiones/05-paginas/metricas/0063-metricas-de-resultados.md) · [0082](../decisiones/05-paginas/metricas/0082-colores-de-metricas-en-resultados.md) · [0064](../decisiones/05-paginas/metricas/0064-valores-de-resultados-coherentes.md) · [0041](../decisiones/04-organismos/atom-sidepanel-metricas/0041-side-panels-de-metricas-con-overlay.md) · [0044](../decisiones/04-organismos/atom-sidepanel-metricas/0044-tooltip-codigo-de-error.md) · [0050](../decisiones/01-fundamentos/fechas/0050-fechas-sin-relativas.md) · [0056](../decisiones/06-proceso-y-fuentes/handoff/0056-handoff-v2.md) · [0057](../decisiones/04-organismos/atom-sidepanel-metricas/0057-panel-de-metricas-v2.md) · [0058](../decisiones/04-organismos/atom-sidepanel-metricas/0058-automatizaciones-dos-versiones-del-panel.md) · [0060](../decisiones/04-organismos/atom-sidepanel-metricas/0060-panel-v2-icono-de-informacion-arriba-a-la-derecha.md) · [0062](../decisiones/04-organismos/atom-sidepanel-metricas/0062-panel-v1-solo-el-panel-de-origen.md) · [0065](../decisiones/05-paginas/metricas/0065-panel-v1-cuatro-metricas-y-errores-meta.md) · [0067](../decisiones/05-paginas/metricas/0067-metricas-de-plantilla-en-todas-las-superficies.md) · [0068](../decisiones/06-proceso-y-fuentes/handoff/0068-panel-de-metricas-en-su-archivo.md) · [0069](../decisiones/05-paginas/metricas/0069-panel-sin-reporte-de-errores-e-iconos.md) · [0075](../decisiones/05-paginas/metricas/0075-panel-oficial-en-la-entrega.md) · [0084](../decisiones/05-paginas/metricas/0084-cards-del-panel-en-2x2.md)
+Última revisión: **2026-09-29** (sesión 13) · Decisiones: [0004](../decisiones/04-organismos/atom-sidepanel-metricas/0004-errores-reemplaza-fallidos.md) · [0025](../decisiones/04-organismos/atom-sidepanel-metricas/0025-titulos-de-side-panels-de-metricas.md) (reemplazada por [0067](../decisiones/05-paginas/metricas/0067-metricas-de-plantilla-en-todas-las-superficies.md)) · [0014](../decisiones/04-organismos/atom-sidepanel-metricas/0014-ejemplo-calidad-baja.md) · [0063](../decisiones/05-paginas/metricas/0063-metricas-de-resultados.md) · [0082](../decisiones/05-paginas/metricas/0082-colores-de-metricas-en-resultados.md) · [0064](../decisiones/05-paginas/metricas/0064-valores-de-resultados-coherentes.md) · [0041](../decisiones/04-organismos/atom-sidepanel-metricas/0041-side-panels-de-metricas-con-overlay.md) · [0044](../decisiones/04-organismos/atom-sidepanel-metricas/0044-tooltip-codigo-de-error.md) · [0050](../decisiones/01-fundamentos/fechas/0050-fechas-sin-relativas.md) · [0056](../decisiones/06-proceso-y-fuentes/handoff/0056-handoff-v2.md) · [0057](../decisiones/04-organismos/atom-sidepanel-metricas/0057-panel-de-metricas-v2.md) · [0058](../decisiones/04-organismos/atom-sidepanel-metricas/0058-automatizaciones-dos-versiones-del-panel.md) · [0060](../decisiones/04-organismos/atom-sidepanel-metricas/0060-panel-v2-icono-de-informacion-arriba-a-la-derecha.md) · [0062](../decisiones/04-organismos/atom-sidepanel-metricas/0062-panel-v1-solo-el-panel-de-origen.md) · [0065](../decisiones/05-paginas/metricas/0065-panel-v1-cuatro-metricas-y-errores-meta.md) · [0067](../decisiones/05-paginas/metricas/0067-metricas-de-plantilla-en-todas-las-superficies.md) · [0068](../decisiones/06-proceso-y-fuentes/handoff/0068-panel-de-metricas-en-su-archivo.md) · [0069](../decisiones/05-paginas/metricas/0069-panel-sin-reporte-de-errores-e-iconos.md) · [0075](../decisiones/05-paginas/metricas/0075-panel-oficial-en-la-entrega.md) · [0084](../decisiones/05-paginas/metricas/0084-cards-del-panel-en-2x2.md) · [0085](../decisiones/05-paginas/metricas/0085-entrega-de-metricas-alineada-al-frd.md) · [0086](../decisiones/05-paginas/metricas/0086-panel-check-plantillas-y-anterior.md)
 
 ---
 
 ## Dónde está
 
 El panel que se entrega está en la entrega del archivo *Métricas por plantilla inicial en flujos y campañas*
-(page Actual UI, sección «Métricas por plantilla inicial en flujos y campañas», Ready for dev): HU 2, HU3 y
-casos edge, con sus interacciones — decisión [0075](../decisiones/05-paginas/metricas/0075-panel-oficial-en-la-entrega.md).
+(page Actual UI, sección «Métricas por plantilla inicial en flujos y campañas», Ready for dev), con sus
+interacciones — decisión [0075](../decisiones/05-paginas/metricas/0075-panel-oficial-en-la-entrega.md). Sigue el
+[FRD del 28-sep](../entregas/frd/2026-09-28-metricas-por-plantilla-ajustes.md): una sección por HU (HU-01 tabla de
+Resultados, HU-02 naming, cards y %, HU-03 Errores Meta), «Casos de uso · FRD original» y «Casos edge», con las
+pantallas, la tabla y los menús de los handoffs — decisión [0085](../decisiones/05-paginas/metricas/0085-entrega-de-metricas-alineada-al-frd.md).
 En los handoffs está el caso de uso que lo abre, con el copy de cada módulo: Campañas `01.6 · 01–02` y
 Automatizaciones `03.9 · 01–02`. La sección «Handoff Design System · Panel de métricas de plantilla» del
 mismo archivo conserva las versiones anteriores (v1 y nuevo DS), el benchmark, la ideación de Resultados
@@ -32,22 +35,25 @@ Decisiones [0065](../decisiones/05-paginas/metricas/0065-panel-v1-cuatro-metrica
 - Cuatro cards: **Enviados** (la base, sin porcentaje ni ícono de información), **Entregados**
   (% sobre enviados), **Leídos** y **Respondidos** (% sobre entregados).
 - Una sola sección de errores: «N Errores Meta», con ícono de información. Solo errores que Meta
-  devuelve para la plantilla; Atom no ve sus errores internos. Cada error: mensajes y % del total
+  devuelve para la plantilla; Atom no ve sus errores internos. Cada error: cantidad de plantillas («5 plantillas») y % del total
   de errores.
 - Solo «Descargar errores»: ningún panel tiene «Reporte de errores» ([0069](../decisiones/05-paginas/metricas/0069-panel-sin-reporte-de-errores-e-iconos.md)).
   Recomendaciones, sin cambios.
 - Íconos de las cards: Enviados `check` (una palomita), Entregados dos palomitas, Leídos dos
-  palomitas azules ([0069](../decisiones/05-paginas/metricas/0069-panel-sin-reporte-de-errores-e-iconos.md)).
+  palomitas azules ([0069](../decisiones/05-paginas/metricas/0069-panel-sin-reporte-de-errores-e-iconos.md), [0086](../decisiones/05-paginas/metricas/0086-panel-check-plantillas-y-anterior.md)).
+- Navegación entre plantillas: tooltips «Anterior» y «Siguiente» ([0086](../decisiones/05-paginas/metricas/0086-panel-check-plantillas-y-anterior.md)).
+- Sin errores de Meta: sin desglose, sin placeholder, sin «Descargar errores» y sin Recomendaciones. Con
+  errores, Recomendaciones aparece solo si Meta las trajo (FRD, HU-03).
 
 | Tooltip | Texto | Frames |
 |---|---|---|
 | Entregados | «85 de 100 enviados.» | `01.6 · 15`, `03.9 · 10` |
 | Leídos | «50 de 85 entregados.» | `01.6 · 16`, `03.9 · 11` |
 | Respondidos | «35 de 85 entregados.» | `01.6 · 17`, `03.9 · 12` |
-| Errores Meta | «Se contabilizan solo los errores que Meta nos regresa de esta plantilla.» | `01.6 · 18`, `03.9 · 13` |
+| Errores Meta | «Se contabilizan solo los errores que Meta nos devuelve de esta plantilla.» | `01.6 · 18`, `03.9 · 13` |
 
 Valores de ejemplo en todos los paneles: 100 enviados; 85 entregados (85 %); 50 leídos (59 %); 35
-respondidos (41 %); 10 errores de Meta: 5 mensajes (50 %), 3 (30 %) y 2 (20 %).
+respondidos (41 %); 10 errores de Meta: 5 plantillas (50 %), 3 (30 %) y 2 (20 %).
 
 ### Grilla de las cards
 
@@ -89,7 +95,7 @@ separada**, no se absorbe dentro de Errores.
 
 Seis métricas: **Clientes · Enviados · Errores · Entregados · Leídos · Respondidos** — decisión
 [0063](../decisiones/05-paginas/metricas/0063-metricas-de-resultados.md).
-*Errores* reemplaza a *Fallidos*; *No entregados* queda oculta en la tabla y sigue en el side panel.
+*Errores* reemplaza a *Fallidos* y *No entregados* ya no se muestra ([FRD del 28-sep](../entregas/frd/2026-09-28-metricas-por-plantilla-ajustes.md), HU-01).
 
 | Columna | Tooltip del encabezado | Color si es mayor que 0 |
 |---|---|---|
@@ -110,6 +116,19 @@ Los valores de ejemplo cumplen la relación entre métricas — decisión
 - Agendada: Clientes es el tamaño de la lista y el resto va en 0.
 - Entregados ≤ Enviados; Leídos y Respondidos ≤ Entregados.
 
+
+## CSV
+
+Del [FRD del 28-sep](../entregas/frd/2026-09-28-metricas-por-plantilla-ajustes.md); en la entrega van como cards
+(HU-01 y HU-03), sin frames.
+
+| Descarga | Cambios |
+|---|---|
+| Clic en el número de Errores (tabla) | Estado: «Fallido» → «Error». Columna nueva «Origen» después de Estado: «Error de configuración de la campaña» o «Error de Meta relacionado a la plantilla». «Respuesta» → «Código de error». «Error» → «Descripción de error». |
+| Descargar resultados (menú de la fila) | Estado: «Fallido» y «No entregado» → «Error». «Razon_del_error» → «Descripción de error». Columna nueva «Entregado» (SI/NO) después de «Descripción de error». «Telefono» → «Teléfono», «Leido» → «Leído». |
+| Descargar errores (panel) | Id de cliente, Teléfono, BSUID, Código de error, Descripción de error, Origen («Error de Meta relacionado a la plantilla»; reemplaza a «status») y Fecha. |
+
+«Descargar errores» está disponible cuando Errores ≥ 1, en la tabla y en el panel.
 ## Desgloses
 
 Formato **`Nombre (N)`**: `Errores (15)`, `No entregados (22)`.

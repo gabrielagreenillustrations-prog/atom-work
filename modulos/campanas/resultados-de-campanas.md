@@ -133,7 +133,7 @@ En este archivo está el caso de uso que abre el panel — decisión [0075](../.
 
 | Frame | Qué muestra |
 |---|---|
-| `01.6 · 01` | «Métricas de plantilla» en el `❖ atom-dropdown-menu` de la fila de «Encuesta satisfacción Q2», de tipo Plantilla |
+| `01.6 · 01` | «Métricas de plantilla» en el `❖ atom-dropdown-menu` de la fila de «Encuesta satisfacción Q2», de tipo Plantilla. La fila tiene 5 errores: el menú trae «Descargar errores» ([0085](../../decisiones/05-paginas/metricas/0085-entrega-de-metricas-alineada-al-frd.md)) |
 | `01.6 · 02` | El panel abierto, con el copy de campañas: «Analiza el rendimiento de cada plantilla utilizada en esta campaña.» Una sola plantilla, sin navegación; cards en 2 × 2 ([0084](../../decisiones/05-paginas/metricas/0084-cards-del-panel-en-2x2.md)) |
 | `01.6 · 03` | Hover en «Ver plantilla», en el mismo menú |
 | `01.6 · 03.1` | Vista previa de plantilla (no es del panel de métricas) |

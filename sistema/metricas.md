@@ -1,6 +1,6 @@
 # Métricas
 
-Última revisión: **2026-09-29** (sesión 13) · Decisiones: [0004](../decisiones/04-organismos/atom-sidepanel-metricas/0004-errores-reemplaza-fallidos.md) · [0025](../decisiones/04-organismos/atom-sidepanel-metricas/0025-titulos-de-side-panels-de-metricas.md) (reemplazada por [0067](../decisiones/05-paginas/metricas/0067-metricas-de-plantilla-en-todas-las-superficies.md)) · [0014](../decisiones/04-organismos/atom-sidepanel-metricas/0014-ejemplo-calidad-baja.md) · [0063](../decisiones/05-paginas/metricas/0063-metricas-de-resultados.md) · [0082](../decisiones/05-paginas/metricas/0082-colores-de-metricas-en-resultados.md) · [0064](../decisiones/05-paginas/metricas/0064-valores-de-resultados-coherentes.md) · [0041](../decisiones/04-organismos/atom-sidepanel-metricas/0041-side-panels-de-metricas-con-overlay.md) · [0044](../decisiones/04-organismos/atom-sidepanel-metricas/0044-tooltip-codigo-de-error.md) · [0050](../decisiones/01-fundamentos/fechas/0050-fechas-sin-relativas.md) · [0056](../decisiones/06-proceso-y-fuentes/handoff/0056-handoff-v2.md) · [0057](../decisiones/04-organismos/atom-sidepanel-metricas/0057-panel-de-metricas-v2.md) · [0058](../decisiones/04-organismos/atom-sidepanel-metricas/0058-automatizaciones-dos-versiones-del-panel.md) · [0060](../decisiones/04-organismos/atom-sidepanel-metricas/0060-panel-v2-icono-de-informacion-arriba-a-la-derecha.md) · [0062](../decisiones/04-organismos/atom-sidepanel-metricas/0062-panel-v1-solo-el-panel-de-origen.md) · [0065](../decisiones/05-paginas/metricas/0065-panel-v1-cuatro-metricas-y-errores-meta.md) · [0067](../decisiones/05-paginas/metricas/0067-metricas-de-plantilla-en-todas-las-superficies.md) · [0068](../decisiones/06-proceso-y-fuentes/handoff/0068-panel-de-metricas-en-su-archivo.md) · [0069](../decisiones/05-paginas/metricas/0069-panel-sin-reporte-de-errores-e-iconos.md) · [0075](../decisiones/05-paginas/metricas/0075-panel-oficial-en-la-entrega.md)
+Última revisión: **2026-09-29** (sesión 13) · Decisiones: [0004](../decisiones/04-organismos/atom-sidepanel-metricas/0004-errores-reemplaza-fallidos.md) · [0025](../decisiones/04-organismos/atom-sidepanel-metricas/0025-titulos-de-side-panels-de-metricas.md) (reemplazada por [0067](../decisiones/05-paginas/metricas/0067-metricas-de-plantilla-en-todas-las-superficies.md)) · [0014](../decisiones/04-organismos/atom-sidepanel-metricas/0014-ejemplo-calidad-baja.md) · [0063](../decisiones/05-paginas/metricas/0063-metricas-de-resultados.md) · [0082](../decisiones/05-paginas/metricas/0082-colores-de-metricas-en-resultados.md) · [0064](../decisiones/05-paginas/metricas/0064-valores-de-resultados-coherentes.md) · [0041](../decisiones/04-organismos/atom-sidepanel-metricas/0041-side-panels-de-metricas-con-overlay.md) · [0044](../decisiones/04-organismos/atom-sidepanel-metricas/0044-tooltip-codigo-de-error.md) · [0050](../decisiones/01-fundamentos/fechas/0050-fechas-sin-relativas.md) · [0056](../decisiones/06-proceso-y-fuentes/handoff/0056-handoff-v2.md) · [0057](../decisiones/04-organismos/atom-sidepanel-metricas/0057-panel-de-metricas-v2.md) · [0058](../decisiones/04-organismos/atom-sidepanel-metricas/0058-automatizaciones-dos-versiones-del-panel.md) · [0060](../decisiones/04-organismos/atom-sidepanel-metricas/0060-panel-v2-icono-de-informacion-arriba-a-la-derecha.md) · [0062](../decisiones/04-organismos/atom-sidepanel-metricas/0062-panel-v1-solo-el-panel-de-origen.md) · [0065](../decisiones/05-paginas/metricas/0065-panel-v1-cuatro-metricas-y-errores-meta.md) · [0067](../decisiones/05-paginas/metricas/0067-metricas-de-plantilla-en-todas-las-superficies.md) · [0068](../decisiones/06-proceso-y-fuentes/handoff/0068-panel-de-metricas-en-su-archivo.md) · [0069](../decisiones/05-paginas/metricas/0069-panel-sin-reporte-de-errores-e-iconos.md) · [0075](../decisiones/05-paginas/metricas/0075-panel-oficial-en-la-entrega.md) · [0084](../decisiones/05-paginas/metricas/0084-cards-del-panel-en-2x2.md)
 
 ---
 
@@ -23,7 +23,7 @@ simplificados y la exploración de la grilla ([0068](../decisiones/06-proceso-y-
 
 ## Panel v1
 
-Es el que se entrega, con la grilla A y el nombre de la plantilla hasta 3 líneas — [0075](../decisiones/05-paginas/metricas/0075-panel-oficial-en-la-entrega.md).
+Es el que se entrega, con las cards en 2 × 2 y el nombre de la plantilla hasta 3 líneas — [0075](../decisiones/05-paginas/metricas/0075-panel-oficial-en-la-entrega.md), [0084](../decisiones/05-paginas/metricas/0084-cards-del-panel-en-2x2.md).
 
 Decisiones [0065](../decisiones/05-paginas/metricas/0065-panel-v1-cuatro-metricas-y-errores-meta.md) y [0069](../decisiones/05-paginas/metricas/0069-panel-sin-reporte-de-errores-e-iconos.md).
 
@@ -51,9 +51,15 @@ respondidos (41 %); 10 errores de Meta: 5 mensajes (50 %), 3 (30 %) y 2 (20 %).
 
 ### Grilla de las cards
 
-Va la A, las cuatro en una fila ([0075](../decisiones/05-paginas/metricas/0075-panel-oficial-en-la-entrega.md)). Con la jerarquía de v2 (sin flecha de tendencia, cantidad y porcentaje en la misma línea, ícono de
-información arriba a la derecha) y los nombres, tooltips e íconos de v1, en «Exploración · Grid de
-métricas (v1 con la jerarquía de v2)»: A, las cuatro en una fila; B, tres en una fila y una abajo;
+Van en 2 × 2: Enviados y Entregados arriba, Leídos y Respondidos abajo; cards de 180 con 8 de
+separación, y el porcentaje en el ancho de su texto, para que los números largos entren
+([0084](../decisiones/05-paginas/metricas/0084-cards-del-panel-en-2x2.md)). Caso edge «Números largos» en el archivo de métricas: 1,284,560 · 1,247,318 97% ·
+1,098,012 88% · 842,975 68%.
+
+Antes iba la A, las cuatro en una fila ([0075](../decisiones/05-paginas/metricas/0075-panel-oficial-en-la-entrega.md)). Las tres grillas que se exploraron, con la jerarquía de v2
+(sin flecha de tendencia, cantidad y porcentaje en la misma línea, ícono de información arriba a la
+derecha) y los nombres, tooltips e íconos de v1, están en «Exploración · Grid de métricas (v1 con la
+jerarquía de v2)»: A, las cuatro en una fila; B, tres en una fila y una abajo;
 C, una arriba y tres en una fila.
 
 ## Cards (nuevo DS)

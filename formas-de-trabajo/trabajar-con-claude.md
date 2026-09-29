@@ -53,6 +53,11 @@ y buscar frames `Frame N` de 100 × 100 sin hijos.
 **Cuando `app_type` responde «readback unchanged», el texto puede quedar duplicado.** Antes de
 Return, mirar el prompt; si está duplicado, cmd+a y `app_type` con `overwrite_existing`.
 
+**Si un cambio hace crecer un side panel, mirar si la pantalla lo recorta.** Los paneles tienen alto
+fijo, sin recorte, y el contenido sigue hacia abajo; en la entrega de métricas lo recorta la pantalla.
+Si la pantalla tampoco recorta, el contenido sale por debajo del frame (pasó en Campañas `01.6 · 02` al
+poner las cards en 2 × 2). Revisar con una exportación del frame completo, no solo del panel.
+
 **Nunca `figma.triggerUndo()`.** No deshace el último cambio: deshace de una vez todo lo que se hizo
 por consola desde que se abrió la pestaña. El 2026-09-24 revirtió en Automatizaciones el trabajo de
 varias sesiones y *Edit → Redo* no lo recuperó. Se recuperó con *File → Show Version History* → clic

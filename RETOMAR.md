@@ -127,8 +127,9 @@ de las demás pantallas; «Número asociado» en los modales queda como está, y
 La sesión 13 (29 sep) dejó visible el sidebar nuevo en los dos archivos, con el contenido desde x = 288 y lo suelto
 realineado ([0080](decisiones/04-organismos/atom-sidebar/0080-sidebar-nuevo-visible.md)); las tablas con empty state
 llevan la paginación en `no-data` y el empty state centrado ([0081](decisiones/04-organismos/atom-data-table/0081-empty-state-paginacion-no-data-y-centrado.md));
-y en Resultados Entregados pasó a `fg/secondary` y Leídos a azul ([0082](decisiones/05-paginas/metricas/0082-colores-de-metricas-en-resultados.md))
-(`historial/2026-09-29-sesion-13.md`). La documentación va en un documento por submódulo, como la de Bandeja
+en Resultados Entregados pasó a `fg/secondary` y Leídos a azul ([0082](decisiones/05-paginas/metricas/0082-colores-de-metricas-en-resultados.md));
+los tags de la columna Estado de Campañas pasaron a m ([0083](decisiones/04-organismos/atom-data-table/0083-tags-de-las-columnas-en-m.md)); y las cards del panel de
+métricas van en 2 × 2, con un caso de números largos ([0084](decisiones/05-paginas/metricas/0084-cards-del-panel-en-2x2.md)) (`historial/2026-09-29-sesion-13.md`). La documentación va en un documento por submódulo, como la de Bandeja
 ([0079](decisiones/06-proceso-y-fuentes/documentacion/0079-un-documento-por-submodulo.md)).
 
 ### Esperando una respuesta mía

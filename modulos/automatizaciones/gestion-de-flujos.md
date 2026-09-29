@@ -143,7 +143,7 @@ En este archivo está el caso de uso que abre el panel — decisión
 | Frame | Qué muestra |
 |---|---|
 | `03.9 · 01` | «Métricas de plantilla (10)» en el menú de más acciones de la fila de `03.3 · 04` |
-| `03.9 · 02` | El panel abierto, con el copy de flujos: «Analiza el rendimiento de cada plantilla utilizada en este flujo.» Varias plantillas, en 1/10 |
+| `03.9 · 02` | El panel abierto, con el copy de flujos: «Analiza el rendimiento de cada plantilla utilizada en este flujo.» Varias plantillas, en 1/10; cards en 2 × 2 ([0084](../../decisiones/05-paginas/metricas/0084-cards-del-panel-en-2x2.md)) |
 
 El panel que se entrega y sus interacciones están en el archivo *Métricas por plantilla inicial en flujos y campañas*,
 page Actual UI, sección «Métricas por plantilla inicial en flujos y campañas». Las versiones anteriores siguen en la

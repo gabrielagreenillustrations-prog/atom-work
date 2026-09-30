@@ -1,6 +1,6 @@
 # Snackbars
 
-Última revisión: **2026-09-28** (sesión 12) · Decisiones: [0052](../decisiones/03-moleculas/atom-snackbar/0052-snackbars-copy-y-cierre.md) · [0059](../decisiones/03-moleculas/atom-snackbar/0059-snackbars-duracion-3-y-5-s.md) · [0061](../decisiones/03-moleculas/atom-snackbar/0061-snackbars-sin-nombre.md)
+Última revisión: **2026-09-29** (sesión 13) · Decisiones: [0052](../decisiones/03-moleculas/atom-snackbar/0052-snackbars-copy-y-cierre.md) · [0059](../decisiones/03-moleculas/atom-snackbar/0059-snackbars-duracion-3-y-5-s.md) · [0061](../decisiones/03-moleculas/atom-snackbar/0061-snackbars-sin-nombre.md) · [0092](../decisiones/03-moleculas/atom-snackbar/0092-snackbars-en-atom-snackbars-stack.md)
 
 Fuente del inventario: *Inventario de snackbars · Campañas y Automatizaciones* (PDF de Silvio,
 25 sep 2026): 114 mensajes que dispara el código (72 de Campañas y 42 de Automatizaciones), con el
@@ -20,6 +20,17 @@ texto de `es.json`.
 | **Error** | Falló el servicio. | **«Entendido»**. |
 
 El snackbar va sin título (`hasHeadline` apagado): solo el cuerpo.
+
+### Componente y posición
+
+- Cada snackbar es una instancia de `❖ atom-snackbars-stack` (Web Library `12541:38052`): en el slot queda visible
+  solo el snackbar del tipo y los otros cuatro, ocultos — decisión
+  [0092](../decisiones/03-moleculas/atom-snackbar/0092-snackbars-en-atom-snackbars-stack.md).
+- Ícono y color según el tipo, del componente: Success `check-circle` en `fg/status/success`, Info `info-circle` en
+  `fg/status/informative`, Warning `exclamation-circle` en `fg/status/warning` y Error `circle-x` en `fg/status/error`.
+- Flotando en la esquina inferior derecha del frame: posición absoluta (fuera del auto layout) y constraints derecha y
+  abajo. El padding del stack deja 16 a la derecha y 40 abajo.
+- «Entendido» reemplaza por override las etiquetas que trae el stack («Revisar» en Warning y «Reintentar» en Error).
 
 *Interpretación:* «Entendido» va donde el usuario tiene que enterarse de que algo no pasó; el icon
 button alcanza cuando el mensaje confirma algo que ya se ve en pantalla.
@@ -293,6 +304,11 @@ estándar.
 
 *Verificado el 2026-09-28:* ningún snackbar de los dos archivos lleva el nombre de la campaña, el
 flujo o la lista.
+
+Desde el 29 sep son instancias de `❖ atom-snackbars-stack`
+([0092](../decisiones/03-moleculas/atom-snackbar/0092-snackbars-en-atom-snackbars-stack.md)): 32 en Campañas (24 en
+Handoff v1 y 8 en Handoff v2), 16 en Automatizaciones y 1 en la entrega de métricas. En Automatizaciones quedan tres
+`❖ atom-snackbar` ocultos y con el cuerpo vacío en `03.8 · 01`, `03.8 · 03` y `03.8 · 04`.
 
 ## Preguntas
 

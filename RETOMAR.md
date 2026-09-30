@@ -132,7 +132,10 @@ los tags de la columna Estado pasaron a m, en Campañas ([0083](decisiones/04-or
 métricas van en 2 × 2, con un caso de números largos ([0084](decisiones/05-paginas/metricas/0084-cards-del-panel-en-2x2.md)). Al final, la entrega de métricas por plantilla
 sigue las HU del FRD del 28-sep (`entregas/frd/`), con las pantallas, la tabla y los menús de los handoffs
 ([0085](decisiones/05-paginas/metricas/0085-entrega-de-metricas-alineada-al-frd.md)), y el panel lleva Enviados con `check`, «plantillas» en Errores Meta y el tooltip «Anterior»
-([0086](decisiones/05-paginas/metricas/0086-panel-check-plantillas-y-anterior.md)); los tooltips de las cards están en HU-02 ([0087](decisiones/05-paginas/metricas/0087-tooltips-de-las-cards-en-la-entrega.md)) (`historial/2026-09-29-sesion-13.md`). La documentación va en un documento por submódulo, como la de Bandeja
+([0086](decisiones/05-paginas/metricas/0086-panel-check-plantillas-y-anterior.md)); los tooltips de las cards están en HU-02 ([0087](decisiones/05-paginas/metricas/0087-tooltips-de-las-cards-en-la-entrega.md)); después, el toolbar va dentro de la tabla salvo en los casos de filtros
+([0090](decisiones/04-organismos/atom-data-table/0090-toolbar-dentro-de-la-tabla-fuera-de-filtros.md)), el scroll depende de los resultados
+([0091](decisiones/04-organismos/atom-data-table/0091-scroll-de-las-tablas-segun-resultados.md)) y los snackbars son `❖ atom-snackbars-stack`, abajo a la derecha
+([0092](decisiones/03-moleculas/atom-snackbar/0092-snackbars-en-atom-snackbars-stack.md)) (`historial/2026-09-29-sesion-13.md`). La documentación va en un documento por submódulo, como la de Bandeja
 ([0079](decisiones/06-proceso-y-fuentes/documentacion/0079-un-documento-por-submodulo.md)).
 
 ### Esperando una respuesta mía
@@ -190,7 +193,8 @@ sigue las HU del FRD del 28-sep (`entregas/frd/`), con las pantallas, la tabla y
 | Copy del flujo sin plantillas | Propuesta: «Este flujo no tiene plantillas» · «Las métricas aparecen cuando el flujo envía una plantilla.» ([0088](decisiones/05-paginas/metricas/0088-mismo-panel-campana-webhook-tipificacion-y-flujo-sin-plantillas.md)). ¿Va así? |
 | Lista dinámica y el panel | Su menú también tiene «Métricas de plantilla» (`03.3 · 19`). ¿Abre el mismo panel que Campaña, Webhook y Tipificación? |
 | Errores Meta en 0 | El FRD dice que «la card puede mostrar 0». Hoy, sin errores de Meta, el panel no muestra la sección. ¿Se agrega «0 Errores Meta»? |
-| Snackbars con el stack | Falta la clave de `❖ atom-snackbars-stack`: arrastrar una instancia desde Assets a Campañas. Después, cambiar los snackbars de los tres archivos con su copy e ícono, abajo a la derecha. |
+| Instancia suelta del stack en Campañas | En la page Campañas Handoff v1, fuera de las secciones, hay un `❖ atom-snackbars-stack` con los cinco snackbars visibles (`805:166031`, x 22494, y 19838), anterior a la instancia que dejaste de referencia. ¿Se borra? |
+| Snackbar de *Nueva UI* | En el archivo de métricas, `03.9 · 07` (page *Nueva UI*) sigue con `❖ atom-snackbar` suelto; esa page no se tocó ([0092](decisiones/03-moleculas/atom-snackbar/0092-snackbars-en-atom-snackbars-stack.md)). ¿Pasa también al stack? |
 | Paginación de Listas | 59 paginadores dicen «1 – 30 de 21 registros · Página 1 de 1». Si el texto pasa a «1 – 10 de 21 · Página 1 de 3», quedan en `first-page`; si se queda, van a `single-page`. |
 | Auditoría de estados | Reporte del 29 sep en `historial/2026-09-29-sesion-13.md`: cinco correcciones esperan el OK y tres preguntas (sidebar de Automatizaciones en Hovered, chip de filtro abierto en Pressed, textos de paginadores). |
 | Frame vacío en el archivo de métricas | En la page *Actual UI*, fuera de las secciones, hay un frame vacío «Flujo sin plantillas» de 1280 × 833 (`15369:524621`). No tengo registro de haberlo creado. ¿Se borra? |

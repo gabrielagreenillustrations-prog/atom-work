@@ -109,6 +109,7 @@ el campo **Componente**; se suma su fila en «Por número» y su lugar en «Por 
 | [0052](03-moleculas/atom-snackbar/0052-snackbars-copy-y-cierre.md) | Copy estándar y cierre según el tipo · el punto de nombres, reemplazado por [0061](03-moleculas/atom-snackbar/0061-snackbars-sin-nombre.md) |
 | [0059](03-moleculas/atom-snackbar/0059-snackbars-duracion-3-y-5-s.md) | Duración de 3 s o 5 s |
 | [0061](03-moleculas/atom-snackbar/0061-snackbars-sin-nombre.md) | Sin el nombre de la campaña, el flujo o la lista |
+| [0092](03-moleculas/atom-snackbar/0092-snackbars-en-atom-snackbars-stack.md) | En `❖ atom-snackbars-stack`, con el tipo visible, abajo a la derecha |
 
 #### ❖ atom-alert
 
@@ -369,6 +370,7 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | [0089](04-organismos/atom-data-table/0089-tags-de-estado-de-gestion-de-flujos-en-m.md) | Gestión de flujos: tags de la columna Estado en tamaño m | vigente | 2026-09-29 |
 | [0090](04-organismos/atom-data-table/0090-toolbar-dentro-de-la-tabla-fuera-de-filtros.md) | Toolbar dentro de `atom-data-table`, salvo en los casos de filtros | vigente | 2026-09-29 |
 | [0091](04-organismos/atom-data-table/0091-scroll-de-las-tablas-segun-resultados.md) | Scroll de las tablas según los resultados | vigente | 2026-09-29 |
+| [0092](03-moleculas/atom-snackbar/0092-snackbars-en-atom-snackbars-stack.md) | Snackbars en `❖ atom-snackbars-stack`, abajo a la derecha | vigente | 2026-09-29 |
 
 ## Formato
 

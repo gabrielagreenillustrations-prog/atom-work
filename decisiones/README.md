@@ -127,6 +127,8 @@ el campo **Componente**; se suma su fila en «Por número» y su lugar en «Por 
 | [0081](04-organismos/atom-data-table/0081-empty-state-paginacion-no-data-y-centrado.md) | Tablas en empty state: paginación `no-data` («Sin registros», «Sin páginas») y empty state centrado |
 | [0083](04-organismos/atom-data-table/0083-tags-de-las-columnas-en-m.md) | Tags de las columnas de tags en Size m (Campañas, columna Estado); no la columna Canal. Gestión de flujos: ver 0089 |
 | [0089](04-organismos/atom-data-table/0089-tags-de-estado-de-gestion-de-flujos-en-m.md) | Gestión de flujos: tags de la columna Estado en Size m |
+| [0090](04-organismos/atom-data-table/0090-toolbar-dentro-de-la-tabla-fuera-de-filtros.md) | Toolbar dentro de la tabla; separado solo en los casos de filtros |
+| [0091](04-organismos/atom-data-table/0091-scroll-de-las-tablas-segun-resultados.md) | Scroll vertical con la página llena; horizontal con columnas fijas |
 
 *Columna Canal (Gestión de flujos)*
 
@@ -365,6 +367,8 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | [0087](05-paginas/metricas/0087-tooltips-de-las-cards-en-la-entrega.md) | Los tooltips de las cards, en la entrega de métricas | vigente | 2026-09-29 |
 | [0088](05-paginas/metricas/0088-mismo-panel-campana-webhook-tipificacion-y-flujo-sin-plantillas.md) | Gestión de flujos: Campaña, Webhook y Tipificación abren el mismo panel; sin plantillas, solo el empty | vigente | 2026-09-29 |
 | [0089](04-organismos/atom-data-table/0089-tags-de-estado-de-gestion-de-flujos-en-m.md) | Gestión de flujos: tags de la columna Estado en tamaño m | vigente | 2026-09-29 |
+| [0090](04-organismos/atom-data-table/0090-toolbar-dentro-de-la-tabla-fuera-de-filtros.md) | Toolbar dentro de `atom-data-table`, salvo en los casos de filtros | vigente | 2026-09-29 |
+| [0091](04-organismos/atom-data-table/0091-scroll-de-las-tablas-segun-resultados.md) | Scroll de las tablas según los resultados | vigente | 2026-09-29 |
 
 ## Formato
 

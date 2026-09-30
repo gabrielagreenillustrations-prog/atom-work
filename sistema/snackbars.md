@@ -307,7 +307,8 @@ flujo o la lista.
 
 Desde el 29 sep son instancias de `❖ atom-snackbars-stack`
 ([0092](../decisiones/03-moleculas/atom-snackbar/0092-snackbars-en-atom-snackbars-stack.md)): 32 en Campañas (24 en
-Handoff v1 y 8 en Handoff v2), 16 en Automatizaciones y 1 en la entrega de métricas. En Automatizaciones quedan tres
+Handoff v1 y 8 en Handoff v2), 16 en Automatizaciones y 4 en el archivo de métricas (1 en la entrega y 3 en la page
+*Nueva UI*). En Automatizaciones quedan tres
 `❖ atom-snackbar` ocultos y con el cuerpo vacío en `03.8 · 01`, `03.8 · 03` y `03.8 · 04`.
 
 ## Preguntas

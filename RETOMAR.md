@@ -194,7 +194,6 @@ sigue las HU del FRD del 28-sep (`entregas/frd/`), con las pantallas, la tabla y
 | Lista dinámica y el panel | Su menú también tiene «Métricas de plantilla» (`03.3 · 19`). ¿Abre el mismo panel que Campaña, Webhook y Tipificación? |
 | Errores Meta en 0 | El FRD dice que «la card puede mostrar 0». Hoy, sin errores de Meta, el panel no muestra la sección. ¿Se agrega «0 Errores Meta»? |
 | Instancia suelta del stack en Campañas | En la page Campañas Handoff v1, fuera de las secciones, hay un `❖ atom-snackbars-stack` con los cinco snackbars visibles (`805:166031`, x 22494, y 19838), anterior a la instancia que dejaste de referencia. ¿Se borra? |
-| Snackbar de *Nueva UI* | En el archivo de métricas, `03.9 · 07` (page *Nueva UI*) sigue con `❖ atom-snackbar` suelto; esa page no se tocó ([0092](decisiones/03-moleculas/atom-snackbar/0092-snackbars-en-atom-snackbars-stack.md)). ¿Pasa también al stack? |
 | Paginación de Listas | 59 paginadores dicen «1 – 30 de 21 registros · Página 1 de 1». Si el texto pasa a «1 – 10 de 21 · Página 1 de 3», quedan en `first-page`; si se queda, van a `single-page`. |
 | Auditoría de estados | Reporte del 29 sep en `historial/2026-09-29-sesion-13.md`: cinco correcciones esperan el OK y tres preguntas (sidebar de Automatizaciones en Hovered, chip de filtro abierto en Pressed, textos de paginadores). |
 | Frame vacío en el archivo de métricas | En la page *Actual UI*, fuera de las secciones, hay un frame vacío «Flujo sin plantillas» de 1280 × 833 (`15369:524621`). No tengo registro de haberlo creado. ¿Se borra? |

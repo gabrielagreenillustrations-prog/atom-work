@@ -47,14 +47,16 @@ del nombre del frame; los frames sin tipo en el nombre y con «exitosamente» en
 - Campañas: 32 (12 Success, 3 Warning, 12 Error y 5 Info), 24 en Handoff v1 y 8 en Handoff v2.
 - Automatizaciones: 16 (10 Success y 6 Error). Tres `❖ atom-snackbar` ocultos y con el cuerpo vacío en
   `03.8 · 01`, `03.8 · 03` y `03.8 · 04` (Columna Canal) no se cambiaron.
-- Entrega de métricas: 1, Success «Se ha copiado exitosamente.» (Casos edge · Límite de 10 plantillas). La page
-  *Nueva UI* no se tocó.
+- Archivo de métricas: 2, los dos Success «Se ha copiado exitosamente.». Uno en la entrega (Casos edge · Límite de
+  10 plantillas) y otro en `03.9 · 07` de la page *Nueva UI*, pedido aparte por diseño: *"si deberiamos pasarlo
+  tambien al stack"*. Los otros dos snackbars de *Nueva UI* (`01.6 · 09` y `01.6 · 10`) ya eran stacks.
 - *Verificado el 2026-09-29:* en los tres archivos, cada stack tiene un solo snackbar visible, está en la esquina
   inferior derecha del frame y tiene constraints derecha y abajo. Revisado con capturas: `01.7 · 01`, `01.7 · 06`,
-  `01.7 · 10`, `02.5 · 04`, `03.8 · 02`, `03.4 · 18` y «Límite de 10 plantillas».
+  `01.7 · 10`, `02.5 · 04`, `03.8 · 02`, `03.4 · 18`, «Límite de 10 plantillas» y `03.9 · 07` de *Nueva UI*.
 - El stack queda encima de la esquina inferior derecha del contenido (por ejemplo, la tabla): es la posición
   flotante del pedido.
 - *Verificado el 2026-09-29 en Campañas:* el ícono toma el color del tipo con tokens: Success `fg/status/success`, Warning
   `fg/status/warning`, Error `fg/status/error` e Info `fg/status/informative`. Antes, con `❖ atom-snackbar` suelto,
   todos iban en `fg/quaternary`.
-- Versión de Figma «Antes de snackbars con atom-snackbars-stack» en los tres archivos.
+- Versión de Figma «Antes de snackbars con atom-snackbars-stack» en los tres archivos, y «Antes de snackbar de
+  03.9 · 07 con atom-snackbars-stack» en el de métricas.

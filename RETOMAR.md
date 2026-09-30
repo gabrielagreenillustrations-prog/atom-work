@@ -190,6 +190,7 @@ sigue las HU del FRD del 28-sep (`entregas/frd/`), con las pantallas, la tabla y
 | Copy del flujo sin plantillas | Propuesta: «Este flujo no tiene plantillas» · «Las métricas aparecen cuando el flujo envía una plantilla.» ([0088](decisiones/05-paginas/metricas/0088-mismo-panel-campana-webhook-tipificacion-y-flujo-sin-plantillas.md)). ¿Va así? |
 | Lista dinámica y el panel | Su menú también tiene «Métricas de plantilla» (`03.3 · 19`). ¿Abre el mismo panel que Campaña, Webhook y Tipificación? |
 | Errores Meta en 0 | El FRD dice que «la card puede mostrar 0». Hoy, sin errores de Meta, el panel no muestra la sección. ¿Se agrega «0 Errores Meta»? |
+| Auditoría de estados | Reporte del 29 sep en `historial/2026-09-29-sesion-13.md`: cinco correcciones esperan el OK y tres preguntas (sidebar de Automatizaciones en Hovered, chip de filtro abierto en Pressed, textos de paginadores). |
 | Frame vacío en el archivo de métricas | En la page *Actual UI*, fuera de las secciones, hay un frame vacío «Flujo sin plantillas» de 1280 × 833 (`15369:524621`). No tengo registro de haberlo creado. ¿Se borra? |
 | Lista en Actualizando | En pausa por el benchmark. Para verla: esperar la actualización agendada de la lista dinámica de prueba, agregar clientes por CSV en QA o armar el frame desde el código. Las dos listas de prueba siguen en QA (`K8eBSkS3bsBt7G5d7nL9`, `1nqAMaHaQtAJWEqVWzGu`); se borran solo con tu OK. |
 

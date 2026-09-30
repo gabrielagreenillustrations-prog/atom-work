@@ -118,6 +118,11 @@ const setTxt = async (t, v) => {
 
 **El autocompletado de la consola se traga el Enter.** Terminar la línea con `;` lo evita.
 
+**Escribir en la consola solo por accesibilidad.** `app_type` con `coordinate` y `overwrite_existing`
+escribe en el campo de la consola o se niega si no hay campo; nunca usar `target: focused`, que teclea en crudo
+donde esté el foco: el 2026-09-29 un script entero llegó al canvas de Campañas y el Return creó un «Frame 1». Antes
+del Return, `app_click` en el prompt y confirmar que el resultado dice *Console prompt*.
+
 **`app_type` a veces escribe el script dos veces** (lo pone por accesibilidad y además lo
 teclea). Con un script de lectura no pasa nada; los de escritura tienen que ser idempotentes
 —chequear el estado antes de cambiarlo— y conviene mirar el prompt con zoom antes del Return.

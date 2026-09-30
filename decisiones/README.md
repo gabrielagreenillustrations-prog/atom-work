@@ -130,6 +130,7 @@ el campo **Componente**; se suma su fila en «Por número» y su lugar en «Por 
 | [0089](04-organismos/atom-data-table/0089-tags-de-estado-de-gestion-de-flujos-en-m.md) | Gestión de flujos: tags de la columna Estado en Size m |
 | [0090](04-organismos/atom-data-table/0090-toolbar-dentro-de-la-tabla-fuera-de-filtros.md) | Toolbar dentro de la tabla; separado solo en los casos de filtros |
 | [0091](04-organismos/atom-data-table/0091-scroll-de-las-tablas-segun-resultados.md) | Scroll vertical con la página llena; horizontal con columnas fijas |
+| [0093](04-organismos/atom-data-table/0093-paginadores-de-listas-segun-el-contexto.md) | Listas: paginador «1 – 10 de 21 registros · Página 1 de 3» y `loading` en la pantalla Cargando |
 
 *Columna Canal (Gestión de flujos)*
 
@@ -371,6 +372,7 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | [0090](04-organismos/atom-data-table/0090-toolbar-dentro-de-la-tabla-fuera-de-filtros.md) | Toolbar dentro de `atom-data-table`, salvo en los casos de filtros | vigente | 2026-09-29 |
 | [0091](04-organismos/atom-data-table/0091-scroll-de-las-tablas-segun-resultados.md) | Scroll de las tablas según los resultados | vigente | 2026-09-29 |
 | [0092](03-moleculas/atom-snackbar/0092-snackbars-en-atom-snackbars-stack.md) | Snackbars en `❖ atom-snackbars-stack`, abajo a la derecha | vigente | 2026-09-29 |
+| [0093](04-organismos/atom-data-table/0093-paginadores-de-listas-segun-el-contexto.md) | Paginadores de Listas según el contexto | vigente | 2026-09-29 |
 
 ## Formato
 

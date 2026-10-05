@@ -175,6 +175,17 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 **Antes:** [0043](04-organismos/atom-dialog/0043-copy-de-detener-campana.md) → [0047](04-organismos/atom-dialog/0047-detener-campana-flujo-de-mensaje-entrante.md)  
 **Ver también:** [0041](04-organismos/atom-sidepanel-metricas/0041-side-panels-de-metricas-con-overlay.md) (el mismo backdrop en los side panels de métricas)  
 
+#### atom-chat · Chat · regla vigente: [sistema/atom-chat.md](../sistema/atom-chat.md)
+
+| # | Decisión |
+|---|---|
+| [0080](04-organismos/atom-chat/0080-un-template-por-superficie.md) | Chat: un template por superficie (inbox, assistant, wizard) sobre un kit compartido |
+| [0081](04-organismos/atom-chat/0081-simulador-es-inbox-observer.md) | El simulador es la bandeja en vista observador |
+| [0082](04-organismos/atom-chat/0082-reutilizar-componentes-de-la-web-library.md) | Chat: íconos, filas y enlaces con `❖ atom-icon`, `❖ atom-list-item` y `❖ atom-link-button` |
+| [0083](04-organismos/atom-chat/0083-prototipo-storybook-con-la-nueva-ui.md) | Prototipo del chat: storybook con la nueva UI |
+| [0084](04-organismos/atom-chat/0084-logs-de-ia-sueltos-o-agrupados.md) | Logs de IA: catálogo de verbos y vista suelta o agrupada |
+| [0085](04-organismos/atom-chat/0085-wizard-pastilla-con-pulso-sutil.md) | Wizard: la pastilla con un pulso de sombra sutil |
+
 ### Páginas (módulos)
 
 #### Métricas · regla vigente: [sistema/metricas.md](../sistema/metricas.md)
@@ -254,6 +265,12 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | # | Decisión |
 |---|---|
 | [0079](06-proceso-y-fuentes/documentacion/0079-un-documento-por-submodulo.md) | Campañas y Automatizaciones: un documento por submódulo, similar al de Bandeja |
+| [0080](04-organismos/atom-chat/0080-un-template-por-superficie.md) | Chat: un template por superficie (inbox, assistant, wizard) sobre un kit compartido | vigente | 2026-10-05 |
+| [0081](04-organismos/atom-chat/0081-simulador-es-inbox-observer.md) | El simulador es la bandeja en vista observador | vigente | 2026-10-05 |
+| [0082](04-organismos/atom-chat/0082-reutilizar-componentes-de-la-web-library.md) | Chat: íconos, filas y enlaces con `❖ atom-icon`, `❖ atom-list-item` y `❖ atom-link-button` | vigente | 2026-10-05 |
+| [0083](04-organismos/atom-chat/0083-prototipo-storybook-con-la-nueva-ui.md) | Prototipo del chat: storybook con la nueva UI | vigente | 2026-10-05 |
+| [0084](04-organismos/atom-chat/0084-logs-de-ia-sueltos-o-agrupados.md) | Logs de IA: catálogo de verbos y vista suelta o agrupada | vigente | 2026-10-05 |
+| [0085](04-organismos/atom-chat/0085-wizard-pastilla-con-pulso-sutil.md) | Wizard: la pastilla con un pulso de sombra sutil | vigente en el prototipo; sin aplicar en Figma | 2026-10-05 |
 
 ---
 

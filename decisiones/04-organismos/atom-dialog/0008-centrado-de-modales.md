@@ -1,6 +1,6 @@
 # 0008 — Los modales se centran sobre el área de contenido
 
-**Estado:** vigente
+**Estado:** vigente en Campañas y Automatizaciones; en Etiquetas, reemplazada por [0095](0095-dialogos-centrados-en-el-frame.md)
 **Fecha:** 2026-09-23
 **Alcance:** todos los modales de los dos archivos
 

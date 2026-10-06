@@ -184,6 +184,7 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 |---|---|
 | [0008](04-organismos/atom-dialog/0008-centrado-de-modales.md) | Se centran sobre el área de contenido (con el sidebar nuevo, de 288: [0080](04-organismos/atom-sidebar/0080-sidebar-nuevo-visible.md)) |
 | [0047](04-organismos/atom-dialog/0047-detener-campana-flujo-de-mensaje-entrante.md) | Detener campaña: las conversaciones vuelven al «flujo de Mensaje entrante» |
+| [0095](04-organismos/atom-dialog/0095-dialogos-centrados-en-el-frame.md) | Centrado respecto al frame completo (Etiquetas) |
 
 **Antes:** [0043](04-organismos/atom-dialog/0043-copy-de-detener-campana.md) → [0047](04-organismos/atom-dialog/0047-detener-campana-flujo-de-mensaje-entrante.md)  
 **Ver también:** [0041](04-organismos/atom-sidepanel-metricas/0041-side-panels-de-metricas-con-overlay.md) (el mismo backdrop en los side panels de métricas)  
@@ -246,6 +247,15 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | [0073](05-paginas/historial-de-conversaciones/0073-historial-canal-con-menu-y-telefono-con-copiar.md) | Canal vuelve al ícono con menú; Teléfono con `copy` en hover y tooltip «Copiar» |
 
 **Ver también:** [0031](04-organismos/atom-data-table/0031-historial-tablas-sticky-new.md) (tablas), [0072](04-organismos/atom-data-table/0072-numero-copiable-en-tablas.md) (copiar en Canal y Teléfono)  
+
+#### Etiquetas · `/settings/tags`
+
+| # | Decisión |
+|---|---|
+| [0094](05-paginas/etiquetas/0094-etiquetas-dos-propuestas-y-solo-lo-que-existe.md) | Dos propuestas (grilla y tabla), con buscador, y solo los estados que existen |
+| [0096](05-paginas/etiquetas/0096-tabla-de-etiquetas-main-con-icono-y-acciones-visibles.md) | Tabla: Nombre en Main (premade) con ícono; Editar y Eliminar siempre visibles |
+| [0097](05-paginas/etiquetas/0097-grilla-de-etiquetas-acciones-en-menu-de-la-card.md) | Grilla: acciones en el menú del header de la card |
+| [0098](05-paginas/etiquetas/0098-dialogos-de-etiquetas-copy-y-validacion.md) | Diálogos: copy normalizado y validación de Forms |
 
 ### Proceso y fuentes
 
@@ -373,6 +383,11 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | [0091](04-organismos/atom-data-table/0091-scroll-de-las-tablas-segun-resultados.md) | Scroll de las tablas según los resultados | vigente | 2026-09-29 |
 | [0092](03-moleculas/atom-snackbar/0092-snackbars-en-atom-snackbars-stack.md) | Snackbars en `❖ atom-snackbars-stack`, abajo a la derecha | vigente | 2026-09-29 |
 | [0093](04-organismos/atom-data-table/0093-paginadores-de-listas-segun-el-contexto.md) | Paginadores de Listas según el contexto | vigente | 2026-09-29 |
+| [0094](05-paginas/etiquetas/0094-etiquetas-dos-propuestas-y-solo-lo-que-existe.md) | Etiquetas: dos propuestas (grilla y tabla) y solo los estados que existen | vigente | 2026-10-06 |
+| [0095](04-organismos/atom-dialog/0095-dialogos-centrados-en-el-frame.md) | Diálogos centrados respecto al frame completo | vigente | 2026-10-06 |
+| [0096](05-paginas/etiquetas/0096-tabla-de-etiquetas-main-con-icono-y-acciones-visibles.md) | Tabla de Etiquetas: Main (premade) con ícono y acciones visibles | vigente | 2026-10-06 |
+| [0097](05-paginas/etiquetas/0097-grilla-de-etiquetas-acciones-en-menu-de-la-card.md) | Grilla de Etiquetas: acciones en el menú de la card | vigente | 2026-10-06 |
+| [0098](05-paginas/etiquetas/0098-dialogos-de-etiquetas-copy-y-validacion.md) | Diálogos de Etiquetas: copy normalizado y validación | vigente | 2026-10-06 |
 
 ## Formato
 

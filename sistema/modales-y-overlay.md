@@ -6,6 +6,8 @@
 
 ## Posición
 
+> Desde la [0095](../decisiones/04-organismos/atom-dialog/0095-dialogos-centrados-en-el-frame.md) (Etiquetas), el diálogo se centra respecto al **frame completo**: `left = (1280 − anchoDiálogo) / 2` → 440 con 400 de ancho. Campañas y Automatizaciones siguen con la regla de abajo hasta que se confirme el cambio.
+
 El diálogo se centra sobre el **área de contenido, sin el sidebar**:
 
 ```

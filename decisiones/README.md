@@ -261,6 +261,18 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | [0101](05-paginas/etiquetas/0101-snackbars-en-etiquetas.md) | Snackbars de éxito y error en crear, editar y eliminar |
 | [0102](05-paginas/etiquetas/0102-error-cierra-el-dialogo.md) | Con error, el diálogo se cierra y queda el snackbar |
 
+#### Categorías · `/settings/categories`
+
+| # | Decisión |
+|---|---|
+| [0103](05-paginas/categorias/0103-categorias-handoff-desde-qa-y-solo-lo-que-existe.md) | Handoff armado desde QA (sin FRD) y solo con lo que existe |
+| [0104](05-paginas/categorias/0104-una-columna-asociada-a-con-un-tag.md) | Una columna «Asociada a» con un tag por celda y tooltip; Activo pasa a Estado |
+| [0105](05-paginas/categorias/0105-crear-y-editar-segun-forms-patterns.md) | Crear y Editar según Forms Patterns: submit gate y «Se requiere el nombre» |
+| [0106](05-paginas/categorias/0106-snackbars-y-errores-de-categorias.md) | Snackbars de crear, editar e inactivar; error por asociación sin Reintentar |
+| [0107](05-paginas/categorias/0107-propuesta-b-categoria-en-uso-bloqueada.md) | Propuesta B: opciones en uso bloqueadas e Inactivar deshabilitado |
+
+**Ver también:** [0099](05-paginas/etiquetas/0099-errores-del-campo-segun-text-field-patterns.md) (nombre duplicado), [0101](05-paginas/etiquetas/0101-snackbars-en-etiquetas.md) y [0102](05-paginas/etiquetas/0102-error-cierra-el-dialogo.md) (snackbars)
+
 ### Proceso y fuentes
 
 #### Fuentes · regla vigente: [entregas/README.md](../entregas/README.md)
@@ -396,6 +408,11 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | [0100](05-paginas/etiquetas/0100-editar-y-eliminar-segun-dialog-patterns.md) | Etiquetas: Editar y Eliminar según Dialog Patterns | vigente | 2026-10-06 |
 | [0101](05-paginas/etiquetas/0101-snackbars-en-etiquetas.md) | Etiquetas: snackbars de éxito y error | vigente | 2026-10-06 |
 | [0102](05-paginas/etiquetas/0102-error-cierra-el-dialogo.md) | Etiquetas: con error, el diálogo se cierra | vigente | 2026-10-06 |
+| [0103](05-paginas/categorias/0103-categorias-handoff-desde-qa-y-solo-lo-que-existe.md) | Categorías: handoff desde QA y solo lo que existe | vigente | 2026-10-06 |
+| [0104](05-paginas/categorias/0104-una-columna-asociada-a-con-un-tag.md) | Categorías: una columna «Asociada a» con un tag | vigente | 2026-10-06 |
+| [0105](05-paginas/categorias/0105-crear-y-editar-segun-forms-patterns.md) | Categorías: Crear y Editar según Forms Patterns | vigente | 2026-10-06 |
+| [0106](05-paginas/categorias/0106-snackbars-y-errores-de-categorias.md) | Categorías: snackbars de crear, editar e inactivar | vigente | 2026-10-06 |
+| [0107](05-paginas/categorias/0107-propuesta-b-categoria-en-uso-bloqueada.md) | Categorías: Propuesta B, opciones en uso bloqueadas | propuesta | 2026-10-06 |
 
 ## Formato
 

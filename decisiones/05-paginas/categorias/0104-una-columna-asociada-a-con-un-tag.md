@@ -1,6 +1,6 @@
 # 0104 — Categorías: una sola columna «Asociada a», con un tag por celda y tooltip
 
-**Estado:** vigente
+**Estado:** vigente; el color Neutral, reemplazado por [0108](0108-colores-por-tipo-filtros-y-propuesta-unica.md)
 **Fecha:** 2026-10-06
 **Componente:** `❖ atom-data-table` (columna de categorización) · `❖ atom-tag` · `❖ atom-tooltip`
 **Alcance:** Categorías, todas las tablas (`01.1 · 01–07` y los fondos de 01.2–01.4).

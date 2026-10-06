@@ -1,6 +1,6 @@
 # 0107 — Categorías: Propuesta B, opciones en uso bloqueadas en vez de error
 
-**Estado:** propuesta (Propuesta A = comportamiento de producción)
+**Estado:** propuesta; el nombre «Propuesta B», reemplazado por [0108](0108-colores-por-tipo-filtros-y-propuesta-unica.md) (se llama «Propuesta»)
 **Fecha:** 2026-10-06
 **Componente:** `❖ atom-checkbox` · `❖ atom-dropdown-menu` · `❖ atom-tooltip`
 **Alcance:** Categorías, `01.3 · 08` y `01.4 · 04`, en filas «Propuesta B» separadas con más espacio.

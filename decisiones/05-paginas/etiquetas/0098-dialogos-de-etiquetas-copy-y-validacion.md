@@ -1,6 +1,6 @@
 # 0098 — Diálogos de Etiquetas: copy normalizado y validación del patrón de forms
 
-**Estado:** vigente · el copy de los errores, reemplazado por [0099](0099-errores-del-campo-segun-text-field-patterns.md)
+**Estado:** vigente · el copy de los errores, reemplazado por [0099](0099-errores-del-campo-segun-text-field-patterns.md); botón de Editar y cuerpo de Eliminar, por [0100](0100-editar-y-eliminar-segun-dialog-patterns.md)
 **Fecha:** 2026-10-06
 **Componente:** `❖ atom-dialog` · `❖ atom-text-field`
 **Alcance:** Etiquetas (`01.2`–`01.4`).

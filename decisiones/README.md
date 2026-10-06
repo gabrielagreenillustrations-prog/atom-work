@@ -257,6 +257,8 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | [0097](05-paginas/etiquetas/0097-grilla-de-etiquetas-acciones-en-menu-de-la-card.md) | Grilla: acciones en el menú del header de la card |
 | [0098](05-paginas/etiquetas/0098-dialogos-de-etiquetas-copy-y-validacion.md) | Diálogos: copy normalizado y validación de Forms |
 | [0099](05-paginas/etiquetas/0099-errores-del-campo-segun-text-field-patterns.md) | Errores: «Mínimo 3 caracteres requeridos» y «El nombre ya está en uso.» |
+| [0100](05-paginas/etiquetas/0100-editar-y-eliminar-segun-dialog-patterns.md) | Editar: botón «Editar»; Eliminar: cuerpo con la consecuencia |
+| [0101](05-paginas/etiquetas/0101-snackbars-en-etiquetas.md) | Snackbars de éxito y error en crear, editar y eliminar |
 
 ### Proceso y fuentes
 
@@ -390,6 +392,8 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | [0097](05-paginas/etiquetas/0097-grilla-de-etiquetas-acciones-en-menu-de-la-card.md) | Grilla de Etiquetas: acciones en el menú de la card | vigente | 2026-10-06 |
 | [0098](05-paginas/etiquetas/0098-dialogos-de-etiquetas-copy-y-validacion.md) | Diálogos de Etiquetas: copy normalizado y validación | vigente | 2026-10-06 |
 | [0099](05-paginas/etiquetas/0099-errores-del-campo-segun-text-field-patterns.md) | Etiquetas: errores del campo según Text Field Patterns | vigente | 2026-10-06 |
+| [0100](05-paginas/etiquetas/0100-editar-y-eliminar-segun-dialog-patterns.md) | Etiquetas: Editar y Eliminar según Dialog Patterns | vigente | 2026-10-06 |
+| [0101](05-paginas/etiquetas/0101-snackbars-en-etiquetas.md) | Etiquetas: snackbars de éxito y error | vigente | 2026-10-06 |
 
 ## Formato
 

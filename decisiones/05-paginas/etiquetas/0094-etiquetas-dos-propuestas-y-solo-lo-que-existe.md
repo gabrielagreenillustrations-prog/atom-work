@@ -1,6 +1,6 @@
 # 0094 — Etiquetas: el handoff lleva dos propuestas y solo los estados que existen hoy
 
-**Estado:** vigente
+**Estado:** vigente · los snackbars, reemplazado por [0101](0101-snackbars-en-etiquetas.md)
 **Fecha:** 2026-10-06
 **Componente:** página Etiquetas (`/settings/tags`)
 **Alcance:** archivo *Configuraciones - Adopción DS 1.0* (`musx1ZGk7hbdUdroEqiWLh`), page *Etiquetas 🟠*, sección «Handoff Etiquetas · /settings/tags».

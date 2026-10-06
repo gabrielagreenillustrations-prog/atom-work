@@ -271,6 +271,7 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | [0106](05-paginas/categorias/0106-snackbars-y-errores-de-categorias.md) | Snackbars de crear, editar e inactivar; error por asociación sin Reintentar |
 | [0107](05-paginas/categorias/0107-propuesta-b-categoria-en-uso-bloqueada.md) | Propuesta: opciones en uso bloqueadas e Inactivar deshabilitado |
 | [0108](05-paginas/categorias/0108-colores-por-tipo-filtros-y-propuesta-unica.md) | Tags con color por tipo y tooltip por tipo; un frame por filtro; una sola propuesta |
+| [0109](05-paginas/categorias/0109-filters-panel-segun-patterns.md) | Filters panel completo y de tamaño fijo, según Filters panel patterns |
 
 **Ver también:** [0099](05-paginas/etiquetas/0099-errores-del-campo-segun-text-field-patterns.md) (nombre duplicado), [0101](05-paginas/etiquetas/0101-snackbars-en-etiquetas.md) y [0102](05-paginas/etiquetas/0102-error-cierra-el-dialogo.md) (snackbars)
 
@@ -415,6 +416,7 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | [0106](05-paginas/categorias/0106-snackbars-y-errores-de-categorias.md) | Categorías: snackbars de crear, editar e inactivar | vigente | 2026-10-06 |
 | [0107](05-paginas/categorias/0107-propuesta-b-categoria-en-uso-bloqueada.md) | Categorías: propuesta de opciones en uso bloqueadas | propuesta | 2026-10-06 |
 | [0108](05-paginas/categorias/0108-colores-por-tipo-filtros-y-propuesta-unica.md) | Categorías: color por tipo de asociación, un frame por filtro y una sola propuesta | vigente | 2026-10-06 |
+| [0109](05-paginas/categorias/0109-filters-panel-segun-patterns.md) | Categorías: filters panel completo, según Filters panel patterns | vigente | 2026-10-06 |
 
 ## Formato
 

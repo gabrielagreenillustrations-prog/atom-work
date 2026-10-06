@@ -59,6 +59,10 @@ Frame
 En Automatizaciones, los frames de modal tienen además un frame `Con datos` en x = 1280, fuera del
 área visible. Se quedan: diseño decidió no borrarlos (2026-09-24).
 
+## Texto del body
+
+El texto del body usa el text style **`Desktop (Inter)/caption/captionRegular`** (16/24). Pedido de diseño, 2026-10-06; aplicado en Etiquetas `01.4 · 01` y `01.4 · 03`.
+
 ## Botones
 
 `Cancelar` (secundario) · acción principal a la derecha. En los modales de advertencia

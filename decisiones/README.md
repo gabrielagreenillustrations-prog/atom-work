@@ -259,6 +259,7 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | [0099](05-paginas/etiquetas/0099-errores-del-campo-segun-text-field-patterns.md) | Errores: «Mínimo 3 caracteres requeridos» y «El nombre ya está en uso.» |
 | [0100](05-paginas/etiquetas/0100-editar-y-eliminar-segun-dialog-patterns.md) | Editar: botón «Editar»; Eliminar: cuerpo con la consecuencia |
 | [0101](05-paginas/etiquetas/0101-snackbars-en-etiquetas.md) | Snackbars de éxito y error en crear, editar y eliminar |
+| [0102](05-paginas/etiquetas/0102-error-cierra-el-dialogo.md) | Con error, el diálogo se cierra y queda el snackbar |
 
 ### Proceso y fuentes
 
@@ -394,6 +395,7 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | [0099](05-paginas/etiquetas/0099-errores-del-campo-segun-text-field-patterns.md) | Etiquetas: errores del campo según Text Field Patterns | vigente | 2026-10-06 |
 | [0100](05-paginas/etiquetas/0100-editar-y-eliminar-segun-dialog-patterns.md) | Etiquetas: Editar y Eliminar según Dialog Patterns | vigente | 2026-10-06 |
 | [0101](05-paginas/etiquetas/0101-snackbars-en-etiquetas.md) | Etiquetas: snackbars de éxito y error | vigente | 2026-10-06 |
+| [0102](05-paginas/etiquetas/0102-error-cierra-el-dialogo.md) | Etiquetas: con error, el diálogo se cierra | vigente | 2026-10-06 |
 
 ## Formato
 

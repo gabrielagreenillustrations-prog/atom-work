@@ -1,6 +1,6 @@
 # 0101 — Etiquetas: snackbars de éxito y error en crear, editar y eliminar
 
-**Estado:** vigente · reemplaza el punto «sin snackbars» de la [0094](0094-etiquetas-dos-propuestas-y-solo-lo-que-existe.md)
+**Estado:** vigente; el comportamiento con error, reemplazado por [0102](0102-error-cierra-el-dialogo.md) · reemplaza el punto «sin snackbars» de la [0094](0094-etiquetas-dos-propuestas-y-solo-lo-que-existe.md)
 **Fecha:** 2026-10-06
 **Componente:** `❖ atom-snackbars-stack`
 **Alcance:** Etiquetas (`01.2 · 06–07`, `01.3 · 05–06`, `01.4 · 02–03`).

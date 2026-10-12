@@ -1,6 +1,6 @@
 # 0118 — Stickers: handoff desde QA, grilla de `❖ atom-card` responsive
 
-**Estado:** vigente · las imágenes de ejemplo, reemplazadas por [0124](0124-stickers-imagenes-de-ejemplo.md)
+**Estado:** vigente · las imágenes de ejemplo, reemplazadas por [0124](0124-stickers-imagenes-de-ejemplo.md); el ancho fluido, por [0126](0126-stickers-cards-de-ancho-fijo.md)
 **Fecha:** 2026-10-12
 **Componente:** página Stickers (`/settings/stickers`) · `❖ atom-card`
 **Alcance:** sección «Handoff Stickers · /settings/stickers» del Figma de Configuraciones (page «Stickers 🟠»), `01.1 · 01–15`.

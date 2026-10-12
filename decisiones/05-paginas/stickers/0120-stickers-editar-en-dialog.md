@@ -1,6 +1,6 @@
 # 0120 — Stickers: Editar en un dialog (propuesta)
 
-**Estado:** propuesta
+**Estado:** vigente · la fila actual, reemplazada por [0127](0127-stickers-editar-solo-desde-el-menu.md)
 **Fecha:** 2026-10-12
 **Componente:** `❖ atom-dialog` · `❖ atom-text-field`
 **Alcance:** Stickers, `01.3 · 01` (actual) y `01.3 · 02–08` (propuesta).

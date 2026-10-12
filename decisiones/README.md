@@ -283,12 +283,13 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | [0118](05-paginas/stickers/0118-stickers-handoff-desde-qa-grilla-de-atom-card.md) | Handoff desde QA; grilla fluida de `❖ atom-card` de 140 a 168 px, sin frames contenedores |
 | [0123](04-organismos/atom-card/0123-acciones-de-la-card-siempre-visibles.md) | Acciones de la card en un ⋮ siempre visible con menú (estándar de `❖ atom-card`) |
 | [0119](05-paginas/stickers/0119-stickers-snackbars-y-errores-de-subida.md) | Alertas inline pasan a snackbars; errores de subida como Warning |
-| [0120](05-paginas/stickers/0120-stickers-editar-en-dialog.md) | Propuesta: Editar en dialog; vacío y nombre en uso (por validar con desarrollo) |
+| [0120](05-paginas/stickers/0120-stickers-editar-en-dialog.md) | Editar en dialog; vacío y nombre en uso (por validar con desarrollo) |
 | [0121](05-paginas/stickers/0121-stickers-eliminar-con-dialog-destructivo.md) | Propuesta: Eliminar con dialog destructivo |
 | [0122](05-paginas/stickers/0122-stickers-empty-states-y-carga.md) | Empty states con los textos del Web Library, en Fill y centrados; carga con skeleton |
 | [0124](05-paginas/stickers/0124-stickers-imagenes-de-ejemplo.md) | Imágenes de ejemplo: stickers de negocio neutros, sin marcas ni personas |
 | [0125](05-paginas/stickers/0125-stickers-imagen-en-la-card.md) | Imagen en la card: todo archivo es 512 × 512; contain, centrada, 124 px |
 | [0126](05-paginas/stickers/0126-stickers-cards-de-ancho-fijo.md) | Cards de 168 px fijos; la última fila puede quedar incompleta |
+| [0127](05-paginas/stickers/0127-stickers-editar-solo-desde-el-menu.md) | El nombre se edita solo desde el menú ⋮, en el dialog; sin edición en la card |
 
 **Ver también:** [0099](05-paginas/etiquetas/0099-errores-del-campo-segun-text-field-patterns.md) (nombre en uso), [0102](05-paginas/etiquetas/0102-error-cierra-el-dialogo.md) (con error se cierra el diálogo), [0113](05-paginas/etiquetas/0113-buscador-buscar-etiquetas-por-nombre.md) (buscador)
 
@@ -437,13 +438,14 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | [0110](05-paginas/categorias/0110-inactivar-en-uso-con-dialogo-y-todos-los-casos.md) | Categorías: Inactivar en uso con aviso y todos los casos de uso | propuesta | 2026-10-06 |
 | [0118](05-paginas/stickers/0118-stickers-handoff-desde-qa-grilla-de-atom-card.md) | Stickers: handoff desde QA, grilla de `❖ atom-card` responsive | vigente | 2026-10-12 |
 | [0119](05-paginas/stickers/0119-stickers-snackbars-y-errores-de-subida.md) | Stickers: snackbars y errores de subida | vigente | 2026-10-12 |
-| [0120](05-paginas/stickers/0120-stickers-editar-en-dialog.md) | Stickers: Editar en un dialog | propuesta | 2026-10-12 |
+| [0120](05-paginas/stickers/0120-stickers-editar-en-dialog.md) | Stickers: Editar en un dialog | vigente · fila actual reemplazada por 0127 | 2026-10-12 |
 | [0121](05-paginas/stickers/0121-stickers-eliminar-con-dialog-destructivo.md) | Stickers: Eliminar con dialog destructivo | propuesta | 2026-10-12 |
 | [0122](05-paginas/stickers/0122-stickers-empty-states-y-carga.md) | Stickers: empty states con los textos del Web Library y carga con skeleton | vigente | 2026-10-12 |
 | [0123](04-organismos/atom-card/0123-acciones-de-la-card-siempre-visibles.md) | `❖ atom-card`: las acciones van en un ⋮ siempre visible | vigente | 2026-10-12 |
 | [0124](05-paginas/stickers/0124-stickers-imagenes-de-ejemplo.md) | Stickers: imágenes de ejemplo como stickers de negocio | vigente | 2026-10-12 |
 | [0125](05-paginas/stickers/0125-stickers-imagen-en-la-card.md) | Stickers: cómo se ajusta la imagen en la card | vigente | 2026-10-12 |
 | [0126](05-paginas/stickers/0126-stickers-cards-de-ancho-fijo.md) | Stickers: cards de ancho fijo; la última fila puede quedar incompleta | vigente | 2026-10-12 |
+| [0127](05-paginas/stickers/0127-stickers-editar-solo-desde-el-menu.md) | Stickers: el nombre se edita solo desde el menú, en un dialog | vigente | 2026-10-12 |
 
 ## Formato
 

@@ -276,6 +276,19 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 
 **Ver también:** [0099](05-paginas/etiquetas/0099-errores-del-campo-segun-text-field-patterns.md) (nombre duplicado), [0101](05-paginas/etiquetas/0101-snackbars-en-etiquetas.md) y [0102](05-paginas/etiquetas/0102-error-cierra-el-dialogo.md) (snackbars)
 
+#### Stickers · `/settings/stickers`
+
+| # | Decisión |
+|---|---|
+| [0118](05-paginas/stickers/0118-stickers-handoff-desde-qa-grilla-de-atom-card.md) | Handoff desde QA; grilla fluida de `❖ atom-card` de 140 a 168 px, sin frames contenedores |
+| [0123](04-organismos/atom-card/0123-acciones-de-la-card-siempre-visibles.md) | Acciones de la card en un ⋮ siempre visible con menú (estándar de `❖ atom-card`) |
+| [0119](05-paginas/stickers/0119-stickers-snackbars-y-errores-de-subida.md) | Alertas inline pasan a snackbars; errores de subida como Warning |
+| [0120](05-paginas/stickers/0120-stickers-editar-en-dialog.md) | Propuesta: Editar en dialog; vacío y nombre en uso (por validar con desarrollo) |
+| [0121](05-paginas/stickers/0121-stickers-eliminar-con-dialog-destructivo.md) | Propuesta: Eliminar con dialog destructivo |
+| [0122](05-paginas/stickers/0122-stickers-empty-states-y-carga.md) | Empty states con los textos del Web Library, en Fill y centrados; carga con skeleton |
+
+**Ver también:** [0099](05-paginas/etiquetas/0099-errores-del-campo-segun-text-field-patterns.md) (nombre en uso), [0102](05-paginas/etiquetas/0102-error-cierra-el-dialogo.md) (con error se cierra el diálogo), [0113](05-paginas/etiquetas/0113-buscador-buscar-etiquetas-por-nombre.md) (buscador)
+
 ### Proceso y fuentes
 
 #### Fuentes · regla vigente: [entregas/README.md](../entregas/README.md)
@@ -419,6 +432,12 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | [0108](05-paginas/categorias/0108-colores-por-tipo-filtros-y-propuesta-unica.md) | Categorías: color por tipo de asociación, un frame por filtro y una sola propuesta | vigente | 2026-10-06 |
 | [0109](05-paginas/categorias/0109-filters-panel-segun-patterns.md) | Categorías: filters panel completo, según Filters panel patterns | vigente | 2026-10-06 |
 | [0110](05-paginas/categorias/0110-inactivar-en-uso-con-dialogo-y-todos-los-casos.md) | Categorías: Inactivar en uso con aviso y todos los casos de uso | propuesta | 2026-10-06 |
+| [0118](05-paginas/stickers/0118-stickers-handoff-desde-qa-grilla-de-atom-card.md) | Stickers: handoff desde QA, grilla de `❖ atom-card` responsive | vigente | 2026-10-12 |
+| [0119](05-paginas/stickers/0119-stickers-snackbars-y-errores-de-subida.md) | Stickers: snackbars y errores de subida | vigente | 2026-10-12 |
+| [0120](05-paginas/stickers/0120-stickers-editar-en-dialog.md) | Stickers: Editar en un dialog | propuesta | 2026-10-12 |
+| [0121](05-paginas/stickers/0121-stickers-eliminar-con-dialog-destructivo.md) | Stickers: Eliminar con dialog destructivo | propuesta | 2026-10-12 |
+| [0122](05-paginas/stickers/0122-stickers-empty-states-y-carga.md) | Stickers: empty states con los textos del Web Library y carga con skeleton | vigente | 2026-10-12 |
+| [0123](04-organismos/atom-card/0123-acciones-de-la-card-siempre-visibles.md) | `❖ atom-card`: las acciones van en un ⋮ siempre visible | vigente | 2026-10-12 |
 
 ## Formato
 

@@ -1,6 +1,6 @@
 # 0125 — Stickers: cómo se ajusta la imagen en la card
 
-**Estado:** vigente
+**Estado:** vigente · cómo va la imagen en la card, reemplazado por la [0128](0128-stickers-imagenes-de-internet-como-relleno-de-la-card.md)
 **Fecha:** 2026-10-12
 **Componente:** `❖ atom-card` (área de imagen)
 **Alcance:** Stickers, `01.1 · 16` (specs) y todas las cards.

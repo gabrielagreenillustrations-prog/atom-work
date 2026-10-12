@@ -286,11 +286,12 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | [0120](05-paginas/stickers/0120-stickers-editar-en-dialog.md) | Editar en dialog; vacío y nombre en uso (por validar con desarrollo) |
 | [0121](05-paginas/stickers/0121-stickers-eliminar-con-dialog-destructivo.md) | Propuesta: Eliminar con dialog destructivo |
 | [0122](05-paginas/stickers/0122-stickers-empty-states-y-carga.md) | Empty states con los textos del Web Library, en Fill y centrados; carga con skeleton |
-| [0124](05-paginas/stickers/0124-stickers-imagenes-de-ejemplo.md) | Imágenes de ejemplo: stickers de negocio neutros, sin marcas ni personas |
-| [0125](05-paginas/stickers/0125-stickers-imagen-en-la-card.md) | Imagen en la card: todo archivo es 512 × 512; contain, centrada, 124 px |
+| [0125](05-paginas/stickers/0125-stickers-imagen-en-la-card.md) | Imagen en la card: todo archivo es 512 × 512; contain, centrada (cómo va en la card: 0128) |
 | [0126](05-paginas/stickers/0126-stickers-cards-de-ancho-fijo.md) | Cards de 168 px fijos; la última fila puede quedar incompleta |
 | [0127](05-paginas/stickers/0127-stickers-editar-solo-desde-el-menu.md) | El nombre se edita solo desde el menú ⋮, en el dialog; sin edición en la card |
+| [0128](05-paginas/stickers/0128-stickers-imagenes-de-internet-como-relleno-de-la-card.md) | Imágenes de ejemplo de internet (Fluent Emoji, MIT) como relleno del `↳ ImageSlot`; sin componentes locales |
 
+**Antes:** [0124](05-paginas/stickers/0124-stickers-imagenes-de-ejemplo.md) → [0128](05-paginas/stickers/0128-stickers-imagenes-de-internet-como-relleno-de-la-card.md)  
 **Ver también:** [0099](05-paginas/etiquetas/0099-errores-del-campo-segun-text-field-patterns.md) (nombre en uso), [0102](05-paginas/etiquetas/0102-error-cierra-el-dialogo.md) (con error se cierra el diálogo), [0113](05-paginas/etiquetas/0113-buscador-buscar-etiquetas-por-nombre.md) (buscador)
 
 ### Proceso y fuentes
@@ -442,10 +443,11 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | [0121](05-paginas/stickers/0121-stickers-eliminar-con-dialog-destructivo.md) | Stickers: Eliminar con dialog destructivo | propuesta | 2026-10-12 |
 | [0122](05-paginas/stickers/0122-stickers-empty-states-y-carga.md) | Stickers: empty states con los textos del Web Library y carga con skeleton | vigente | 2026-10-12 |
 | [0123](04-organismos/atom-card/0123-acciones-de-la-card-siempre-visibles.md) | `❖ atom-card`: las acciones van en un ⋮ siempre visible | vigente | 2026-10-12 |
-| [0124](05-paginas/stickers/0124-stickers-imagenes-de-ejemplo.md) | Stickers: imágenes de ejemplo como stickers de negocio | vigente | 2026-10-12 |
-| [0125](05-paginas/stickers/0125-stickers-imagen-en-la-card.md) | Stickers: cómo se ajusta la imagen en la card | vigente | 2026-10-12 |
+| [0124](05-paginas/stickers/0124-stickers-imagenes-de-ejemplo.md) | Stickers: imágenes de ejemplo como stickers de negocio | reemplazada por 0128 | 2026-10-12 |
+| [0125](05-paginas/stickers/0125-stickers-imagen-en-la-card.md) | Stickers: cómo se ajusta la imagen en la card | vigente · imagen en la card reemplazada por 0128 | 2026-10-12 |
 | [0126](05-paginas/stickers/0126-stickers-cards-de-ancho-fijo.md) | Stickers: cards de ancho fijo; la última fila puede quedar incompleta | vigente | 2026-10-12 |
 | [0127](05-paginas/stickers/0127-stickers-editar-solo-desde-el-menu.md) | Stickers: el nombre se edita solo desde el menú, en un dialog | vigente | 2026-10-12 |
+| [0128](05-paginas/stickers/0128-stickers-imagenes-de-internet-como-relleno-de-la-card.md) | Stickers: imágenes de internet como relleno del ImageSlot de la card | vigente | 2026-10-12 |
 
 ## Formato
 

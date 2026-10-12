@@ -1,6 +1,6 @@
 # 0124 — Stickers: imágenes de ejemplo como stickers de negocio
 
-**Estado:** vigente · reemplaza en la [0118](0118-stickers-handoff-desde-qa-grilla-de-atom-card.md) las imágenes de ejemplo
+**Estado:** reemplazada por la [0128](0128-stickers-imagenes-de-internet-como-relleno-de-la-card.md) · reemplazaba en la [0118](0118-stickers-handoff-desde-qa-grilla-de-atom-card.md) las imágenes de ejemplo
 **Fecha:** 2026-10-12
 **Componente:** componentes locales `sticker-ejemplo/…` (frame «Assets · Stickers de ejemplo»)
 **Alcance:** todas las cards de Stickers.

@@ -13,3 +13,4 @@ reflejan el estado vigente, no el historial.
 | [metricas.md](metricas.md) | Nombres de métricas, desgloses, contadores, las dos versiones del panel y el benchmark |
 | [snackbars.md](snackbars.md) | Copy y cierre de los snackbars, con la tabla de los mensajes del código |
 | [acciones-no-disponibles.md](acciones-no-disponibles.md) | Por qué las acciones que no aplican se ocultan en los menús y cuándo va Disabled |
+| [atom-chat.md](atom-chat.md) | Chat atom-chat v2: templates, kit, instancias, logs de IA, prototipo y pendientes |

@@ -45,6 +45,33 @@ locks de apps: llamar antes a `computer_release_lock`.
 la consola y crearon capas de texto y un `Frame 1` dentro de un archivo de entrega ajeno.
 Se recuperó con `cmd+z`. **Verificá siempre el resultado del click antes de escribir.**
 
+**Si el texto fue al canvas, revisar también dentro de los slots.** El 2026-09-29 un script se
+tecleó sobre Conversaciones y el Return creó un «Frame N» de 100 × 100 dentro del slot de un side panel.
+Una búsqueda que no entra en las instancias no lo encuentra: usar `findAllWithCriteria` sobre la page
+y buscar frames `Frame N` de 100 × 100 sin hijos.
+
+**Cuando `app_type` responde «readback unchanged», el texto puede quedar duplicado.** Antes de
+Return, mirar el prompt; si está duplicado, cmd+a y `app_type` con `overwrite_existing`.
+
+**Copiar frames entre archivos.** La API no copia entre archivos y, en segundo plano, cmd+c y *Edit → Copy*
+están bloqueados. Con control de pantalla completa: seleccionar por consola, hacer foco en el canvas sin
+cambiar la selección (clic del medio en una zona vacía), cmd+c, esperar un momento, pasar a la otra
+pestaña, clic en una zona vacía para deseleccionar y cmd+v. Mirar antes que no haya una notificación encima
+del punto del clic: si el clic no llega, cmd+c no copia y cmd+v pega lo que había en el portapapeles.
+Después, contar por consola lo pegado.
+
+**Los conectores se borran con su punto de anclaje.** Si un conector está unido a una capa (por ejemplo,
+un overlay) y esa capa se borra, el conector desaparece. La API no crea conectores en archivos de diseño:
+antes de reemplazar capas, buscar conectores unidos a ellas.
+
+**Las capturas del MCP de Figma pueden venir atrasadas.** Para revisar un cambio recién hecho, exportar
+por consola (`exportAsync`) en lugar de `get_screenshot`.
+
+**Si un cambio hace crecer un side panel, mirar si la pantalla lo recorta.** Los paneles tienen alto
+fijo, sin recorte, y el contenido sigue hacia abajo; en la entrega de métricas lo recorta la pantalla.
+Si la pantalla tampoco recorta, el contenido sale por debajo del frame (pasó en Campañas `01.6 · 02` al
+poner las cards en 2 × 2). Revisar con una exportación del frame completo, no solo del panel.
+
 **Nunca `figma.triggerUndo()`.** No deshace el último cambio: deshace de una vez todo lo que se hizo
 por consola desde que se abrió la pestaña. El 2026-09-24 revirtió en Automatizaciones el trabajo de
 varias sesiones y *Edit → Redo* no lo recuperó. Se recuperó con *File → Show Version History* → clic
@@ -90,6 +117,11 @@ const setTxt = async (t, v) => {
 ```
 
 **El autocompletado de la consola se traga el Enter.** Terminar la línea con `;` lo evita.
+
+**Escribir en la consola solo por accesibilidad.** `app_type` con `coordinate` y `overwrite_existing`
+escribe en el campo de la consola o se niega si no hay campo; nunca usar `target: focused`, que teclea en crudo
+donde esté el foco: el 2026-09-29 un script entero llegó al canvas de Campañas y el Return creó un «Frame 1». Antes
+del Return, `app_click` en el prompt y confirmar que el resultado dice *Console prompt*.
 
 **`app_type` a veces escribe el script dos veces** (lo pone por accesibilidad y además lo
 teclea). Con un script de lectura no pasa nada; los de escritura tienen que ser idempotentes
@@ -290,6 +322,21 @@ copiarlas: no aceptar.
 - Un `CHANGE_TO` necesita una variante del mismo set que el componente de la instancia en el archivo
   destino (`(await n.getMainComponentAsync()).parent.children`). `importComponentByKeyAsync` trae otra
   copia, y con ella `setReactionsAsync` falla.
+
+**Cuando diseño elige una opción con un link, leer ese frame.** Diseño puede haberlo ajustado después de
+que lo armé: el 8 oct, la opción B de colores tenía Success e íconos que yo no había puesto, y la apliqué
+mal desde mis notas. Copiar las propiedades de las instancias del frame elegido.
+
+**Los cambios masivos de instancias bloquean Figma.** 424 `setProperties` en 31 frames tardaron entre 4 y
+10 minutos, y mientras tanto la consola no responde. El avance se ve con `get_screenshot` del MCP de
+escritorio. Leer filas con un `findAll` por tag es aún más lento: juntar los textos una vez por frame.
+
+**El `State` de una celda de tabla reemplaza su contenido.** Pasar una `_table-data-cell` a Hover borró el
+ícono y el botón del slot. Para simular hover, no cambiar esa variante.
+
+**Ícono que muestra su nombre como texto.** Si un `❖ atom-icon (DEPRECATED)` muestra «TAG» en vez del
+glifo, la variable de fuente apunta a otra familia (Brands): desligar `fontFamily` y poner Font Awesome 7
+Pro Regular, como el ícono de los list items.
 
 ---
 

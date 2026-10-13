@@ -1,13 +1,14 @@
 # Acciones no disponibles
 
-Última revisión: **2026-09-28** (sesión 12) · Decisión: [0053](../decisiones/03-moleculas/atom-dropdown-menu/0053-acciones-no-disponibles-se-ocultan.md)
+Última revisión: **2026-10-08** · Decisiones: [0053](../decisiones/03-moleculas/atom-dropdown-menu/0053-acciones-no-disponibles-se-ocultan.md) · [0115](../decisiones/05-paginas/categorias/0115-inactivar-en-uso-deshabilitado-con-tooltip.md) (excepción)
 
 ---
 
 ## Regla
 
 En un **menú de acciones** (el menú «más acciones» de una fila, o cualquier menú contextual), una
-acción que no aplica al estado del objeto **no se muestra**. No hay ítems en Disabled.
+acción que no aplica al estado del objeto **no se muestra**. No hay ítems en Disabled. Hay una
+excepción, en Categorías ([más abajo](#excepción-categorías)).
 
 - El orden relativo de las acciones es fijo: si una acción no está, las demás no cambian de orden.
 - El menú cambia de largo según el estado. Si abre hacia arriba, se acomoda para no tapar el botón
@@ -57,6 +58,22 @@ aplicados. Si el motivo no es evidente, un tooltip lo explica.
 
 *Verificado el 2026-09-26:* ningún menú de `01.4` ni de `03.3` tiene ítems en Disabled. Los menús de
 campañas dinámicas siguen la [0054](../decisiones/05-paginas/resultados-de-campanas/0054-dinamicas-con-error-detener-y-duplicar.md).
+
+## Excepción: Categorías
+
+En el menú de una categoría en uso, **«Inactivar» se muestra en Disabled** y, al pasar el cursor, un
+tooltip dice «No puedes inactivarla porque está en uso» (`01.4 · 03–04`,
+[0115](../decisiones/05-paginas/categorias/0115-inactivar-en-uso-deshabilitado-con-tooltip.md)).
+
+- **Por qué ahí sí:** en Campañas y Gestión de flujos las acciones no disponibles se ocultan porque los
+  motivos cambian según el estado. En Categorías hay un solo motivo, que se explica con un texto fijo
+  (pedido de diseño).
+- **El tooltip no da detalle:** no dice si es en respuestas rápidas o en plantillas, ni cuántos registros.
+- **Lo que pide a desarrollo** (*interpretación*): el argumento de arriba («un ítem deshabilitado no
+  recibe el cursor ni el foco») vale para el `disabled` nativo. Para que haya tooltip, el ítem va con el
+  aspecto de Disabled y `aria-disabled="true"`, recibe hover y foco, y el clic no hace nada.
+- No es un patrón general: otro módulo que quiera mostrar una acción en Disabled necesita su propia
+  decisión.
 
 ## Pendiente de validar
 

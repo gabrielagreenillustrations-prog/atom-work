@@ -3,7 +3,7 @@
 Este archivo existe para abrir una conversación nueva con Claude sin volver a explicar
 nada. **Copiá el bloque de abajo y pegalo tal cual.**
 
-Última actualización: **2026-09-29**
+Última actualización: **2026-10-08**
 
 ---
 
@@ -124,10 +124,34 @@ Con las respuestas de diseño: cerrar «Detalles del flujo» con el nombre en ed
 ([0077](decisiones/01-fundamentos/iconografia/0077-atom-icon-vigente-en-las-tablas.md)); `03.3 · 01` muestra `ellipsis-vertical`; los filtros abiertos de Historial usan la tabla
 de las demás pantallas; «Número asociado» en los modales queda como está, y `03.4 · 04` lo eliminó diseño.
 
+La sesión 13 (29 sep) dejó visible el sidebar nuevo en los dos archivos, con el contenido desde x = 288 y lo suelto
+realineado ([0080](decisiones/04-organismos/atom-sidebar/0080-sidebar-nuevo-visible.md)); las tablas con empty state
+llevan la paginación en `no-data` y el empty state centrado ([0081](decisiones/04-organismos/atom-data-table/0081-empty-state-paginacion-no-data-y-centrado.md));
+en Resultados Entregados pasó a `fg/secondary` y Leídos a azul ([0082](decisiones/05-paginas/metricas/0082-colores-de-metricas-en-resultados.md));
+los tags de la columna Estado pasaron a m, en Campañas ([0083](decisiones/04-organismos/atom-data-table/0083-tags-de-las-columnas-en-m.md)) y en Gestión de flujos ([0089](decisiones/04-organismos/atom-data-table/0089-tags-de-estado-de-gestion-de-flujos-en-m.md)); y las cards del panel de
+métricas van en 2 × 2, con un caso de números largos ([0084](decisiones/05-paginas/metricas/0084-cards-del-panel-en-2x2.md)). Al final, la entrega de métricas por plantilla
+sigue las HU del FRD del 28-sep (`entregas/frd/`), con las pantallas, la tabla y los menús de los handoffs
+([0085](decisiones/05-paginas/metricas/0085-entrega-de-metricas-alineada-al-frd.md)), y el panel lleva Enviados con `check`, «plantillas» en Errores Meta y el tooltip «Anterior»
+([0086](decisiones/05-paginas/metricas/0086-panel-check-plantillas-y-anterior.md)); los tooltips de las cards están en HU-02 ([0087](decisiones/05-paginas/metricas/0087-tooltips-de-las-cards-en-la-entrega.md)); después, el toolbar va dentro de la tabla salvo en los casos de filtros
+([0090](decisiones/04-organismos/atom-data-table/0090-toolbar-dentro-de-la-tabla-fuera-de-filtros.md)), el scroll depende de los resultados
+([0091](decisiones/04-organismos/atom-data-table/0091-scroll-de-las-tablas-segun-resultados.md)) y los snackbars son `❖ atom-snackbars-stack`, abajo a la derecha
+([0092](decisiones/03-moleculas/atom-snackbar/0092-snackbars-en-atom-snackbars-stack.md)) (`historial/2026-09-29-sesion-13.md`). La documentación va en un documento por submódulo, como la de Bandeja
+([0079](decisiones/06-proceso-y-fuentes/documentacion/0079-un-documento-por-submodulo.md)).
+
+Desde el 6 de octubre también está el archivo *Configuraciones - Adopción DS 1.0*, con Etiquetas y
+Categorías (decisiones 0094–0115). El 8 de octubre se cerraron las propuestas: Etiquetas va solo con
+`❖ atom-list-item`, en una grilla fluida de ítems de 240 a 320 px y con el buscador «Buscar etiquetas por
+nombre...» ([0111](decisiones/05-paginas/etiquetas/0111-solo-atom-list-item.md)–[0113](decisiones/05-paginas/etiquetas/0113-buscador-buscar-etiquetas-por-nombre.md)).
+En Categorías, Editar bloquea la opción en uso, sin conteo ni link ([0114](decisiones/05-paginas/categorias/0114-editar-opcion-en-uso-bloqueada-sin-conteo.md)),
+e Inactivar en uso va en Disabled con tooltip, una excepción a la 0053 ([0115](decisiones/05-paginas/categorias/0115-inactivar-en-uso-deshabilitado-con-tooltip.md)).
+«Asociada a» quedó en Info con `bolt`, Success con `message` y Neutral, con datos de ejemplo parejos ([0116](decisiones/05-paginas/categorias/0116-asociada-a-info-success-neutral-y-datos-parejos.md)). Para Etiquetas hay tres propuestas de vista para el CTO, aparte del handoff ([0117](decisiones/05-paginas/etiquetas/0117-tres-propuestas-de-vista-para-decidir.md); `historial/2026-10-08-etiquetas-y-categorias.md`).
+
 ### Esperando una respuesta mía
 
 | Qué | Pregunta |
 |---|---|
+| Propuestas de Etiquetas | Hay tres vistas para el CTO en «Propuestas · Etiquetas · Ver etiquetas» ([0117](decisiones/05-paginas/etiquetas/0117-tres-propuestas-de-vista-para-decidir.md)). ¿Cuál se elige? El handoff sigue con list items. |
+| Placeholders con «...» | La regla nueva ([0113](decisiones/05-paginas/etiquetas/0113-buscador-buscar-etiquetas-por-nombre.md)) pide «...» en el placeholder. Campañas, Listas e Historial no lo tienen en sus archivos. ¿Los alineo? |
 | «Categoría de errores unificada con las cards» | ¿A qué se refiere? No está en la lista de cambios aplicados. |
 | Dinámicas | Las tablas de ejemplo muestran Activa (83 filas) y Detenida (8). ¿Se agrega una fila de ejemplo En pausa? |
 | Card «Menú de fila» (`10:27362`) | Ahora describe el mapa de 03.3 y se acortó para que entre (636 de 812 px). ¿Te sirve así o preferís agrandar la card? |
@@ -171,6 +195,18 @@ de las demás pantallas; «Número asociado» en los modales queda como está, y
 | Error con el nombre vacío | Con el campo vacío, Enter muestra error ([0078](decisiones/05-paginas/gestion-de-flujos/0078-nombre-vacio-en-detalles-del-flujo.md)). ¿Qué texto lleva el tooltip? ¿Armo un frame del caso? |
 | Documentación de Bandeja | La [0079](decisiones/06-proceso-y-fuentes/documentacion/0079-un-documento-por-submodulo.md) toma como modelo la documentación de Bandeja y no la tengo: en Chrome, Confluence está sin sesión. ¿Me pasás el link o un PDF? |
 | Submódulos de la documentación | Leí cuatro documentos: Resultados de campañas, Listas, Gestión de flujos e Historial de conversaciones. ¿Son esos? ¿*Listas con MCP* va dentro de Listas o aparte? |
+| Errores en `01.3 · 05` y `06` | En los frames de tooltip de Leídos y Respondidos hay un valor de Errores (10) en `forms-and-inputs/fg/enabled`, no en rojo. ¿Pasa a `fg/status/error`? |
+| Conectores de la entrega de métricas | Se perdieron los cinco (navegación, más de 10 plantillas y copiar el error) al reemplazar el overlay; no los puedo recrear por script. ¿Los volvés a trazar o se deja así? |
+| Imágenes del FRD del 28-sep | No llegaron las tres imágenes de referencia de los CSV. Los CSV están en cards, en HU-01 y HU-03. ¿Me las pasás para sumarlas? |
+| Gestión de flujos sin número | En HU-02 usé `03.3 · 06` (Webhook, «Métricas de plantilla» sin «(N)») como caso de una plantilla en flujos. ¿Sirve o hay otro frame? |
+| «Activa en el flujo» en Campañas | Los paneles abiertos desde Resultados de campañas muestran el tag «Activa en el flujo». ¿Es el copy correcto para campañas? |
+| Copy del flujo sin plantillas | Propuesta: «Este flujo no tiene plantillas» · «Las métricas aparecen cuando el flujo envía una plantilla.» ([0088](decisiones/05-paginas/metricas/0088-mismo-panel-campana-webhook-tipificacion-y-flujo-sin-plantillas.md)). ¿Va así? |
+| Lista dinámica y el panel | Su menú también tiene «Métricas de plantilla» (`03.3 · 19`). ¿Abre el mismo panel que Campaña, Webhook y Tipificación? |
+| Errores Meta en 0 | El FRD dice que «la card puede mostrar 0». Hoy, sin errores de Meta, el panel no muestra la sección. ¿Se agrega «0 Errores Meta»? |
+| Instancia suelta del stack en Campañas | En la page Campañas Handoff v1, fuera de las secciones, hay un `❖ atom-snackbars-stack` con los cinco snackbars visibles (`805:166031`, x 22494, y 19838), anterior a la instancia que dejaste de referencia. ¿Se borra? |
+| Submódulo activo del sidebar | En Automatizaciones (99 pantallas) y en la entrega de métricas (12), el submódulo activo («Gestión de flujos», «Historial de conversaciones») está en Hovered + Brand, sin cursor, bajo «Flujos» en Selected + Brand. En Campañas, el módulo activo está en Selected + Brand. ¿Pasa a Selected o Hovered + Brand es a propósito? |
+| Auditoría final | Reporte del 29 sep en `historial/2026-09-29-sesion-13.md`: cuatro correcciones esperan el OK (tab «Estáticas» en Hovered en los filtros de `01.2` y `01.8`, buscador «Con texto» en Pressed en `01.8 · 07` y `02.2 · 03` v2, `04.1 · 01` con el sidebar anterior y cuatro tags de Estado en s en `03.1 · 06` y `03.8`). |
+| Frame vacío en el archivo de métricas | En la page *Actual UI*, fuera de las secciones, hay un frame vacío «Flujo sin plantillas» de 1280 × 833 (`15369:524621`). No tengo registro de haberlo creado. ¿Se borra? |
 | Lista en Actualizando | En pausa por el benchmark. Para verla: esperar la actualización agendada de la lista dinámica de prueba, agregar clientes por CSV en QA o armar el frame desde el código. Las dos listas de prueba siguen en QA (`K8eBSkS3bsBt7G5d7nL9`, `1nqAMaHaQtAJWEqVWzGu`); se borran solo con tu OK. |
 
 ### Para decidir

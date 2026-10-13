@@ -1,6 +1,6 @@
 # Copy y microcopy
 
-Última revisión: **2026-09-28** (sesión 12) · Decisiones: [0009](../decisiones/03-moleculas/atom-search-input/0009-copy-del-buscador.md) · [0010](../decisiones/03-moleculas/atom-filter/0010-orden-de-opciones.md) · [0024](../decisiones/02-atomos/atom-button/0024-botones-en-loading.md) · [0033](../decisiones/04-organismos/atom-data-table/columnas-resultados/0033-fecha-de-creacion-en-dinamicas.md) · [0063](../decisiones/05-paginas/metricas/0063-metricas-de-resultados.md) · [0047](../decisiones/04-organismos/atom-dialog/0047-detener-campana-flujo-de-mensaje-entrante.md) (reemplaza a [0043](../decisiones/04-organismos/atom-dialog/0043-copy-de-detener-campana.md)) · [0048](../decisiones/05-paginas/gestion-de-flujos/0048-gestion-filtro-estado.md) · [0066](../decisiones/05-paginas/gestion-de-flujos/0066-descargar-flujo-y-detalles-del-flujo.md) · [0067](../decisiones/05-paginas/metricas/0067-metricas-de-plantilla-en-todas-las-superficies.md) · [0070](../decisiones/05-paginas/historial-de-conversaciones/0070-historial-nombre-del-cliente-y-busqueda.md)
+Última revisión: **2026-10-08** · Decisiones: [0113](../decisiones/05-paginas/etiquetas/0113-buscador-buscar-etiquetas-por-nombre.md) · [0009](../decisiones/03-moleculas/atom-search-input/0009-copy-del-buscador.md) · [0010](../decisiones/03-moleculas/atom-filter/0010-orden-de-opciones.md) · [0024](../decisiones/02-atomos/atom-button/0024-botones-en-loading.md) · [0033](../decisiones/04-organismos/atom-data-table/columnas-resultados/0033-fecha-de-creacion-en-dinamicas.md) · [0063](../decisiones/05-paginas/metricas/0063-metricas-de-resultados.md) · [0047](../decisiones/04-organismos/atom-dialog/0047-detener-campana-flujo-de-mensaje-entrante.md) (reemplaza a [0043](../decisiones/04-organismos/atom-dialog/0043-copy-de-detener-campana.md)) · [0048](../decisiones/05-paginas/gestion-de-flujos/0048-gestion-filtro-estado.md) · [0066](../decisiones/05-paginas/gestion-de-flujos/0066-descargar-flujo-y-detalles-del-flujo.md) · [0067](../decisiones/05-paginas/metricas/0067-metricas-de-plantilla-en-todas-las-superficies.md) · [0070](../decisiones/05-paginas/historial-de-conversaciones/0070-historial-nombre-del-cliente-y-busqueda.md)
 
 ---
 
@@ -13,9 +13,17 @@
 | Resultados de campañas | `Buscar campañas por nombre` |
 | Listas | `Buscar listas por nombre` |
 | Historial de conversaciones | `Buscar conversación por nombre o teléfono del cliente` ([0070](../decisiones/05-paginas/historial-de-conversaciones/0070-historial-nombre-del-cliente-y-busqueda.md)) |
+| Etiquetas | Tooltip `Buscar etiquetas por nombre` · placeholder `Buscar etiquetas por nombre...` ([0113](../decisiones/05-paginas/etiquetas/0113-buscador-buscar-etiquetas-por-nombre.md)) |
+| Categorías | `Buscar categorías por nombre` (tooltip de `01.1 · 02`) |
 
-El **tooltip y el placeholder dicen exactamente lo mismo**. No hay versión corta del tooltip:
-si el placeholder no entra, se trunca (`04.2 · 02`) y el tooltip muestra el texto completo.
+El **tooltip y el placeholder dicen lo mismo**, salvo los puntos suspensivos: el placeholder termina
+en «...» y el tooltip no ([0113](../decisiones/05-paginas/etiquetas/0113-buscador-buscar-etiquetas-por-nombre.md)).
+No hay versión corta del tooltip: si el placeholder no entra, se trunca (`04.2 · 02`) y el tooltip
+muestra el texto completo.
+
+*Respuesta de diseño (8 oct):* «Va sin los puntos en el tooltip, en el placeholder si lleva "..."».
+Por ahora solo Etiquetas lo aplica; los placeholders de Campañas, Listas e Historial siguen sin «...»
+en sus archivos.
 
 ## Acciones y títulos de métricas y flujos
 

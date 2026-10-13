@@ -2,7 +2,7 @@
 
 Qué documento define qué, y cuál manda sobre cuál.
 
-Última revisión: **2026-09-24**
+Última revisión: **2026-09-29**
 
 ---
 
@@ -23,6 +23,7 @@ Qué documento define qué, y cuál manda sobre cuál.
 | **Épica 2 · Lógica de Listas** | `9PYkcl8kpG1hlAun2sweWU` | Columnas de Resultados, lógica de listas | Vigente |
 | **Épica 3 · Lógica de Listas Dinámicas y migración (Copy)** | `6l9KuqndV4WXq6KRrD99aG` | Edición de flujos publicados: menús, modales de advertencia, panel de métricas | Vigente — solo la página *Actual UI* · [0002](../decisiones/06-proceso-y-fuentes/fuentes/0002-fuente-valida-epica-3.md) |
 | **Crear listas AI, MCPs y CSV** | — | Listas: origen de la lista (selector «Crear nueva lista») y columna Origen | Vigente — la última entrega de Listas · [0018](../decisiones/03-moleculas/atom-filter/0018-listas-filtro-origen.md) · [0030](../decisiones/04-organismos/atom-data-table/columnas-listas/0030-listas-tabla-completa.md) |
+| **FRD · Métricas por plantilla inicial, ajustes del 28-sep** | — | Tabla de Resultados (HU-01), naming, cards y bases de % del panel (HU-02), Errores Meta (HU-03) y los CSV | Vigente · copia en [frd/2026-09-28-metricas-por-plantilla-ajustes.md](frd/2026-09-28-metricas-por-plantilla-ajustes.md) · [0085](../decisiones/05-paginas/metricas/0085-entrega-de-metricas-alineada-al-frd.md) |
 | **Global Patterns** | — | Diálogos, tablas, forms, controles, tokens | Vigente |
 | **Web Library** | — | Componentes `atom-*` | Vigente |
 

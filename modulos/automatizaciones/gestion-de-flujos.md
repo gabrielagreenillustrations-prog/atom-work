@@ -143,7 +143,7 @@ En este archivo está el caso de uso que abre el panel — decisión
 | Frame | Qué muestra |
 |---|---|
 | `03.9 · 01` | «Métricas de plantilla (10)» en el menú de más acciones de la fila de `03.3 · 04` |
-| `03.9 · 02` | El panel abierto, con el copy de flujos: «Analiza el rendimiento de cada plantilla utilizada en este flujo.» Varias plantillas, en 1/10 |
+| `03.9 · 02` | El panel abierto, con el copy de flujos: «Analiza el rendimiento de cada plantilla utilizada en este flujo.» Varias plantillas, en 1/10; cards en 2 × 2 ([0084](../../decisiones/05-paginas/metricas/0084-cards-del-panel-en-2x2.md)). Es el mismo panel para Campaña, Webhook y Tipificación; sin plantillas, solo el empty ([0088](../../decisiones/05-paginas/metricas/0088-mismo-panel-campana-webhook-tipificacion-y-flujo-sin-plantillas.md)) |
 
 El panel que se entrega y sus interacciones están en el archivo *Métricas por plantilla inicial en flujos y campañas*,
 page Actual UI, sección «Métricas por plantilla inicial en flujos y campañas». Las versiones anteriores siguen en la
@@ -204,6 +204,14 @@ diseño (`134:77346`), que no se toca, y una sección «NO TOCAR» (`134:77211`)
 
 Los pros y contras de B y C están en las cards y son interpretación. Para discutir en B: ¿la columna
 se llama «Conexión» o «Canal conectado», como el filtro?
+
+---
+
+## Columna Estado
+
+Tags `↳ TagProps` en Size **m**, como en Campañas — decisión
+[0089](../../decisiones/04-organismos/atom-data-table/0089-tags-de-estado-de-gestion-de-flujos-en-m.md). Las specs de la columna Canal de
+la page Ideacion (`03.8`) conservan su tamaño.
 
 ---
 

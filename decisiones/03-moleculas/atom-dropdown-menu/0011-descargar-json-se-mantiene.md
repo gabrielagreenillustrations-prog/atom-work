@@ -7,11 +7,11 @@
 ## Contexto
 
 Al comparar contra la Épica 3, nuestros menús tienen dos acciones que la épica no
-contempla: `Descargar JSON` y `Desactivar`.
+contempla: `Descargar flujo` y `Desactivar`.
 
 ## Decisión
 
-Se mantienen. **`Descargar JSON` es la mejora que pidió producto.**
+Se mantienen. **`Descargar flujo` es la mejora que pidió producto.**
 
 ## Por qué
 
@@ -20,4 +20,4 @@ edición de flujos publicados, no el set completo de acciones.
 
 ## Consecuencias
 
-El orden queda: las acciones de la épica primero, y `Descargar JSON` + `Desactivar` al final.
+El orden queda: las acciones de la épica primero, y `Descargar flujo` + `Desactivar` al final.

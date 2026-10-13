@@ -100,7 +100,7 @@ el campo **Componente**; se suma su fila en «Por número» y su lugar en «Por 
 | [0012](03-moleculas/atom-dropdown-menu/0012-mensaje-entrante-editar-y-publicar.md) | Mensaje entrante conserva «Editar y publicar» |
 
 **Antes:** [0042](03-moleculas/atom-dropdown-menu/0042-acciones-no-disponibles-y-descargar-errores.md) y [0046](03-moleculas/atom-dropdown-menu/0046-gestion-acciones-no-disponibles-en-disabled.md) → [0053](03-moleculas/atom-dropdown-menu/0053-acciones-no-disponibles-se-ocultan.md) · «Descargar JSON»: [0011](03-moleculas/atom-dropdown-menu/0011-descargar-json-se-mantiene.md) → [0066](05-paginas/gestion-de-flujos/0066-descargar-flujo-y-detalles-del-flujo.md)  
-**Ver también:** [0015](01-fundamentos/iconografia/0015-iconos-de-menus-de-acciones.md) y [0051](01-fundamentos/iconografia/0051-detener-con-stop-circle.md) (íconos), [0054](05-paginas/resultados-de-campanas/0054-dinamicas-con-error-detener-y-duplicar.md) (Detener y Duplicar en dinámicas), [0067](05-paginas/metricas/0067-metricas-de-plantilla-en-todas-las-superficies.md) (acción de métricas con contador), [0066](05-paginas/gestion-de-flujos/0066-descargar-flujo-y-detalles-del-flujo.md) («Descargar flujo»)  
+**Ver también:** [0015](01-fundamentos/iconografia/0015-iconos-de-menus-de-acciones.md) y [0051](01-fundamentos/iconografia/0051-detener-con-stop-circle.md) (íconos), [0054](05-paginas/resultados-de-campanas/0054-dinamicas-con-error-detener-y-duplicar.md) (Detener y Duplicar en dinámicas), [0067](05-paginas/metricas/0067-metricas-de-plantilla-en-todas-las-superficies.md) (acción de métricas con contador), [0066](05-paginas/gestion-de-flujos/0066-descargar-flujo-y-detalles-del-flujo.md) («Descargar flujo»), [0115](05-paginas/categorias/0115-inactivar-en-uso-deshabilitado-con-tooltip.md) (excepción: Inactivar en Disabled con tooltip en Categorías)  
 
 #### ❖ atom-snackbar · regla vigente: [sistema/snackbars.md](../sistema/snackbars.md)
 
@@ -109,6 +109,7 @@ el campo **Componente**; se suma su fila en «Por número» y su lugar en «Por 
 | [0052](03-moleculas/atom-snackbar/0052-snackbars-copy-y-cierre.md) | Copy estándar y cierre según el tipo · el punto de nombres, reemplazado por [0061](03-moleculas/atom-snackbar/0061-snackbars-sin-nombre.md) |
 | [0059](03-moleculas/atom-snackbar/0059-snackbars-duracion-3-y-5-s.md) | Duración de 3 s o 5 s |
 | [0061](03-moleculas/atom-snackbar/0061-snackbars-sin-nombre.md) | Sin el nombre de la campaña, el flujo o la lista |
+| [0092](03-moleculas/atom-snackbar/0092-snackbars-en-atom-snackbars-stack.md) | En `❖ atom-snackbars-stack`, con el tipo visible, abajo a la derecha |
 
 #### ❖ atom-alert
 
@@ -124,6 +125,12 @@ el campo **Componente**; se suma su fila en «Por número» y su lugar en «Por 
 |---|---|
 | [0017](04-organismos/atom-data-table/0017-tablas-sticky-new.md) | Tablas con `❖ atom-table` · *Sticky New* |
 | [0031](04-organismos/atom-data-table/0031-historial-tablas-sticky-new.md) | Historial: tablas con `❖ atom-data-table` · *Sticky New* |
+| [0081](04-organismos/atom-data-table/0081-empty-state-paginacion-no-data-y-centrado.md) | Tablas en empty state: paginación `no-data` («Sin registros», «Sin páginas») y empty state centrado |
+| [0083](04-organismos/atom-data-table/0083-tags-de-las-columnas-en-m.md) | Tags de las columnas de tags en Size m (Campañas, columna Estado); no la columna Canal. Gestión de flujos: ver 0089 |
+| [0089](04-organismos/atom-data-table/0089-tags-de-estado-de-gestion-de-flujos-en-m.md) | Gestión de flujos: tags de la columna Estado en Size m |
+| [0090](04-organismos/atom-data-table/0090-toolbar-dentro-de-la-tabla-fuera-de-filtros.md) | Toolbar dentro de la tabla; separado solo en los casos de filtros |
+| [0091](04-organismos/atom-data-table/0091-scroll-de-las-tablas-segun-resultados.md) | Scroll vertical con la página llena; horizontal con columnas fijas |
+| [0093](04-organismos/atom-data-table/0093-paginadores-de-listas-segun-el-contexto.md) | Listas: paginador «1 – 10 de 21 registros · Página 1 de 3» y `loading` en la pantalla Cargando |
 
 *Columna Canal (Gestión de flujos)*
 
@@ -163,14 +170,21 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | [0062](04-organismos/atom-sidepanel-metricas/0062-panel-v1-solo-el-panel-de-origen.md) | v1: del archivo de origen solo queda el panel |
 
 **Antes:** [0005](04-organismos/atom-sidepanel-metricas/0005-contador-en-metricas.md) → [0025](04-organismos/atom-sidepanel-metricas/0025-titulos-de-side-panels-de-metricas.md) → [0067](05-paginas/metricas/0067-metricas-de-plantilla-en-todas-las-superficies.md)  
-**Ver también:** [0021](01-fundamentos/iconografia/0021-iconos-de-side-panels.md) (íconos de los botones), [0056](06-proceso-y-fuentes/handoff/0056-handoff-v2.md) (page Handoff v2), [0065](05-paginas/metricas/0065-panel-v1-cuatro-metricas-y-errores-meta.md) (métricas y errores del panel v1), [0067](05-paginas/metricas/0067-metricas-de-plantilla-en-todas-las-superficies.md) (nombre), [0068](06-proceso-y-fuentes/handoff/0068-panel-de-metricas-en-su-archivo.md) (el panel vive en su archivo), [0069](05-paginas/metricas/0069-panel-sin-reporte-de-errores-e-iconos.md) (sin «Reporte de errores», íconos), [0075](05-paginas/metricas/0075-panel-oficial-en-la-entrega.md) (el panel que se entrega)  
+**Ver también:** [0021](01-fundamentos/iconografia/0021-iconos-de-side-panels.md) (íconos de los botones), [0056](06-proceso-y-fuentes/handoff/0056-handoff-v2.md) (page Handoff v2), [0065](05-paginas/metricas/0065-panel-v1-cuatro-metricas-y-errores-meta.md) (métricas y errores del panel v1), [0067](05-paginas/metricas/0067-metricas-de-plantilla-en-todas-las-superficies.md) (nombre), [0068](06-proceso-y-fuentes/handoff/0068-panel-de-metricas-en-su-archivo.md) (el panel vive en su archivo), [0069](05-paginas/metricas/0069-panel-sin-reporte-de-errores-e-iconos.md) (sin «Reporte de errores», íconos), [0075](05-paginas/metricas/0075-panel-oficial-en-la-entrega.md) (el panel que se entrega), [0084](05-paginas/metricas/0084-cards-del-panel-en-2x2.md) (cards en 2 × 2), [0085](05-paginas/metricas/0085-entrega-de-metricas-alineada-al-frd.md) (la entrega, por HU del FRD), [0086](05-paginas/metricas/0086-panel-check-plantillas-y-anterior.md) (check, «plantillas», «Anterior»)  
+
+#### ❖ atom-sidebar-complete · Sidebar
+
+| # | Decisión |
+|---|---|
+| [0080](04-organismos/atom-sidebar/0080-sidebar-nuevo-visible.md) | El sidebar nuevo (288 px) queda visible; el contenido empieza en x = 288 y lo suelto se realinea |
 
 #### ❖ atom-dialog · Modales · regla vigente: [sistema/modales-y-overlay.md](../sistema/modales-y-overlay.md)
 
 | # | Decisión |
 |---|---|
-| [0008](04-organismos/atom-dialog/0008-centrado-de-modales.md) | Se centran sobre el área de contenido |
+| [0008](04-organismos/atom-dialog/0008-centrado-de-modales.md) | Se centran sobre el área de contenido (con el sidebar nuevo, de 288: [0080](04-organismos/atom-sidebar/0080-sidebar-nuevo-visible.md)) |
 | [0047](04-organismos/atom-dialog/0047-detener-campana-flujo-de-mensaje-entrante.md) | Detener campaña: las conversaciones vuelven al «flujo de Mensaje entrante» |
+| [0095](04-organismos/atom-dialog/0095-dialogos-centrados-en-el-frame.md) | Centrado respecto al frame completo (Etiquetas) |
 
 **Antes:** [0043](04-organismos/atom-dialog/0043-copy-de-detener-campana.md) → [0047](04-organismos/atom-dialog/0047-detener-campana-flujo-de-mensaje-entrante.md)  
 **Ver también:** [0041](04-organismos/atom-sidepanel-metricas/0041-side-panels-de-metricas-con-overlay.md) (el mismo backdrop en los side panels de métricas)  
@@ -192,12 +206,18 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 
 | # | Decisión |
 |---|---|
-| [0063](05-paginas/metricas/0063-metricas-de-resultados.md) | Resultados: Clientes · Enviados · Errores · Entregados · Leídos · Respondidos, con tooltips |
+| [0063](05-paginas/metricas/0063-metricas-de-resultados.md) | Resultados: Clientes · Enviados · Errores · Entregados · Leídos · Respondidos, con tooltips · salvo los colores ([0082](05-paginas/metricas/0082-colores-de-metricas-en-resultados.md)) |
+| [0082](05-paginas/metricas/0082-colores-de-metricas-en-resultados.md) | Resultados: Clientes, Enviados y Entregados en `fg/secondary`; Errores en rojo; Leídos en azul; Respondidos en verde |
 | [0064](05-paginas/metricas/0064-valores-de-resultados-coherentes.md) | Resultados: los valores cumplen la relación entre métricas |
 | [0065](05-paginas/metricas/0065-panel-v1-cuatro-metricas-y-errores-meta.md) | Panel de métricas v1: cuatro métricas y solo errores de Meta · salvo botones e ícono de Enviados ([0069](05-paginas/metricas/0069-panel-sin-reporte-de-errores-e-iconos.md)) |
 | [0067](05-paginas/metricas/0067-metricas-de-plantilla-en-todas-las-superficies.md) | «Métricas de plantilla» en todas las superficies; «(N)» solo en el menú |
 | [0069](05-paginas/metricas/0069-panel-sin-reporte-de-errores-e-iconos.md) | Panel: sin «Reporte de errores»; Enviados con `check` |
-| [0075](05-paginas/metricas/0075-panel-oficial-en-la-entrega.md) | El panel que se entrega: grilla A, dentro de la entrega del archivo de métricas; los handoffs llevan la apertura y el panel abierto |
+| [0075](05-paginas/metricas/0075-panel-oficial-en-la-entrega.md) | El panel que se entrega: dentro de la entrega del archivo de métricas; los handoffs llevan la apertura y el panel abierto · salvo la grilla ([0084](05-paginas/metricas/0084-cards-del-panel-en-2x2.md)) y las pantallas ([0085](05-paginas/metricas/0085-entrega-de-metricas-alineada-al-frd.md)) |
+| [0084](05-paginas/metricas/0084-cards-del-panel-en-2x2.md) | Panel: las cuatro cards en 2 × 2, porcentaje en ancho automático y caso «Números largos» |
+| [0085](05-paginas/metricas/0085-entrega-de-metricas-alineada-al-frd.md) | La entrega de métricas sigue las HU del FRD del 28-sep, con las pantallas de los handoffs; lo demás, como casos de uso o casos edge |
+| [0086](05-paginas/metricas/0086-panel-check-plantillas-y-anterior.md) | Panel: Enviados con `check`, «5 plantillas» en Errores Meta, tooltips «Anterior» y «Siguiente», tooltip de Errores Meta con «nos devuelve» |
+| [0087](05-paginas/metricas/0087-tooltips-de-las-cards-en-la-entrega.md) | La entrega lleva los tooltips de Entregados, Leídos y Respondidos (HU-02) |
+| [0088](05-paginas/metricas/0088-mismo-panel-campana-webhook-tipificacion-y-flujo-sin-plantillas.md) | Campaña, Webhook y Tipificación abren el mismo panel; un flujo sin plantillas muestra solo el empty |
 
 **Antes:** columnas de Resultados: [0036](04-organismos/atom-data-table/columnas-resultados/0036-no-entregados-visible.md) → [0063](05-paginas/metricas/0063-metricas-de-resultados.md)  
 **Ver también:** el panel de métricas en [Organismos](#-atom-sidepanel--panel-de-métricas--regla-vigente-sistemametricasmd) ([0004](04-organismos/atom-sidepanel-metricas/0004-errores-reemplaza-fallidos.md), [0044](04-organismos/atom-sidepanel-metricas/0044-tooltip-codigo-de-error.md), [0062](04-organismos/atom-sidepanel-metricas/0062-panel-v1-solo-el-panel-de-origen.md)); dónde está el panel: [0068](06-proceso-y-fuentes/handoff/0068-panel-de-metricas-en-su-archivo.md)  
@@ -238,6 +258,60 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | [0073](05-paginas/historial-de-conversaciones/0073-historial-canal-con-menu-y-telefono-con-copiar.md) | Canal vuelve al ícono con menú; Teléfono con `copy` en hover y tooltip «Copiar» |
 
 **Ver también:** [0031](04-organismos/atom-data-table/0031-historial-tablas-sticky-new.md) (tablas), [0072](04-organismos/atom-data-table/0072-numero-copiable-en-tablas.md) (copiar en Canal y Teléfono)  
+
+#### Etiquetas · `/settings/tags`
+
+| # | Decisión |
+|---|---|
+| [0094](05-paginas/etiquetas/0094-etiquetas-dos-propuestas-y-solo-lo-que-existe.md) | Buscador y solo los estados que existen (las dos propuestas pasaron a la 0111) |
+| [0111](05-paginas/etiquetas/0111-solo-atom-list-item.md) | La vista es solo `❖ atom-list-item`, sin tabs ni selector de vista |
+| [0112](05-paginas/etiquetas/0112-grilla-fluida-de-list-items.md) | Grilla fluida: ítems de 240 a 320 px, con wrap |
+| [0113](05-paginas/etiquetas/0113-buscador-buscar-etiquetas-por-nombre.md) | Buscador: «Buscar etiquetas por nombre»; «...» solo en el placeholder |
+| [0117](05-paginas/etiquetas/0117-tres-propuestas-de-vista-para-decidir.md) | Propuesta: tres vistas para decidir (tabla, list items, tabla con look de list items); el handoff no cambia |
+| [0098](05-paginas/etiquetas/0098-dialogos-de-etiquetas-copy-y-validacion.md) | Diálogos: copy normalizado y validación de Forms |
+| [0099](05-paginas/etiquetas/0099-errores-del-campo-segun-text-field-patterns.md) | Errores: «Mínimo 3 caracteres requeridos» y «El nombre ya está en uso.» |
+| [0100](05-paginas/etiquetas/0100-editar-y-eliminar-segun-dialog-patterns.md) | Editar: botón «Editar»; Eliminar: cuerpo con la consecuencia |
+| [0101](05-paginas/etiquetas/0101-snackbars-en-etiquetas.md) | Snackbars de éxito y error en crear, editar y eliminar |
+| [0102](05-paginas/etiquetas/0102-error-cierra-el-dialogo.md) | Con error, el diálogo se cierra y queda el snackbar |
+
+**Antes:** [0096](05-paginas/etiquetas/0096-tabla-de-etiquetas-main-con-icono-y-acciones-visibles.md) (tabla) y [0097](05-paginas/etiquetas/0097-grilla-de-etiquetas-acciones-en-menu-de-la-card.md) (grilla de cards) → [0111](05-paginas/etiquetas/0111-solo-atom-list-item.md)  
+**Ver también:** [0009](03-moleculas/atom-search-input/0009-copy-del-buscador.md) (copy del buscador)
+
+#### Categorías · `/settings/categories`
+
+| # | Decisión |
+|---|---|
+| [0103](05-paginas/categorias/0103-categorias-handoff-desde-qa-y-solo-lo-que-existe.md) | Handoff armado desde QA (sin FRD) y solo con lo que existe |
+| [0104](05-paginas/categorias/0104-una-columna-asociada-a-con-un-tag.md) | Una columna «Asociada a» con un tag por celda y tooltip; Activo pasa a Estado |
+| [0105](05-paginas/categorias/0105-crear-y-editar-segun-forms-patterns.md) | Crear y Editar según Forms Patterns: submit gate y «Se requiere el nombre» |
+| [0106](05-paginas/categorias/0106-snackbars-y-errores-de-categorias.md) | Snackbars de crear, editar e inactivar; error por asociación sin Reintentar |
+| [0108](05-paginas/categorias/0108-colores-por-tipo-filtros-y-propuesta-unica.md) | Tags con color por tipo y tooltip por tipo; un frame por filtro; una sola propuesta |
+| [0116](05-paginas/categorias/0116-asociada-a-info-success-neutral-y-datos-parejos.md) | «Asociada a» en Info (`bolt`), Success (`message`) y Neutral; 6 respuestas rápidas, 6 plantillas y 2 ambas en los datos de ejemplo |
+| [0109](05-paginas/categorias/0109-filters-panel-segun-patterns.md) | Filters panel completo y de tamaño fijo, según Filters panel patterns |
+| [0114](05-paginas/categorias/0114-editar-opcion-en-uso-bloqueada-sin-conteo.md) | Editar: la opción en uso va bloqueada con «En uso en …», sin conteo ni link |
+| [0115](05-paginas/categorias/0115-inactivar-en-uso-deshabilitado-con-tooltip.md) | Inactivar en uso: Disabled con tooltip «No puedes inactivarla porque está en uso» (excepción a la 0053) |
+
+**Antes:** [0107](05-paginas/categorias/0107-propuesta-b-categoria-en-uso-bloqueada.md) y [0110](05-paginas/categorias/0110-inactivar-en-uso-con-dialogo-y-todos-los-casos.md) (propuestas de Editar e Inactivar) → [0114](05-paginas/categorias/0114-editar-opcion-en-uso-bloqueada-sin-conteo.md) y [0115](05-paginas/categorias/0115-inactivar-en-uso-deshabilitado-con-tooltip.md)  
+
+**Ver también:** [0099](05-paginas/etiquetas/0099-errores-del-campo-segun-text-field-patterns.md) (nombre duplicado), [0101](05-paginas/etiquetas/0101-snackbars-en-etiquetas.md) y [0102](05-paginas/etiquetas/0102-error-cierra-el-dialogo.md) (snackbars), [0053](03-moleculas/atom-dropdown-menu/0053-acciones-no-disponibles-se-ocultan.md) (regla de menús de la que se exceptúa la 0115)
+
+#### Stickers · `/settings/stickers`
+
+| # | Decisión |
+|---|---|
+| [0118](05-paginas/stickers/0118-stickers-handoff-desde-qa-grilla-de-atom-card.md) | Handoff desde QA; grilla fluida de `❖ atom-card` de 140 a 168 px, sin frames contenedores |
+| [0123](04-organismos/atom-card/0123-acciones-de-la-card-siempre-visibles.md) | Acciones de la card en un ⋮ siempre visible con menú (estándar de `❖ atom-card`) |
+| [0119](05-paginas/stickers/0119-stickers-snackbars-y-errores-de-subida.md) | Alertas inline pasan a snackbars; errores de subida como Warning |
+| [0120](05-paginas/stickers/0120-stickers-editar-en-dialog.md) | Editar en dialog; vacío y nombre en uso (por validar con desarrollo) |
+| [0121](05-paginas/stickers/0121-stickers-eliminar-con-dialog-destructivo.md) | Propuesta: Eliminar con dialog destructivo |
+| [0122](05-paginas/stickers/0122-stickers-empty-states-y-carga.md) | Empty states con los textos del Web Library, en Fill y centrados; carga con skeleton |
+| [0125](05-paginas/stickers/0125-stickers-imagen-en-la-card.md) | Imagen en la card: todo archivo es 512 × 512; contain, centrada (cómo va en la card: 0128) |
+| [0126](05-paginas/stickers/0126-stickers-cards-de-ancho-fijo.md) | Cards de 168 px fijos; la última fila puede quedar incompleta |
+| [0127](05-paginas/stickers/0127-stickers-editar-solo-desde-el-menu.md) | El nombre se edita solo desde el menú ⋮, en el dialog; sin edición en la card |
+| [0128](05-paginas/stickers/0128-stickers-imagenes-de-internet-como-relleno-de-la-card.md) | Imágenes de ejemplo de internet (Fluent Emoji, MIT) como relleno del `↳ ImageSlot`; sin componentes locales |
+
+**Antes:** [0124](05-paginas/stickers/0124-stickers-imagenes-de-ejemplo.md) → [0128](05-paginas/stickers/0128-stickers-imagenes-de-internet-como-relleno-de-la-card.md)  
+**Ver también:** [0099](05-paginas/etiquetas/0099-errores-del-campo-segun-text-field-patterns.md) (nombre en uso), [0102](05-paginas/etiquetas/0102-error-cierra-el-dialogo.md) (con error se cierra el diálogo), [0113](05-paginas/etiquetas/0113-buscador-buscar-etiquetas-por-nombre.md) (buscador)
 
 ### Proceso y fuentes
 
@@ -340,7 +414,7 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | [0060](04-organismos/atom-sidepanel-metricas/0060-panel-v2-icono-de-informacion-arriba-a-la-derecha.md) | Panel de métricas (Handoff v2): ícono de información arriba a la derecha | vigente | 2026-09-26 |
 | [0061](03-moleculas/atom-snackbar/0061-snackbars-sin-nombre.md) | Snackbars sin el nombre de la campaña, el flujo o la lista | vigente | 2026-09-28 |
 | [0062](04-organismos/atom-sidepanel-metricas/0062-panel-v1-solo-el-panel-de-origen.md) | Panel de métricas v1: del archivo de origen solo queda el panel | vigente; la [0065](05-paginas/metricas/0065-panel-v1-cuatro-metricas-y-errores-meta.md) cambia el contenido del panel; la [0068](06-proceso-y-fuentes/handoff/0068-panel-de-metricas-en-su-archivo.md) lleva el panel a su archivo | 2026-09-28 |
-| [0063](05-paginas/metricas/0063-metricas-de-resultados.md) | Resultados: métricas Clientes · Enviados · Errores · Entregados · Leídos · Respondidos, con tooltips | vigente | 2026-09-28 |
+| [0063](05-paginas/metricas/0063-metricas-de-resultados.md) | Resultados: métricas Clientes · Enviados · Errores · Entregados · Leídos · Respondidos, con tooltips | vigente; los colores, reemplazados por [0082](05-paginas/metricas/0082-colores-de-metricas-en-resultados.md) | 2026-09-28 |
 | [0064](05-paginas/metricas/0064-valores-de-resultados-coherentes.md) | Resultados: los valores de las métricas cumplen su relación | vigente | 2026-09-28 |
 | [0065](05-paginas/metricas/0065-panel-v1-cuatro-metricas-y-errores-meta.md) | Panel de métricas v1: cuatro métricas y solo errores de Meta | vigente; la [0069](05-paginas/metricas/0069-panel-sin-reporte-de-errores-e-iconos.md) cambia los botones y el ícono de Enviados | 2026-09-28 |
 | [0066](05-paginas/gestion-de-flujos/0066-descargar-flujo-y-detalles-del-flujo.md) | Gestión de flujos: «Descargar flujo» y modal «Detalles del flujo» | vigente | 2026-09-28 |
@@ -352,11 +426,60 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | [0072](04-organismos/atom-data-table/0072-numero-copiable-en-tablas.md) | Tablas: un número o una cuenta que se copia va como texto, con copiar en hover | vigente; Historial · Canal, reemplazado por [0073](05-paginas/historial-de-conversaciones/0073-historial-canal-con-menu-y-telefono-con-copiar.md) | 2026-09-28 |
 | [0073](05-paginas/historial-de-conversaciones/0073-historial-canal-con-menu-y-telefono-con-copiar.md) | Historial: Canal vuelve al ícono con menú; solo Teléfono usa el pattern de copiar | vigente | 2026-09-28 |
 | [0074](06-proceso-y-fuentes/handoff/0074-estructura-del-handoff-como-conversaciones.md) | Handoff: la estructura del archivo de Conversaciones · Adopción DS 1.0 | vigente | 2026-09-28 |
-| [0075](05-paginas/metricas/0075-panel-oficial-en-la-entrega.md) | El panel de métricas que se entrega: la grilla A, dentro de la entrega del archivo de métricas | vigente | 2026-09-28 |
+| [0075](05-paginas/metricas/0075-panel-oficial-en-la-entrega.md) | El panel de métricas que se entrega: la grilla A, dentro de la entrega del archivo de métricas | vigente; la grilla, reemplazada por [0084](05-paginas/metricas/0084-cards-del-panel-en-2x2.md); las pantallas y el menú, por [0085](05-paginas/metricas/0085-entrega-de-metricas-alineada-al-frd.md) | 2026-09-28 |
 | [0076](05-paginas/gestion-de-flujos/0076-cerrar-detalles-con-el-nombre-en-edicion.md) | «Detalles del flujo»: cerrar con el nombre en edición descarta el cambio | vigente; el campo vacío, en la [0078](05-paginas/gestion-de-flujos/0078-nombre-vacio-en-detalles-del-flujo.md) | 2026-09-28 |
 | [0077](01-fundamentos/iconografia/0077-atom-icon-vigente-en-las-tablas.md) | Íconos: el `❖ atom-icon` vigente en las celdas de las tablas | vigente | 2026-09-28 |
 | [0078](05-paginas/gestion-de-flujos/0078-nombre-vacio-en-detalles-del-flujo.md) | «Detalles del flujo»: con el nombre vacío, Enter muestra error y un clic fuera descarta | vigente | 2026-09-28 |
 | [0079](06-proceso-y-fuentes/documentacion/0079-un-documento-por-submodulo.md) | Documentación: un documento por submódulo, como la de Bandeja | vigente | 2026-09-29 |
+| [0080](04-organismos/atom-sidebar/0080-sidebar-nuevo-visible.md) | El sidebar nuevo (`❖ atom-sidebar-complete`) queda visible en los dos archivos | vigente | 2026-09-29 |
+| [0081](04-organismos/atom-data-table/0081-empty-state-paginacion-no-data-y-centrado.md) | Tablas en empty state: paginación «no-data» y empty state centrado | vigente | 2026-09-29 |
+| [0082](05-paginas/metricas/0082-colores-de-metricas-en-resultados.md) | Resultados: colores de las métricas en la tabla | vigente | 2026-09-29 |
+| [0083](04-organismos/atom-data-table/0083-tags-de-las-columnas-en-m.md) | Tags de las columnas de tags en tamaño m | vigente para Campañas; la excepción de Gestión de flujos, reemplazada por 0089 | 2026-09-29 |
+| [0084](05-paginas/metricas/0084-cards-del-panel-en-2x2.md) | Panel de métricas: las cuatro cards en 2 × 2 | vigente | 2026-09-29 |
+| [0085](05-paginas/metricas/0085-entrega-de-metricas-alineada-al-frd.md) | La entrega de métricas por plantilla, alineada al FRD del 28-sep | vigente | 2026-09-29 |
+| [0086](05-paginas/metricas/0086-panel-check-plantillas-y-anterior.md) | Panel de métricas: Enviados con check, «plantillas» en Errores Meta y tooltip «Anterior» | vigente | 2026-09-29 |
+| [0087](05-paginas/metricas/0087-tooltips-de-las-cards-en-la-entrega.md) | Los tooltips de las cards, en la entrega de métricas | vigente | 2026-09-29 |
+| [0088](05-paginas/metricas/0088-mismo-panel-campana-webhook-tipificacion-y-flujo-sin-plantillas.md) | Gestión de flujos: Campaña, Webhook y Tipificación abren el mismo panel; sin plantillas, solo el empty | vigente | 2026-09-29 |
+| [0089](04-organismos/atom-data-table/0089-tags-de-estado-de-gestion-de-flujos-en-m.md) | Gestión de flujos: tags de la columna Estado en tamaño m | vigente | 2026-09-29 |
+| [0090](04-organismos/atom-data-table/0090-toolbar-dentro-de-la-tabla-fuera-de-filtros.md) | Toolbar dentro de `atom-data-table`, salvo en los casos de filtros | vigente | 2026-09-29 |
+| [0091](04-organismos/atom-data-table/0091-scroll-de-las-tablas-segun-resultados.md) | Scroll de las tablas según los resultados | vigente | 2026-09-29 |
+| [0092](03-moleculas/atom-snackbar/0092-snackbars-en-atom-snackbars-stack.md) | Snackbars en `❖ atom-snackbars-stack`, abajo a la derecha | vigente | 2026-09-29 |
+| [0093](04-organismos/atom-data-table/0093-paginadores-de-listas-segun-el-contexto.md) | Paginadores de Listas según el contexto | vigente | 2026-09-29 |
+| [0094](05-paginas/etiquetas/0094-etiquetas-dos-propuestas-y-solo-lo-que-existe.md) | Etiquetas: dos propuestas (grilla y tabla) y solo los estados que existen | vigente | 2026-10-06 |
+| [0095](04-organismos/atom-dialog/0095-dialogos-centrados-en-el-frame.md) | Diálogos centrados respecto al frame completo | vigente | 2026-10-06 |
+| [0096](05-paginas/etiquetas/0096-tabla-de-etiquetas-main-con-icono-y-acciones-visibles.md) | Tabla de Etiquetas: Main (premade) con ícono y acciones visibles | reemplazada por [0111](05-paginas/etiquetas/0111-solo-atom-list-item.md); retomada como propuesta A en la [0117](05-paginas/etiquetas/0117-tres-propuestas-de-vista-para-decidir.md) | 2026-10-06 |
+| [0097](05-paginas/etiquetas/0097-grilla-de-etiquetas-acciones-en-menu-de-la-card.md) | Grilla de Etiquetas: acciones en el menú de la card | reemplazada por [0111](05-paginas/etiquetas/0111-solo-atom-list-item.md) | 2026-10-06 |
+| [0098](05-paginas/etiquetas/0098-dialogos-de-etiquetas-copy-y-validacion.md) | Diálogos de Etiquetas: copy normalizado y validación | vigente | 2026-10-06 |
+| [0099](05-paginas/etiquetas/0099-errores-del-campo-segun-text-field-patterns.md) | Etiquetas: errores del campo según Text Field Patterns | vigente | 2026-10-06 |
+| [0100](05-paginas/etiquetas/0100-editar-y-eliminar-segun-dialog-patterns.md) | Etiquetas: Editar y Eliminar según Dialog Patterns | vigente | 2026-10-06 |
+| [0101](05-paginas/etiquetas/0101-snackbars-en-etiquetas.md) | Etiquetas: snackbars de éxito y error | vigente | 2026-10-06 |
+| [0102](05-paginas/etiquetas/0102-error-cierra-el-dialogo.md) | Etiquetas: con error, el diálogo se cierra | vigente | 2026-10-06 |
+| [0103](05-paginas/categorias/0103-categorias-handoff-desde-qa-y-solo-lo-que-existe.md) | Categorías: handoff desde QA y solo lo que existe | vigente | 2026-10-06 |
+| [0104](05-paginas/categorias/0104-una-columna-asociada-a-con-un-tag.md) | Categorías: una columna «Asociada a» con un tag | vigente | 2026-10-06 |
+| [0105](05-paginas/categorias/0105-crear-y-editar-segun-forms-patterns.md) | Categorías: Crear y Editar según Forms Patterns | vigente | 2026-10-06 |
+| [0106](05-paginas/categorias/0106-snackbars-y-errores-de-categorias.md) | Categorías: snackbars de crear, editar e inactivar | vigente | 2026-10-06 |
+| [0107](05-paginas/categorias/0107-propuesta-b-categoria-en-uso-bloqueada.md) | Categorías: propuesta de opciones en uso bloqueadas | reemplazada por [0114](05-paginas/categorias/0114-editar-opcion-en-uso-bloqueada-sin-conteo.md) y [0115](05-paginas/categorias/0115-inactivar-en-uso-deshabilitado-con-tooltip.md) | 2026-10-06 |
+| [0108](05-paginas/categorias/0108-colores-por-tipo-filtros-y-propuesta-unica.md) | Categorías: color por tipo de asociación, un frame por filtro y una sola propuesta | vigente | 2026-10-06 |
+| [0109](05-paginas/categorias/0109-filters-panel-segun-patterns.md) | Categorías: filters panel completo, según Filters panel patterns | vigente | 2026-10-06 |
+| [0110](05-paginas/categorias/0110-inactivar-en-uso-con-dialogo-y-todos-los-casos.md) | Categorías: Inactivar en uso con aviso y todos los casos de uso | reemplazada por [0114](05-paginas/categorias/0114-editar-opcion-en-uso-bloqueada-sin-conteo.md) y [0115](05-paginas/categorias/0115-inactivar-en-uso-deshabilitado-con-tooltip.md) | 2026-10-06 |
+| [0111](05-paginas/etiquetas/0111-solo-atom-list-item.md) | Etiquetas: la vista es solo `❖ atom-list-item` | vigente | 2026-10-08 |
+| [0112](05-paginas/etiquetas/0112-grilla-fluida-de-list-items.md) | Etiquetas: grilla fluida de list items, de 240 a 320 px | vigente | 2026-10-08 |
+| [0113](05-paginas/etiquetas/0113-buscador-buscar-etiquetas-por-nombre.md) | Etiquetas: buscador «Buscar etiquetas por nombre», con «...» solo en el placeholder | vigente | 2026-10-08 |
+| [0114](05-paginas/categorias/0114-editar-opcion-en-uso-bloqueada-sin-conteo.md) | Categorías: Editar bloquea la opción en uso, sin conteo ni link | vigente | 2026-10-08 |
+| [0115](05-paginas/categorias/0115-inactivar-en-uso-deshabilitado-con-tooltip.md) | Categorías: Inactivar en uso en Disabled con tooltip (excepción a la 0053) | vigente | 2026-10-08 |
+| [0116](05-paginas/categorias/0116-asociada-a-info-success-neutral-y-datos-parejos.md) | Categorías: «Asociada a» en Info, Success y Neutral, con íconos y datos de ejemplo parejos | vigente | 2026-10-08 |
+| [0117](05-paginas/etiquetas/0117-tres-propuestas-de-vista-para-decidir.md) | Etiquetas: tres propuestas de vista para decidir, sin tocar el handoff | propuesta | 2026-10-08 |
+| [0118](05-paginas/stickers/0118-stickers-handoff-desde-qa-grilla-de-atom-card.md) | Stickers: handoff desde QA, grilla de `❖ atom-card` responsive | vigente | 2026-10-12 |
+| [0119](05-paginas/stickers/0119-stickers-snackbars-y-errores-de-subida.md) | Stickers: snackbars y errores de subida | vigente | 2026-10-12 |
+| [0120](05-paginas/stickers/0120-stickers-editar-en-dialog.md) | Stickers: Editar en un dialog | vigente · fila actual reemplazada por 0127 | 2026-10-12 |
+| [0121](05-paginas/stickers/0121-stickers-eliminar-con-dialog-destructivo.md) | Stickers: Eliminar con dialog destructivo | propuesta | 2026-10-12 |
+| [0122](05-paginas/stickers/0122-stickers-empty-states-y-carga.md) | Stickers: empty states con los textos del Web Library y carga con skeleton | vigente | 2026-10-12 |
+| [0123](04-organismos/atom-card/0123-acciones-de-la-card-siempre-visibles.md) | `❖ atom-card`: las acciones van en un ⋮ siempre visible | vigente | 2026-10-12 |
+| [0124](05-paginas/stickers/0124-stickers-imagenes-de-ejemplo.md) | Stickers: imágenes de ejemplo como stickers de negocio | reemplazada por 0128 | 2026-10-12 |
+| [0125](05-paginas/stickers/0125-stickers-imagen-en-la-card.md) | Stickers: cómo se ajusta la imagen en la card | vigente · imagen en la card reemplazada por 0128 | 2026-10-12 |
+| [0126](05-paginas/stickers/0126-stickers-cards-de-ancho-fijo.md) | Stickers: cards de ancho fijo; la última fila puede quedar incompleta | vigente | 2026-10-12 |
+| [0127](05-paginas/stickers/0127-stickers-editar-solo-desde-el-menu.md) | Stickers: el nombre se edita solo desde el menú, en un dialog | vigente | 2026-10-12 |
+| [0128](05-paginas/stickers/0128-stickers-imagenes-de-internet-como-relleno-de-la-card.md) | Stickers: imágenes de internet como relleno del ImageSlot de la card | vigente | 2026-10-12 |
 
 ## Formato
 

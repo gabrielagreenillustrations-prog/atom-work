@@ -3,7 +3,7 @@
 Este archivo existe para abrir una conversación nueva con Claude sin volver a explicar
 nada. **Copiá el bloque de abajo y pegalo tal cual.**
 
-Última actualización: **2026-09-29**
+Última actualización: **2026-10-08**
 
 ---
 
@@ -138,10 +138,20 @@ sigue las HU del FRD del 28-sep (`entregas/frd/`), con las pantallas, la tabla y
 ([0092](decisiones/03-moleculas/atom-snackbar/0092-snackbars-en-atom-snackbars-stack.md)) (`historial/2026-09-29-sesion-13.md`). La documentación va en un documento por submódulo, como la de Bandeja
 ([0079](decisiones/06-proceso-y-fuentes/documentacion/0079-un-documento-por-submodulo.md)).
 
+Desde el 6 de octubre también está el archivo *Configuraciones - Adopción DS 1.0*, con Etiquetas y
+Categorías (decisiones 0094–0115). El 8 de octubre se cerraron las propuestas: Etiquetas va solo con
+`❖ atom-list-item`, en una grilla fluida de ítems de 240 a 320 px y con el buscador «Buscar etiquetas por
+nombre...» ([0111](decisiones/05-paginas/etiquetas/0111-solo-atom-list-item.md)–[0113](decisiones/05-paginas/etiquetas/0113-buscador-buscar-etiquetas-por-nombre.md)).
+En Categorías, Editar bloquea la opción en uso, sin conteo ni link ([0114](decisiones/05-paginas/categorias/0114-editar-opcion-en-uso-bloqueada-sin-conteo.md)),
+e Inactivar en uso va en Disabled con tooltip, una excepción a la 0053 ([0115](decisiones/05-paginas/categorias/0115-inactivar-en-uso-deshabilitado-con-tooltip.md)).
+«Asociada a» quedó en Info con `bolt`, Success con `message` y Neutral, con datos de ejemplo parejos ([0116](decisiones/05-paginas/categorias/0116-asociada-a-info-success-neutral-y-datos-parejos.md)). Para Etiquetas hay tres propuestas de vista para el CTO, aparte del handoff ([0117](decisiones/05-paginas/etiquetas/0117-tres-propuestas-de-vista-para-decidir.md); `historial/2026-10-08-etiquetas-y-categorias.md`).
+
 ### Esperando una respuesta mía
 
 | Qué | Pregunta |
 |---|---|
+| Propuestas de Etiquetas | Hay tres vistas para el CTO en «Propuestas · Etiquetas · Ver etiquetas» ([0117](decisiones/05-paginas/etiquetas/0117-tres-propuestas-de-vista-para-decidir.md)). ¿Cuál se elige? El handoff sigue con list items. |
+| Placeholders con «...» | La regla nueva ([0113](decisiones/05-paginas/etiquetas/0113-buscador-buscar-etiquetas-por-nombre.md)) pide «...» en el placeholder. Campañas, Listas e Historial no lo tienen en sus archivos. ¿Los alineo? |
 | «Categoría de errores unificada con las cards» | ¿A qué se refiere? No está en la lista de cambios aplicados. |
 | Dinámicas | Las tablas de ejemplo muestran Activa (83 filas) y Detenida (8). ¿Se agrega una fila de ejemplo En pausa? |
 | Card «Menú de fila» (`10:27362`) | Ahora describe el mapa de 03.3 y se acortó para que entre (636 de 812 px). ¿Te sirve así o preferís agrandar la card? |

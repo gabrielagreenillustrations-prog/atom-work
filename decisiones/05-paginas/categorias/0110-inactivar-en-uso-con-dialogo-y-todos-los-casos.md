@@ -1,6 +1,6 @@
 # 0110 — Categorías: Inactivar en uso abre un aviso, y la propuesta cubre todos los casos de uso
 
-**Estado:** propuesta · reemplaza en la [0107](0107-propuesta-b-categoria-en-uso-bloqueada.md) el punto «Inactivar deshabilitado»
+**Estado:** reemplazada por [0114](0114-editar-opcion-en-uso-bloqueada-sin-conteo.md) (Editar) y [0115](0115-inactivar-en-uso-deshabilitado-con-tooltip.md) (Inactivar) · reemplazaba en la [0107](0107-propuesta-b-categoria-en-uso-bloqueada.md) el punto «Inactivar deshabilitado»
 **Fecha:** 2026-10-06
 **Componente:** `❖ atom-dropdown-menu` · `❖ atom-dialog` · `❖ atom-checkbox`
 **Alcance:** Categorías, `01.3 · 08–10` y `01.4 · 04–07` (fila «Propuesta»).

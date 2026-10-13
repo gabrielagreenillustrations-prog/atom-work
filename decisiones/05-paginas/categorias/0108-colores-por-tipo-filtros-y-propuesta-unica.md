@@ -1,6 +1,6 @@
 # 0108 — Categorías: color por tipo de asociación, un frame por filtro y una sola propuesta
 
-**Estado:** vigente · reemplaza en parte la [0104](0104-una-columna-asociada-a-con-un-tag.md) (color Neutral) y la [0107](0107-propuesta-b-categoria-en-uso-bloqueada.md) (nombre «Propuesta B»)
+**Estado:** vigente · reemplaza en parte la [0104](0104-una-columna-asociada-a-con-un-tag.md) (color Neutral) y la [0107](0107-propuesta-b-categoria-en-uso-bloqueada.md) (nombre «Propuesta B») · la «propuesta única», reemplazado por [0114](0114-editar-opcion-en-uso-bloqueada-sin-conteo.md) y [0115](0115-inactivar-en-uso-deshabilitado-con-tooltip.md) (ya no hay fila de propuesta) · los colores de Plantillas (AI) y Ambas (Brand), reemplazados por [0116](0116-asociada-a-info-success-neutral-y-datos-parejos.md)
 **Fecha:** 2026-10-06
 **Componente:** `❖ atom-tag` · `❖ atom-tooltip` · `❖ atom-filters-panel` · `❖ atom-sidebar-complete (Design Internal)`
 **Alcance:** Categorías, `01.1 · 05–11`, `01.3 · 08` y `01.4 · 04`.

@@ -100,7 +100,7 @@ el campo **Componente**; se suma su fila en «Por número» y su lugar en «Por 
 | [0012](03-moleculas/atom-dropdown-menu/0012-mensaje-entrante-editar-y-publicar.md) | Mensaje entrante conserva «Editar y publicar» |
 
 **Antes:** [0042](03-moleculas/atom-dropdown-menu/0042-acciones-no-disponibles-y-descargar-errores.md) y [0046](03-moleculas/atom-dropdown-menu/0046-gestion-acciones-no-disponibles-en-disabled.md) → [0053](03-moleculas/atom-dropdown-menu/0053-acciones-no-disponibles-se-ocultan.md) · «Descargar JSON»: [0011](03-moleculas/atom-dropdown-menu/0011-descargar-json-se-mantiene.md) → [0066](05-paginas/gestion-de-flujos/0066-descargar-flujo-y-detalles-del-flujo.md)  
-**Ver también:** [0015](01-fundamentos/iconografia/0015-iconos-de-menus-de-acciones.md) y [0051](01-fundamentos/iconografia/0051-detener-con-stop-circle.md) (íconos), [0054](05-paginas/resultados-de-campanas/0054-dinamicas-con-error-detener-y-duplicar.md) (Detener y Duplicar en dinámicas), [0067](05-paginas/metricas/0067-metricas-de-plantilla-en-todas-las-superficies.md) (acción de métricas con contador), [0066](05-paginas/gestion-de-flujos/0066-descargar-flujo-y-detalles-del-flujo.md) («Descargar flujo»)  
+**Ver también:** [0015](01-fundamentos/iconografia/0015-iconos-de-menus-de-acciones.md) y [0051](01-fundamentos/iconografia/0051-detener-con-stop-circle.md) (íconos), [0054](05-paginas/resultados-de-campanas/0054-dinamicas-con-error-detener-y-duplicar.md) (Detener y Duplicar en dinámicas), [0067](05-paginas/metricas/0067-metricas-de-plantilla-en-todas-las-superficies.md) (acción de métricas con contador), [0066](05-paginas/gestion-de-flujos/0066-descargar-flujo-y-detalles-del-flujo.md) («Descargar flujo»), [0115](05-paginas/categorias/0115-inactivar-en-uso-deshabilitado-con-tooltip.md) (excepción: Inactivar en Disabled con tooltip en Categorías)  
 
 #### ❖ atom-snackbar · regla vigente: [sistema/snackbars.md](../sistema/snackbars.md)
 
@@ -252,14 +252,19 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 
 | # | Decisión |
 |---|---|
-| [0094](05-paginas/etiquetas/0094-etiquetas-dos-propuestas-y-solo-lo-que-existe.md) | Dos propuestas (grilla y tabla), con buscador, y solo los estados que existen |
-| [0096](05-paginas/etiquetas/0096-tabla-de-etiquetas-main-con-icono-y-acciones-visibles.md) | Tabla: Nombre en Main (premade) con ícono; Editar y Eliminar siempre visibles |
-| [0097](05-paginas/etiquetas/0097-grilla-de-etiquetas-acciones-en-menu-de-la-card.md) | Grilla: acciones en el menú del header de la card |
+| [0094](05-paginas/etiquetas/0094-etiquetas-dos-propuestas-y-solo-lo-que-existe.md) | Buscador y solo los estados que existen (las dos propuestas pasaron a la 0111) |
+| [0111](05-paginas/etiquetas/0111-solo-atom-list-item.md) | La vista es solo `❖ atom-list-item`, sin tabs ni selector de vista |
+| [0112](05-paginas/etiquetas/0112-grilla-fluida-de-list-items.md) | Grilla fluida: ítems de 240 a 320 px, con wrap |
+| [0113](05-paginas/etiquetas/0113-buscador-buscar-etiquetas-por-nombre.md) | Buscador: «Buscar etiquetas por nombre»; «...» solo en el placeholder |
+| [0117](05-paginas/etiquetas/0117-tres-propuestas-de-vista-para-decidir.md) | Propuesta: tres vistas para decidir (tabla, list items, tabla con look de list items); el handoff no cambia |
 | [0098](05-paginas/etiquetas/0098-dialogos-de-etiquetas-copy-y-validacion.md) | Diálogos: copy normalizado y validación de Forms |
 | [0099](05-paginas/etiquetas/0099-errores-del-campo-segun-text-field-patterns.md) | Errores: «Mínimo 3 caracteres requeridos» y «El nombre ya está en uso.» |
 | [0100](05-paginas/etiquetas/0100-editar-y-eliminar-segun-dialog-patterns.md) | Editar: botón «Editar»; Eliminar: cuerpo con la consecuencia |
 | [0101](05-paginas/etiquetas/0101-snackbars-en-etiquetas.md) | Snackbars de éxito y error en crear, editar y eliminar |
 | [0102](05-paginas/etiquetas/0102-error-cierra-el-dialogo.md) | Con error, el diálogo se cierra y queda el snackbar |
+
+**Antes:** [0096](05-paginas/etiquetas/0096-tabla-de-etiquetas-main-con-icono-y-acciones-visibles.md) (tabla) y [0097](05-paginas/etiquetas/0097-grilla-de-etiquetas-acciones-en-menu-de-la-card.md) (grilla de cards) → [0111](05-paginas/etiquetas/0111-solo-atom-list-item.md)  
+**Ver también:** [0009](03-moleculas/atom-search-input/0009-copy-del-buscador.md) (copy del buscador)
 
 #### Categorías · `/settings/categories`
 
@@ -269,12 +274,15 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | [0104](05-paginas/categorias/0104-una-columna-asociada-a-con-un-tag.md) | Una columna «Asociada a» con un tag por celda y tooltip; Activo pasa a Estado |
 | [0105](05-paginas/categorias/0105-crear-y-editar-segun-forms-patterns.md) | Crear y Editar según Forms Patterns: submit gate y «Se requiere el nombre» |
 | [0106](05-paginas/categorias/0106-snackbars-y-errores-de-categorias.md) | Snackbars de crear, editar e inactivar; error por asociación sin Reintentar |
-| [0107](05-paginas/categorias/0107-propuesta-b-categoria-en-uso-bloqueada.md) | Propuesta: opciones en uso bloqueadas e Inactivar deshabilitado |
 | [0108](05-paginas/categorias/0108-colores-por-tipo-filtros-y-propuesta-unica.md) | Tags con color por tipo y tooltip por tipo; un frame por filtro; una sola propuesta |
+| [0116](05-paginas/categorias/0116-asociada-a-info-success-neutral-y-datos-parejos.md) | «Asociada a» en Info (`bolt`), Success (`message`) y Neutral; 6 respuestas rápidas, 6 plantillas y 2 ambas en los datos de ejemplo |
 | [0109](05-paginas/categorias/0109-filters-panel-segun-patterns.md) | Filters panel completo y de tamaño fijo, según Filters panel patterns |
-| [0110](05-paginas/categorias/0110-inactivar-en-uso-con-dialogo-y-todos-los-casos.md) | Propuesta: Inactivar en uso abre un aviso con «Entendido»; Editar con los tres casos de uso |
+| [0114](05-paginas/categorias/0114-editar-opcion-en-uso-bloqueada-sin-conteo.md) | Editar: la opción en uso va bloqueada con «En uso en …», sin conteo ni link |
+| [0115](05-paginas/categorias/0115-inactivar-en-uso-deshabilitado-con-tooltip.md) | Inactivar en uso: Disabled con tooltip «No puedes inactivarla porque está en uso» (excepción a la 0053) |
 
-**Ver también:** [0099](05-paginas/etiquetas/0099-errores-del-campo-segun-text-field-patterns.md) (nombre duplicado), [0101](05-paginas/etiquetas/0101-snackbars-en-etiquetas.md) y [0102](05-paginas/etiquetas/0102-error-cierra-el-dialogo.md) (snackbars)
+**Antes:** [0107](05-paginas/categorias/0107-propuesta-b-categoria-en-uso-bloqueada.md) y [0110](05-paginas/categorias/0110-inactivar-en-uso-con-dialogo-y-todos-los-casos.md) (propuestas de Editar e Inactivar) → [0114](05-paginas/categorias/0114-editar-opcion-en-uso-bloqueada-sin-conteo.md) y [0115](05-paginas/categorias/0115-inactivar-en-uso-deshabilitado-con-tooltip.md)  
+
+**Ver también:** [0099](05-paginas/etiquetas/0099-errores-del-campo-segun-text-field-patterns.md) (nombre duplicado), [0101](05-paginas/etiquetas/0101-snackbars-en-etiquetas.md) y [0102](05-paginas/etiquetas/0102-error-cierra-el-dialogo.md) (snackbars), [0053](03-moleculas/atom-dropdown-menu/0053-acciones-no-disponibles-se-ocultan.md) (regla de menús de la que se exceptúa la 0115)
 
 #### Stickers · `/settings/stickers`
 
@@ -422,8 +430,8 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | [0093](04-organismos/atom-data-table/0093-paginadores-de-listas-segun-el-contexto.md) | Paginadores de Listas según el contexto | vigente | 2026-09-29 |
 | [0094](05-paginas/etiquetas/0094-etiquetas-dos-propuestas-y-solo-lo-que-existe.md) | Etiquetas: dos propuestas (grilla y tabla) y solo los estados que existen | vigente | 2026-10-06 |
 | [0095](04-organismos/atom-dialog/0095-dialogos-centrados-en-el-frame.md) | Diálogos centrados respecto al frame completo | vigente | 2026-10-06 |
-| [0096](05-paginas/etiquetas/0096-tabla-de-etiquetas-main-con-icono-y-acciones-visibles.md) | Tabla de Etiquetas: Main (premade) con ícono y acciones visibles | vigente | 2026-10-06 |
-| [0097](05-paginas/etiquetas/0097-grilla-de-etiquetas-acciones-en-menu-de-la-card.md) | Grilla de Etiquetas: acciones en el menú de la card | vigente | 2026-10-06 |
+| [0096](05-paginas/etiquetas/0096-tabla-de-etiquetas-main-con-icono-y-acciones-visibles.md) | Tabla de Etiquetas: Main (premade) con ícono y acciones visibles | reemplazada por [0111](05-paginas/etiquetas/0111-solo-atom-list-item.md); retomada como propuesta A en la [0117](05-paginas/etiquetas/0117-tres-propuestas-de-vista-para-decidir.md) | 2026-10-06 |
+| [0097](05-paginas/etiquetas/0097-grilla-de-etiquetas-acciones-en-menu-de-la-card.md) | Grilla de Etiquetas: acciones en el menú de la card | reemplazada por [0111](05-paginas/etiquetas/0111-solo-atom-list-item.md) | 2026-10-06 |
 | [0098](05-paginas/etiquetas/0098-dialogos-de-etiquetas-copy-y-validacion.md) | Diálogos de Etiquetas: copy normalizado y validación | vigente | 2026-10-06 |
 | [0099](05-paginas/etiquetas/0099-errores-del-campo-segun-text-field-patterns.md) | Etiquetas: errores del campo según Text Field Patterns | vigente | 2026-10-06 |
 | [0100](05-paginas/etiquetas/0100-editar-y-eliminar-segun-dialog-patterns.md) | Etiquetas: Editar y Eliminar según Dialog Patterns | vigente | 2026-10-06 |
@@ -433,10 +441,17 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | [0104](05-paginas/categorias/0104-una-columna-asociada-a-con-un-tag.md) | Categorías: una columna «Asociada a» con un tag | vigente | 2026-10-06 |
 | [0105](05-paginas/categorias/0105-crear-y-editar-segun-forms-patterns.md) | Categorías: Crear y Editar según Forms Patterns | vigente | 2026-10-06 |
 | [0106](05-paginas/categorias/0106-snackbars-y-errores-de-categorias.md) | Categorías: snackbars de crear, editar e inactivar | vigente | 2026-10-06 |
-| [0107](05-paginas/categorias/0107-propuesta-b-categoria-en-uso-bloqueada.md) | Categorías: propuesta de opciones en uso bloqueadas | propuesta | 2026-10-06 |
+| [0107](05-paginas/categorias/0107-propuesta-b-categoria-en-uso-bloqueada.md) | Categorías: propuesta de opciones en uso bloqueadas | reemplazada por [0114](05-paginas/categorias/0114-editar-opcion-en-uso-bloqueada-sin-conteo.md) y [0115](05-paginas/categorias/0115-inactivar-en-uso-deshabilitado-con-tooltip.md) | 2026-10-06 |
 | [0108](05-paginas/categorias/0108-colores-por-tipo-filtros-y-propuesta-unica.md) | Categorías: color por tipo de asociación, un frame por filtro y una sola propuesta | vigente | 2026-10-06 |
 | [0109](05-paginas/categorias/0109-filters-panel-segun-patterns.md) | Categorías: filters panel completo, según Filters panel patterns | vigente | 2026-10-06 |
-| [0110](05-paginas/categorias/0110-inactivar-en-uso-con-dialogo-y-todos-los-casos.md) | Categorías: Inactivar en uso con aviso y todos los casos de uso | propuesta | 2026-10-06 |
+| [0110](05-paginas/categorias/0110-inactivar-en-uso-con-dialogo-y-todos-los-casos.md) | Categorías: Inactivar en uso con aviso y todos los casos de uso | reemplazada por [0114](05-paginas/categorias/0114-editar-opcion-en-uso-bloqueada-sin-conteo.md) y [0115](05-paginas/categorias/0115-inactivar-en-uso-deshabilitado-con-tooltip.md) | 2026-10-06 |
+| [0111](05-paginas/etiquetas/0111-solo-atom-list-item.md) | Etiquetas: la vista es solo `❖ atom-list-item` | vigente | 2026-10-08 |
+| [0112](05-paginas/etiquetas/0112-grilla-fluida-de-list-items.md) | Etiquetas: grilla fluida de list items, de 240 a 320 px | vigente | 2026-10-08 |
+| [0113](05-paginas/etiquetas/0113-buscador-buscar-etiquetas-por-nombre.md) | Etiquetas: buscador «Buscar etiquetas por nombre», con «...» solo en el placeholder | vigente | 2026-10-08 |
+| [0114](05-paginas/categorias/0114-editar-opcion-en-uso-bloqueada-sin-conteo.md) | Categorías: Editar bloquea la opción en uso, sin conteo ni link | vigente | 2026-10-08 |
+| [0115](05-paginas/categorias/0115-inactivar-en-uso-deshabilitado-con-tooltip.md) | Categorías: Inactivar en uso en Disabled con tooltip (excepción a la 0053) | vigente | 2026-10-08 |
+| [0116](05-paginas/categorias/0116-asociada-a-info-success-neutral-y-datos-parejos.md) | Categorías: «Asociada a» en Info, Success y Neutral, con íconos y datos de ejemplo parejos | vigente | 2026-10-08 |
+| [0117](05-paginas/etiquetas/0117-tres-propuestas-de-vista-para-decidir.md) | Etiquetas: tres propuestas de vista para decidir, sin tocar el handoff | propuesta | 2026-10-08 |
 | [0118](05-paginas/stickers/0118-stickers-handoff-desde-qa-grilla-de-atom-card.md) | Stickers: handoff desde QA, grilla de `❖ atom-card` responsive | vigente | 2026-10-12 |
 | [0119](05-paginas/stickers/0119-stickers-snackbars-y-errores-de-subida.md) | Stickers: snackbars y errores de subida | vigente | 2026-10-12 |
 | [0120](05-paginas/stickers/0120-stickers-editar-en-dialog.md) | Stickers: Editar en un dialog | vigente · fila actual reemplazada por 0127 | 2026-10-12 |

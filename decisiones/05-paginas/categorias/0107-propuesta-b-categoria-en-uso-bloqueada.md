@@ -1,6 +1,6 @@
 # 0107 — Categorías: Propuesta B, opciones en uso bloqueadas en vez de error
 
-**Estado:** propuesta; el nombre «Propuesta B», reemplazado por [0108](0108-colores-por-tipo-filtros-y-propuesta-unica.md) (se llama «Propuesta»); el punto de Inactivar, reemplazado por [0110](0110-inactivar-en-uso-con-dialogo-y-todos-los-casos.md)
+**Estado:** reemplazada · el nombre «Propuesta B», por [0108](0108-colores-por-tipo-filtros-y-propuesta-unica.md); Editar, por [0114](0114-editar-opcion-en-uso-bloqueada-sin-conteo.md); Inactivar, por [0110](0110-inactivar-en-uso-con-dialogo-y-todos-los-casos.md) y después por [0115](0115-inactivar-en-uso-deshabilitado-con-tooltip.md)
 **Fecha:** 2026-10-06
 **Componente:** `❖ atom-checkbox` · `❖ atom-dropdown-menu` · `❖ atom-tooltip`
 **Alcance:** Categorías, `01.3 · 08` y `01.4 · 04`, en filas «Propuesta B» separadas con más espacio.

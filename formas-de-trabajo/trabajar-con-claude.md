@@ -323,6 +323,21 @@ copiarlas: no aceptar.
   destino (`(await n.getMainComponentAsync()).parent.children`). `importComponentByKeyAsync` trae otra
   copia, y con ella `setReactionsAsync` falla.
 
+**Cuando diseño elige una opción con un link, leer ese frame.** Diseño puede haberlo ajustado después de
+que lo armé: el 8 oct, la opción B de colores tenía Success e íconos que yo no había puesto, y la apliqué
+mal desde mis notas. Copiar las propiedades de las instancias del frame elegido.
+
+**Los cambios masivos de instancias bloquean Figma.** 424 `setProperties` en 31 frames tardaron entre 4 y
+10 minutos, y mientras tanto la consola no responde. El avance se ve con `get_screenshot` del MCP de
+escritorio. Leer filas con un `findAll` por tag es aún más lento: juntar los textos una vez por frame.
+
+**El `State` de una celda de tabla reemplaza su contenido.** Pasar una `_table-data-cell` a Hover borró el
+ícono y el botón del slot. Para simular hover, no cambiar esa variante.
+
+**Ícono que muestra su nombre como texto.** Si un `❖ atom-icon (DEPRECATED)` muestra «TAG» en vez del
+glifo, la variable de fuente apunta a otra familia (Brands): desligar `fontFamily` y poner Font Awesome 7
+Pro Regular, como el ícono de los list items.
+
 ---
 
 ## Estructura de los componentes

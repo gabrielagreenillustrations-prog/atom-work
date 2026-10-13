@@ -1,6 +1,6 @@
 # 0106 — Categorías: snackbars de crear, editar e inactivar
 
-**Estado:** vigente
+**Estado:** vigente · el error por asociación, reemplazado por [0115](0115-inactivar-en-uso-deshabilitado-con-tooltip.md)
 **Fecha:** 2026-10-06
 **Componente:** `❖ atom-snackbars-stack`
 **Alcance:** Categorías, `01.2 · 07–08`, `01.3 · 06–07` y `01.4 · 01–03`.

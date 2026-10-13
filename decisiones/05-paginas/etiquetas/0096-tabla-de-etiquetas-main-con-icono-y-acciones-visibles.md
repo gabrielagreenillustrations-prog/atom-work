@@ -1,6 +1,6 @@
 # 0096 — Tabla de Etiquetas: Nombre en Main (premade) con ícono y acciones siempre visibles
 
-**Estado:** vigente
+**Estado:** reemplazada por [0111](0111-solo-atom-list-item.md) · retomada como propuesta A en la [0117](0117-tres-propuestas-de-vista-para-decidir.md)
 **Fecha:** 2026-10-06
 **Componente:** `❖ atom-data-table` · `_table-column`
 **Alcance:** Etiquetas, Propuesta B (`01.1 · 07–12`).

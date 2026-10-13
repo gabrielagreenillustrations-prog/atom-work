@@ -1,6 +1,6 @@
 # 0053 — Menús de acciones: las acciones no disponibles se ocultan
 
-**Estado:** vigente
+**Estado:** vigente · excepción en Categorías: [0115](../../05-paginas/categorias/0115-inactivar-en-uso-deshabilitado-con-tooltip.md)
 **Fecha:** 2026-09-26
 **Alcance:** Campañas · Resultados (`01.4` y los menús de dinámicas) y Automatizaciones · Gestión
 de flujos (`03.3`). Reemplaza a [0042](0042-acciones-no-disponibles-y-descargar-errores.md) y a

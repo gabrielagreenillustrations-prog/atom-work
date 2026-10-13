@@ -1,6 +1,6 @@
 # 0097 — Grilla de Etiquetas: las acciones van en el menú del header de la card
 
-**Estado:** vigente
+**Estado:** reemplazada por [0111](0111-solo-atom-list-item.md)
 **Fecha:** 2026-10-06
 **Componente:** `❖ atom-card` · `❖ atom-dropdown-menu`
 **Alcance:** Etiquetas, Propuesta A (`01.1 · 01–06`).

@@ -1,6 +1,6 @@
 # Copy y microcopy
 
-Última revisión: **2026-10-08** · Decisiones: [0113](../decisiones/05-paginas/etiquetas/0113-buscador-buscar-etiquetas-por-nombre.md) · [0009](../decisiones/03-moleculas/atom-search-input/0009-copy-del-buscador.md) · [0010](../decisiones/03-moleculas/atom-filter/0010-orden-de-opciones.md) · [0024](../decisiones/02-atomos/atom-button/0024-botones-en-loading.md) · [0033](../decisiones/04-organismos/atom-data-table/columnas-resultados/0033-fecha-de-creacion-en-dinamicas.md) · [0063](../decisiones/05-paginas/metricas/0063-metricas-de-resultados.md) · [0047](../decisiones/04-organismos/atom-dialog/0047-detener-campana-flujo-de-mensaje-entrante.md) (reemplaza a [0043](../decisiones/04-organismos/atom-dialog/0043-copy-de-detener-campana.md)) · [0048](../decisiones/05-paginas/gestion-de-flujos/0048-gestion-filtro-estado.md) · [0066](../decisiones/05-paginas/gestion-de-flujos/0066-descargar-flujo-y-detalles-del-flujo.md) · [0067](../decisiones/05-paginas/metricas/0067-metricas-de-plantilla-en-todas-las-superficies.md) · [0070](../decisiones/05-paginas/historial-de-conversaciones/0070-historial-nombre-del-cliente-y-busqueda.md)
+Última revisión: **2026-10-19** · Decisiones: [0135](../decisiones/05-paginas/crear-campana/0135-labels-placeholders-y-ayudas-de-los-selectores.md) · [0139](../decisiones/05-paginas/crear-campana/0139-errores-se-requiere-y-requerido-en-hora.md) · [0113](../decisiones/05-paginas/etiquetas/0113-buscador-buscar-etiquetas-por-nombre.md) · [0009](../decisiones/03-moleculas/atom-search-input/0009-copy-del-buscador.md) · [0010](../decisiones/03-moleculas/atom-filter/0010-orden-de-opciones.md) · [0024](../decisiones/02-atomos/atom-button/0024-botones-en-loading.md) · [0033](../decisiones/04-organismos/atom-data-table/columnas-resultados/0033-fecha-de-creacion-en-dinamicas.md) · [0063](../decisiones/05-paginas/metricas/0063-metricas-de-resultados.md) · [0047](../decisiones/04-organismos/atom-dialog/0047-detener-campana-flujo-de-mensaje-entrante.md) (reemplaza a [0043](../decisiones/04-organismos/atom-dialog/0043-copy-de-detener-campana.md)) · [0048](../decisiones/05-paginas/gestion-de-flujos/0048-gestion-filtro-estado.md) · [0066](../decisiones/05-paginas/gestion-de-flujos/0066-descargar-flujo-y-detalles-del-flujo.md) · [0067](../decisiones/05-paginas/metricas/0067-metricas-de-plantilla-en-todas-las-superficies.md) · [0070](../decisiones/05-paginas/historial-de-conversaciones/0070-historial-nombre-del-cliente-y-busqueda.md)
 
 ---
 
@@ -92,3 +92,15 @@ No se pasa a infinitivo.
 
 Formato **`Ej. <ejemplo real>`**. Ejemplo: `Ej. Clientes recurrentes` en el modal de
 duplicar lista.
+
+## Placeholders de select
+
+Formato **`Selecciona un/una <sustantivo>`** ([0135](../decisiones/05-paginas/crear-campana/0135-labels-placeholders-y-ayudas-de-los-selectores.md)).
+Ejemplos de Crear campaña: «Selecciona un número», «Selecciona una plantilla», «Selecciona un flujo»,
+«Selecciona una lista», «Selecciona un grupo», «Selecciona un agente», «Selecciona una fecha».
+
+## Errores de campo
+
+On blur, reemplazando al texto de ayuda, con **`Se requiere <el/la> <sustantivo>`** (Text field
+Patterns). Excepción en Crear campaña: Hora y Minuto siguen con «Requerido», como en QA
+([0139](../decisiones/05-paginas/crear-campana/0139-errores-se-requiere-y-requerido-en-hora.md)).

@@ -6,7 +6,8 @@ para reflejar el presente.
 ```
 campanas/
 ├── resultados-de-campanas.md   ← estáticas y dinámicas
-└── listas.md
+├── listas.md
+└── crear-campana.md            ← formulario, edición y vista de configuración
 automatizaciones/
 ├── gestion-de-flujos.md
 └── historial-de-conversaciones.md

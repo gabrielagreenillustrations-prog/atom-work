@@ -3,7 +3,10 @@
 Este archivo existe para abrir una conversación nueva con Claude sin volver a explicar
 nada. **Copiá el bloque de abajo y pegalo tal cual.**
 
-Última actualización: **2026-10-08**
+Última actualización: **2026-10-20**
+
+Para migrar un módulo nuevo al DS (handoff en Figma + FRD), el prompt está en
+[`formas-de-trabajo/prompt-migracion-a-ds.md`](formas-de-trabajo/prompt-migracion-a-ds.md).
 
 ---
 
@@ -146,10 +149,23 @@ En Categorías, Editar bloquea la opción en uso, sin conteo ni link ([0114](dec
 e Inactivar en uso va en Disabled con tooltip, una excepción a la 0053 ([0115](decisiones/05-paginas/categorias/0115-inactivar-en-uso-deshabilitado-con-tooltip.md)).
 «Asociada a» quedó en Info con `bolt`, Success con `message` y Neutral, con datos de ejemplo parejos ([0116](decisiones/05-paginas/categorias/0116-asociada-a-info-success-neutral-y-datos-parejos.md)). Para Etiquetas hay tres propuestas de vista para el CTO, aparte del handoff ([0117](decisiones/05-paginas/etiquetas/0117-tres-propuestas-de-vista-para-decidir.md); `historial/2026-10-08-etiquetas-y-categorias.md`).
 
+Del 16 al 19 de octubre se cerró el handoff de **Crear campaña** (`/campaigns/results/create`) en el
+archivo de Campañas: 20 HUs, 72 frames, sección `1186:94` de la page «Crear Campaña», con su FRD en Confluence
+(v14). La vista previa pasó a contenedor de contenido con su regla de ancho, la navegación entre plantillas va
+arriba de la vista previa y el contador «n/N» es un text field de solo lectura de 48 px con `4xxl`, también en
+la page Métricas de plantillas (decisiones 0129–0140). El 19 se comparó Figma con las cards y el FRD y se
+pasaron al FRD los cambios que diseño hizo a mano (`historial/2026-10-19-crear-campana.md`,
+`modulos/campanas/crear-campana.md`).
+
 ### Esperando una respuesta mía
 
 | Qué | Pregunta |
 |---|---|
+| Crear campaña · `18.00 · 02` | «Fecha de envío» está vacío y en error, pero el placeholder dice «14 Oct 26»; en `11.00 · 01` dice «Selecciona una fecha». ¿Lo cambio? |
+| Crear campaña · botón en carga | `05.00 · 01` dice «Enviando», sin «...»; la [0024](decisiones/02-atomos/atom-button/0024-botones-en-loading.md) pide «Enviando...». El FRD y la card quedaron como el frame. ¿Cuál vale? |
+| Contadores del panel v2 | En *Métricas por plantilla inicial* (page *Nueva UI*), los 14 contadores quedaron en text field de 64 px, sin token. ¿Los paso a 48 px con `4xxl`, como la [0132](decisiones/02-atomos/atom-text-field/0132-contador-n-de-n-text-field-de-48-px.md)? |
+| Stepper anterior | *Panel v1* y *Exploración* (archivo de métricas) y `03.9 · 02` de Automatizaciones siguen con el select del stepper anterior. ¿Se actualizan o quedan como versiones anteriores? |
+| HU-14 del FRD de Crear campaña | La descripción todavía habla de validar los casos que impiden enviar, y solo queda «Salir sin guardar». Es tu texto: ¿lo ajusto? |
 | Propuestas de Etiquetas | Hay tres vistas para el CTO en «Propuestas · Etiquetas · Ver etiquetas» ([0117](decisiones/05-paginas/etiquetas/0117-tres-propuestas-de-vista-para-decidir.md)). ¿Cuál se elige? El handoff sigue con list items. |
 | Placeholders con «...» | La regla nueva ([0113](decisiones/05-paginas/etiquetas/0113-buscador-buscar-etiquetas-por-nombre.md)) pide «...» en el placeholder. Campañas, Listas e Historial no lo tienen en sus archivos. ¿Los alineo? |
 | «Categoría de errores unificada con las cards» | ¿A qué se refiere? No está en la lista de cambios aplicados. |
@@ -223,6 +239,7 @@ e Inactivar en uso va en Disabled con tooltip, una excepción a la 0053 ([0115](
 
 | Qué | Estado |
 |---|---|
+| FRD de Crear campaña y de Métricas de plantilla | En Confluence, espacio AD: [Crear campaña](https://atomchat.atlassian.net/wiki/spaces/AD/pages/4876533762) (v14, 2026-10-19) y [Métricas de plantilla](https://atomchat.atlassian.net/wiki/spaces/AD/pages/4880302162) (v11). Se editan por la API REST desde Chrome, con cambios puntuales (`formas-de-trabajo/trabajar-con-claude.md` › Confluence). En la sesión de octubre la skill `frd-migracion-ds-2` aparece en la lista de skills. |
 | FRD en Confluence | Estructura: un documento por submódulo, similar al de Bandeja ([0079](decisiones/06-proceso-y-fuentes/documentacion/0079-un-documento-por-submodulo.md)). La skill «FRD de migración a DS» se compartió como link de claude.ai; con la cuenta de esta sesión, claude.ai responde «Este elemento no está disponible. Puede que no exista o que no tengas acceso a él». Interpretación, sin verificar: el link es de la organización de Claude de quien la compartió. Para generar el FRD hace falta la skill como archivo (`.zip` o `.skill`) o acceso a ese link. |
 
 ### Sin revisar
@@ -241,6 +258,10 @@ escritorio** (`cmd+alt+i`, contexto `top`, el global `figma` está disponible).
 
 Los gotchas conocidos están en `formas-de-trabajo/trabajar-con-claude.md`. Vale la pena
 leerlos: me ahorraron horas y dos accidentes.
+
+El MCP de Figma **de escritorio** sí lee mis archivos (`get_metadata` y `get_screenshot` sobre la pestaña
+activa): sirve para inventarios y para verificar frames sin tocar la consola. Nunca cargar todas las pages de
+un archivo: el 2026-10-19 la pestaña de Campañas se quedó sin memoria.
 
 ---
 

@@ -65,7 +65,15 @@ el campo **Componente**; se suma su fila en «Por número» y su lugar en «Por 
 |---|---|
 | [0024](02-atomos/atom-button/0024-botones-en-loading.md) | Botones en loading: gerundio y spinner |
 
-**Ver también:** [0021](01-fundamentos/iconografia/0021-iconos-de-side-panels.md) (íconos de «Descargar errores» y «Reporte de errores»)  
+**Ver también:** [0021](01-fundamentos/iconografia/0021-iconos-de-side-panels.md) (íconos de «Descargar errores» y «Reporte de errores»), [0137](05-paginas/crear-campana/0137-boton-enviar-y-guardar.md) (Crear campaña: «Enviar» / «Guardar»; abierto «Enviando» sin «...»)  
+
+#### ❖ atom-text-field · regla vigente: [sistema/vista-previa-de-plantilla.md](../sistema/vista-previa-de-plantilla.md)
+
+| # | Decisión |
+|---|---|
+| [0132](02-atomos/atom-text-field/0132-contador-n-de-n-text-field-de-48-px.md) | El contador «n/N» de la navegación de plantillas es un text field Extra Small de solo lectura, de 48 px con el token `4xxl` |
+
+**Ver también:** [0131](05-paginas/crear-campana/0131-navegacion-de-plantillas-arriba-de-la-vista-previa.md) (la navegación en Crear campaña), [0139](05-paginas/crear-campana/0139-errores-se-requiere-y-requerido-en-hora.md) (errores de los campos de Crear campaña)  
 
 #### ❖ atom-tooltip
 
@@ -187,7 +195,7 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | [0095](04-organismos/atom-dialog/0095-dialogos-centrados-en-el-frame.md) | Centrado respecto al frame completo (Etiquetas) |
 
 **Antes:** [0043](04-organismos/atom-dialog/0043-copy-de-detener-campana.md) → [0047](04-organismos/atom-dialog/0047-detener-campana-flujo-de-mensaje-entrante.md)  
-**Ver también:** [0041](04-organismos/atom-sidepanel-metricas/0041-side-panels-de-metricas-con-overlay.md) (el mismo backdrop en los side panels de métricas)  
+**Ver también:** [0041](04-organismos/atom-sidepanel-metricas/0041-side-panels-de-metricas-con-overlay.md) (el mismo backdrop en los side panels de métricas), [0134](05-paginas/crear-campana/0134-bloqueo-por-facturacion-con-dialogo-al-entrar.md) (Crear campaña: bloqueo por facturación al entrar), [0138](05-paginas/crear-campana/0138-validaciones-al-enviar-solo-salir-sin-guardar.md) (Crear campaña: solo «Salir sin guardar»; los dos aplican la 0095)  
 
 #### atom-chat · Chat · regla vigente: [sistema/atom-chat.md](../sistema/atom-chat.md)
 
@@ -230,6 +238,24 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 
 **Antes:** tab Dinámicas: [0016](05-paginas/resultados-de-campanas/0016-campanas-dinamicas-filtros-y-estados.md) → [0022](05-paginas/resultados-de-campanas/0022-campanas-dinamicas-tres-estados.md) → [0027](05-paginas/resultados-de-campanas/0027-dinamicas-misma-tabla-que-estaticas.md) → [0033](04-organismos/atom-data-table/columnas-resultados/0033-fecha-de-creacion-en-dinamicas.md) (hoy, [0063](05-paginas/metricas/0063-metricas-de-resultados.md) y [0054](05-paginas/resultados-de-campanas/0054-dinamicas-con-error-detener-y-duplicar.md))  
 **Ver también:** [0072](04-organismos/atom-data-table/0072-numero-copiable-en-tablas.md) (copiar en Canal), [0063](05-paginas/metricas/0063-metricas-de-resultados.md) y [0064](05-paginas/metricas/0064-valores-de-resultados-coherentes.md) (métricas), [0053](03-moleculas/atom-dropdown-menu/0053-acciones-no-disponibles-se-ocultan.md) (menús), [0055](03-moleculas/atom-search-input/0055-busqueda-deshabilita-filtros.md) (buscador), [0047](04-organismos/atom-dialog/0047-detener-campana-flujo-de-mensaje-entrante.md) (Detener campaña)  
+
+#### Crear campaña · `/campaigns/results/create` · regla vigente: [modulos/campanas/crear-campana.md](../modulos/campanas/crear-campana.md)
+
+| # | Decisión |
+|---|---|
+| [0129](05-paginas/crear-campana/0129-vista-previa-contenedor-inline.md) | La vista previa es un contenedor de contenido inline (Form + Preview Panel), no un side panel; con plantilla elegida, siempre el nombre y «Ver métricas de plantilla» |
+| [0130](05-paginas/crear-campana/0130-responsive-formulario-600-y-vista-previa-con-clamp.md) | Formulario de hasta 600 px con margen mínimo de 24; vista previa con clamp según el área (992 px de corte) |
+| [0131](05-paginas/crear-campana/0131-navegacion-de-plantillas-arriba-de-la-vista-previa.md) | La navegación entre plantillas va arriba de la vista previa, fuera del chat |
+| [0133](05-paginas/crear-campana/0133-hora-en-12-h-y-finalizacion-como-hoy.md) | La hora sigue en 12 h con AM/PM en un select; la finalización se cuenta como hoy (Día 1–30, Hora 1–168) |
+| [0134](05-paginas/crear-campana/0134-bloqueo-por-facturacion-con-dialogo-al-entrar.md) | El bloqueo por facturación es un diálogo informativo al entrar |
+| [0135](05-paginas/crear-campana/0135-labels-placeholders-y-ayudas-de-los-selectores.md) | Labels, placeholders «Selecciona un/una…» y textos de ayuda de los selectores |
+| [0136](05-paginas/crear-campana/0136-reanudar-automaticamente-marcado-por-defecto.md) | «Reanudar automáticamente…» viene marcado por defecto |
+| [0137](05-paginas/crear-campana/0137-boton-enviar-y-guardar.md) | El botón principal dice «Enviar» al crear y «Guardar» al editar |
+| [0138](05-paginas/crear-campana/0138-validaciones-al-enviar-solo-salir-sin-guardar.md) | De las validaciones al enviar queda solo «Salir sin guardar» |
+| [0139](05-paginas/crear-campana/0139-errores-se-requiere-y-requerido-en-hora.md) | Errores «Se requiere…», salvo Hora y Minuto, que siguen con «Requerido» |
+| [0140](05-paginas/crear-campana/0140-flujo-elegido-muestra-su-plantilla.md) | Con un flujo elegido, la vista previa muestra su plantilla (estado inicial) |
+
+**Ver también:** [0132](02-atomos/atom-text-field/0132-contador-n-de-n-text-field-de-48-px.md) (contador «n/N»), [0095](04-organismos/atom-dialog/0095-dialogos-centrados-en-el-frame.md) (diálogos centrados en el frame), [0024](02-atomos/atom-button/0024-botones-en-loading.md) (botones en loading)  
 
 #### Listas · regla vigente: [modulos/campanas/listas.md](../modulos/campanas/listas.md)
 
@@ -480,6 +506,18 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | [0126](05-paginas/stickers/0126-stickers-cards-de-ancho-fijo.md) | Stickers: cards de ancho fijo; la última fila puede quedar incompleta | vigente | 2026-10-12 |
 | [0127](05-paginas/stickers/0127-stickers-editar-solo-desde-el-menu.md) | Stickers: el nombre se edita solo desde el menú, en un dialog | vigente | 2026-10-12 |
 | [0128](05-paginas/stickers/0128-stickers-imagenes-de-internet-como-relleno-de-la-card.md) | Stickers: imágenes de internet como relleno del ImageSlot de la card | vigente | 2026-10-12 |
+| [0129](05-paginas/crear-campana/0129-vista-previa-contenedor-inline.md) | Crear campaña: la vista previa es un contenedor de contenido inline, no un side panel | vigente | 2026-10-19 |
+| [0130](05-paginas/crear-campana/0130-responsive-formulario-600-y-vista-previa-con-clamp.md) | Crear campaña: formulario de hasta 600 px y vista previa con clamp según el área | vigente | 2026-10-19 |
+| [0131](05-paginas/crear-campana/0131-navegacion-de-plantillas-arriba-de-la-vista-previa.md) | Crear campaña: la navegación entre plantillas va arriba de la vista previa, fuera del chat | vigente | 2026-10-19 |
+| [0132](02-atomos/atom-text-field/0132-contador-n-de-n-text-field-de-48-px.md) | El contador «n/N» es un text field de solo lectura de 48 px (`4xxl`) | vigente | 2026-10-19 |
+| [0133](05-paginas/crear-campana/0133-hora-en-12-h-y-finalizacion-como-hoy.md) | Crear campaña: la hora sigue en 12 h y la finalización se cuenta como hoy | vigente | 2026-10-19 |
+| [0134](05-paginas/crear-campana/0134-bloqueo-por-facturacion-con-dialogo-al-entrar.md) | Crear campaña: el bloqueo por facturación es un diálogo informativo al entrar | vigente | 2026-10-19 |
+| [0135](05-paginas/crear-campana/0135-labels-placeholders-y-ayudas-de-los-selectores.md) | Crear campaña: labels, placeholders y ayudas de los selectores | vigente | 2026-10-19 |
+| [0136](05-paginas/crear-campana/0136-reanudar-automaticamente-marcado-por-defecto.md) | Crear campaña: «Reanudar automáticamente…» viene marcado por defecto | vigente | 2026-10-19 |
+| [0137](05-paginas/crear-campana/0137-boton-enviar-y-guardar.md) | Crear campaña: «Enviar» al crear y «Guardar» al editar | vigente · abierto el copy de carga | 2026-10-19 |
+| [0138](05-paginas/crear-campana/0138-validaciones-al-enviar-solo-salir-sin-guardar.md) | Crear campaña: de las validaciones al enviar queda solo «Salir sin guardar» | vigente | 2026-10-19 |
+| [0139](05-paginas/crear-campana/0139-errores-se-requiere-y-requerido-en-hora.md) | Crear campaña: errores «Se requiere…», salvo Hora y Minuto con «Requerido» | vigente | 2026-10-19 |
+| [0140](05-paginas/crear-campana/0140-flujo-elegido-muestra-su-plantilla.md) | Crear campaña: con un flujo elegido, la vista previa muestra su plantilla | vigente | 2026-10-19 |
 
 ## Formato
 

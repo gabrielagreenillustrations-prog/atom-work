@@ -258,6 +258,10 @@ para saber si otra sesión con la misma cuenta está armando algo antes de tocar
 
 **No recorrer todas las páginas de un archivo grande.** `loadAsync` + `findAllWithCriteria` página
 por página colgó la pestaña de la Épica 1 varios minutos. Buscar primero en las páginas que importan.
+El 2026-10-19 lo mismo en Campañas dejó la pestaña sin memoria («Open this file in recovery mode»). No se
+pierde nada: cerrar la pestaña (la X del tab) y abrir el archivo desde *Home → Recents* con **doble clic**
+(un clic solo lo selecciona). Para auditar varias pages, una por una con `get_metadata` del MCP de
+escritorio (abajo).
 
 **En segundo plano, la consola de una pestaña no siempre se abre.** `cmd+alt+i` no hace nada si la
 app no está al frente. En la sesión 11, *Plugins → Development → Show/Hide console* por
@@ -323,6 +327,38 @@ copiarlas: no aceptar.
   destino (`(await n.getMainComponentAsync()).parent.children`). `importComponentByKeyAsync` trae otra
   copia, y con ella `setReactionsAsync` falla.
 
+**El MCP de Figma de escritorio sí lee mis archivos.** El del Mac (`remote-devices` › Figma) trabaja sobre
+la pestaña activa: `get_metadata` de una page devuelve el árbol con IDs, nombres y tamaños, y `get_screenshot`
+de un nodo sirve para verificar un frame. Si la page no está cargada, `get_metadata` devuelve solo el primer
+nivel: abrir la page en la UI y repetir. La salida grande se guarda en un archivo JSON (`[{type, text}]`):
+parsearla con Python y no leerla entera. Para inventarios (dónde hay un componente, con qué padre) es más
+seguro que un `findAll` por consola.
+
+**Después de insertar en un slot, el `findAll` puede reventar en el predicado.** Leer `name` de una subcapa
+caducada tira «in get_name: The node (instance sublayer or table cell) … does not exist» y corta toda la
+búsqueda. Envolver el predicado: `x => { try { return … } catch (e) { return false } }`.
+
+**Con `skipInvisibleInstanceChildren = false` aparecen primero las capas ocultas.** En un
+`❖ atom-select-input`, el primer `Label text` es el label oculto («Label»), no el valor. Elegir el TEXT por su
+contenido (por ejemplo `/^\d+\/\d+$/`), no por posición.
+
+**Traer un componente de la librería a otro archivo.** Si el archivo no tiene una instancia para clonar:
+en un archivo que sí la tenga, `(await n.getMainComponentAsync()).parent.key` da la key del set; en el
+destino, `figma.importComponentSetByKeyAsync(key)`, elegir la variante por nombre
+(`'State=Enabled, Size=Extra Small'`), `createInstance()` y poner en `false` los booleanos que sobran. Dejar
+la instancia de referencia fuera de la vista (x = −5000) y borrarla al final.
+
+**Variables de la librería.** `figma.teamLibrary.getAvailableLibraryVariableCollectionsAsync()` y
+`getVariablesInLibraryCollectionAsync(key)` dan nombres y keys, no valores: para saber cuánto vale un token,
+`figma.variables.importVariableByKeyAsync(key)` y leer `valuesByMode` (si es alias, resolverlo con
+`getVariableByIdAsync`). Así se encontró `4xxl` = 48 en Primitives / Spacing.
+
+**Pegar un script por portapapeles.** Con el prompt con texto previo, lo pegado se suma y el Return da
+*SyntaxError*. Antes de pegar, el prompt tiene que estar vacío. **Nunca `cmd+a` + Backspace sin confirmar
+que el foco está en la consola:** el 2026-10-19 un `cmd+a` llegó al canvas y seleccionó todas las secciones;
+un Backspace ahí las habría borrado. Si pasa, limpiar con `figma.currentPage.selection = []` desde la
+consola.
+
 **Cuando diseño elige una opción con un link, leer ese frame.** Diseño puede haberlo ajustado después de
 que lo armé: el 8 oct, la opción B de colores tenía Success e íconos que yo no había puesto, y la apliqué
 mal desde mis notas. Copiar las propiedades de las instancias del frame elegido.
@@ -347,7 +383,8 @@ Pro Regular, como el ícono de los list items.
 | `❖ atom-list-item` | Propiedades booleanas: `Trailing tag#4962:30`, `Show category#4964:81`, `Show description#4962:55`, `Trailing icon#4962:25`. El texto principal se llama `Text` dentro de `Text and supporting text`. |
 | `❖ atom-tag` | `↳ label#2975:0` para el texto, `Intent` para el color (`Neutral`, `Info`, `Success`…). El ícono es un `❖ atom-icon` interno (`Glyph#1374:1`, TEXT `↳ font-icon`) y se muestra con `hasIcon` = Yes. |
 | `v7-icon (pro)` | El glifo se cambia con la propiedad **`icon-name#1:13`**, no con `Glyph` (que suele venir vacía). |
-| `❖ atom-text-field` | El placeholder es el TEXT que no se llama `Label text` ni `Supportive text`. Puede estar nombrado `Small`. |
+| `❖ atom-text-field` | El placeholder es el TEXT que no se llama `Label text` ni `Supportive text`. Puede estar nombrado `Small`. En Extra Small se llama `Extra small`. Set: key `4632b719c25852f19c405533eb4933705ab4de7f`; variantes `State=… , Size=Extra Small` (también Extra Large, Small, Medium, Large); booleanos `Show label`, `Show bottom`, `Show supportive text`, `Show chart count`, `Show leading inner`, `Show trailing inner`. Una instancia nueva sin apagar los inner muestra «$» y un info-circle. |
+| Token `4xxl` (48 px) | `VariableID:4f108a812e8e6d9c86cd962ef3c7dd680efb209b/407:410`, colección Primitives / Spacing (`2e7281d1cb1d8ff91790d33010de5277f1edead6`). `8 xxl` = 64. Se liga con `setBoundVariable('width', v)` con el ancho en `FIXED`. |
 | Modales | Hijos directos del frame: `Layout`, `backdrop` (RECTANGLE), `❖ atom-dialog` (INSTANCE) y, si hay, el dropdown o tooltip abierto sobre el diálogo, que se mueve con él. En Automatizaciones hay además un frame `Con datos` en x = 1280. El backdrop se llama **`backdrop`**, no `overlay`. |
 | Ítems de menú (`❖ atom-list-item` en `❖ atom-dropdown-menu`) | El ícono líder es un `❖ atom-icon (DEPRECATED)`: el glifo se cambia con **`Glyph#1374:1`**, no con `icon-name`. Para encontrar un ítem, buscar por el texto de la etiqueta, no por el nombre de capa. |
 | `❖ atom-alert` | Variantes `Type` (Warning, Info, Success, Error, AI) × `Banner` (Inline, Wide). Texto en `↪️ Text#1031:50` y `↪️ Description#1031:55`; ícono en el `❖ atom-icon` interno (`Glyph#1374:1`). |
@@ -359,6 +396,27 @@ Pro Regular, como el ícono de los list items.
 | `❖ atom-tooltip` | Variante `variant` `plain` o `rich` (con `↳ subhead`, `↳ supporting text` y acción). En las tablas va con posición absoluta dentro del slot Columns: si la celda cambia de alto, hay que recolocarlo. |
 | Cards de descripción (`internal-sections`) | Variantes `internals-sections_name-cases`, `_divison-flow` y `_description`. En la de descripción, capas `title` y `text`. La altura es fija (832 desde la [0074](../decisiones/06-proceso-y-fuentes/handoff/0074-estructura-del-handoff-como-conversaciones.md); antes, 812): si el texto crece, se recorta sin aviso. En `_name-cases` las capas son `01_` (número), `Descripción del caso` y `Atom` (tag); en `_divison-flow`, `02_`, `Casuística específica / División del flujo` y `Atom`. Pasar de una variante a otra con la propiedad de variante conserva la instancia, pero los textos hay que volver a escribirlos. Cada card nombra los `❖` componentes de su sección (pedido de diseño, 28 sep). La capa `text` puede venir oculta y con el texto de ejemplo del componente («Este flujo aplica para productos que se vendan basado en su peso.»): al revisar, mirar `visible`. |
 | Título de caso de uso (`internal-title-section`) | Key `63cc62e926268e6809f60383e724d291dec2fe9a` (se importa con `importComponentByKeyAsync`). Sin propiedades: el nombre va en la capa TEXT `Name Section`. 305 px de alto; el ancho se ajusta con `resize` hasta el borde derecho del último frame del caso. |
+
+---
+
+## Confluence (FRD)
+
+Los FRD se editan por la API REST desde Chrome (Claude in Chrome), en una pestaña de
+`atomchat.atlassian.net`, con la sesión del navegador:
+
+1. `GET /wiki/rest/api/content/<id>?expand=body.storage,version,space` y leer `version.number` justo antes
+   de escribir: diseño edita el FRD al mismo tiempo.
+2. Cambios **puntuales** sobre el storage, nunca reescribir la página: cada regla con el texto viejo, el
+   nuevo y **cuántas veces tiene que aparecer**. Si alguna no da la cuenta, no se guarda nada.
+3. El storage guarda entidades (`&laquo;`, `&oacute;`, `&middot;`, `&nbsp;`) y los nombres de componentes
+   van en `<code>`: armar la búsqueda tolerante a entidades y no cruzar un `<code>`.
+4. `PUT` con `version.number + 1`, `representation: 'storage'`, el header `X-Atlassian-Token: no-check` y un
+   mensaje de versión.
+5. Releer después de guardar y comprobar que siguen las ediciones de diseño y que el diff es solo lo pedido.
+
+La salida de `javascript_tool` se corta cerca de los 1.000 caracteres y se bloquea si trae `?`, `&` o `=`:
+devolver conteos cortos, o poner el texto en un `<pre>` y leerlo con `get_page_text`. Al terminar, volver la
+pestaña a donde estaba.
 
 ---
 

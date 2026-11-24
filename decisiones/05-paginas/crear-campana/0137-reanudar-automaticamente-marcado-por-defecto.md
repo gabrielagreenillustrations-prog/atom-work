@@ -1,4 +1,4 @@
-# 0136 — Crear campaña: «Reanudar automáticamente…» viene marcado por defecto
+# 0137 — Crear campaña: «Reanudar automáticamente…» viene marcado por defecto
 
 **Estado:** vigente
 **Fecha:** 2026-10-19
@@ -19,8 +19,8 @@ Pedido de diseño: *"en todas las pantallas venga seleccionado el primer checkbo
 </content>
 </invoke>
 <invoke name="Write">
-<parameter name="file_path">/home/claude/gabrielagreenillustrations-prog/atom-work/decisiones/05-paginas/crear-campana/0137-boton-enviar-y-guardar.md</parameter>
-<parameter name="content"># 0137 — Crear campaña: el botón principal dice «Enviar» al crear y «Guardar» al editar
+<parameter name="file_path">/home/claude/gabrielagreenillustrations-prog/atom-work/decisiones/05-paginas/crear-campana/0138-boton-enviar-y-guardar.md</parameter>
+<parameter name="content"># 0138 — Crear campaña: el botón principal dice «Enviar» al crear y «Guardar» al editar
 
 **Estado:** vigente
 **Fecha:** 2026-10-19

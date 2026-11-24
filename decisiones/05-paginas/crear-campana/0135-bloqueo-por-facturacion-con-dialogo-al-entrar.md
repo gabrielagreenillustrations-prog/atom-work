@@ -1,4 +1,4 @@
-# 0134 — Crear campaña: el bloqueo por facturación es un diálogo informativo al entrar
+# 0135 — Crear campaña: el bloqueo por facturación es un diálogo informativo al entrar
 
 **Estado:** vigente
 **Fecha:** 2026-10-19

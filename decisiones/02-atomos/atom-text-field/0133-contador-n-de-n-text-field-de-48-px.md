@@ -1,4 +1,4 @@
-# 0132 — El contador «n/N» de la navegación de plantillas es un text field de solo lectura de 48 px
+# 0133 — El contador «n/N» de la navegación de plantillas es un text field de solo lectura de 48 px
 
 **Estado:** vigente
 **Fecha:** 2026-10-19

@@ -47,17 +47,17 @@ un `internal-title-section` por caso, la card del número y una o más cards de 
 
 | Tema | Regla | Decisión |
 |---|---|---|
-| Vista previa | Contenedor de contenido inline (Form + Preview Panel), con nombre y «Ver métricas de plantilla» en todas las pantallas | [0129](../../decisiones/05-paginas/crear-campana/0129-vista-previa-contenedor-inline.md) |
-| Layout | Formulario de hasta 600 px, margen mínimo 24; vista previa con clamp y corte en 992 px | [0130](../../decisiones/05-paginas/crear-campana/0130-responsive-formulario-600-y-vista-previa-con-clamp.md) |
-| Varias plantillas | Navegación arriba de la vista previa; contador «n/N» en text field de 48 px (`4xxl`) | [0131](../../decisiones/05-paginas/crear-campana/0131-navegacion-de-plantillas-arriba-de-la-vista-previa.md) · [0132](../../decisiones/02-atomos/atom-text-field/0132-contador-n-de-n-text-field-de-48-px.md) |
-| Flujo elegido | La vista previa muestra su plantilla | [0140](../../decisiones/05-paginas/crear-campana/0140-flujo-elegido-muestra-su-plantilla.md) |
-| Agendar y finalización | 12 h con AM/PM en un select; Día 1–30, Hora 1–168 | [0133](../../decisiones/05-paginas/crear-campana/0133-hora-en-12-h-y-finalizacion-como-hoy.md) |
-| Facturación | Diálogo informativo al entrar | [0134](../../decisiones/05-paginas/crear-campana/0134-bloqueo-por-facturacion-con-dialogo-al-entrar.md) |
-| Selectores | «Plantilla a enviar», «Flujo a enviar», «Lista de clientes», «Grupo», «Agente»; «Selecciona un/una…» | [0135](../../decisiones/05-paginas/crear-campana/0135-labels-placeholders-y-ayudas-de-los-selectores.md) |
-| Consideraciones | «Reanudar automáticamente…» marcado por defecto | [0136](../../decisiones/05-paginas/crear-campana/0136-reanudar-automaticamente-marcado-por-defecto.md) |
-| Botón principal | «Enviar» / «Guardar» | [0137](../../decisiones/05-paginas/crear-campana/0137-boton-enviar-y-guardar.md) |
-| Validaciones | Solo «Salir sin guardar» (Cancelar, ←, otro módulo) | [0138](../../decisiones/05-paginas/crear-campana/0138-validaciones-al-enviar-solo-salir-sin-guardar.md) |
-| Errores | «Se requiere…»; Hora y Minuto con «Requerido» | [0139](../../decisiones/05-paginas/crear-campana/0139-errores-se-requiere-y-requerido-en-hora.md) |
+| Vista previa | Contenedor de contenido inline (Form + Preview Panel), con nombre y «Ver métricas de plantilla» en todas las pantallas | [0130](../../decisiones/05-paginas/crear-campana/0130-vista-previa-contenedor-inline.md) |
+| Layout | Formulario de hasta 600 px, margen mínimo 24; vista previa con clamp y corte en 992 px | [0131](../../decisiones/05-paginas/crear-campana/0131-responsive-formulario-600-y-vista-previa-con-clamp.md) |
+| Varias plantillas | Navegación arriba de la vista previa; contador «n/N» en text field de 48 px (`4xxl`) | [0132](../../decisiones/05-paginas/crear-campana/0132-navegacion-de-plantillas-arriba-de-la-vista-previa.md) · [0133](../../decisiones/02-atomos/atom-text-field/0133-contador-n-de-n-text-field-de-48-px.md) |
+| Flujo elegido | La vista previa muestra su plantilla | [0141](../../decisiones/05-paginas/crear-campana/0141-flujo-elegido-muestra-su-plantilla.md) |
+| Agendar y finalización | 12 h con AM/PM en un select; Día 1–30, Hora 1–168 | [0134](../../decisiones/05-paginas/crear-campana/0134-hora-en-12-h-y-finalizacion-como-hoy.md) |
+| Facturación | Diálogo informativo al entrar | [0135](../../decisiones/05-paginas/crear-campana/0135-bloqueo-por-facturacion-con-dialogo-al-entrar.md) |
+| Selectores | «Plantilla a enviar», «Flujo a enviar», «Lista de clientes», «Grupo», «Agente»; «Selecciona un/una…» | [0136](../../decisiones/05-paginas/crear-campana/0136-labels-placeholders-y-ayudas-de-los-selectores.md) |
+| Consideraciones | «Reanudar automáticamente…» marcado por defecto | [0137](../../decisiones/05-paginas/crear-campana/0137-reanudar-automaticamente-marcado-por-defecto.md) |
+| Botón principal | «Enviar» / «Guardar» | [0138](../../decisiones/05-paginas/crear-campana/0138-boton-enviar-y-guardar.md) |
+| Validaciones | Solo «Salir sin guardar» (Cancelar, ←, otro módulo) | [0139](../../decisiones/05-paginas/crear-campana/0139-validaciones-al-enviar-solo-salir-sin-guardar.md) |
+| Errores | «Se requiere…»; Hora y Minuto con «Requerido» | [0140](../../decisiones/05-paginas/crear-campana/0140-errores-se-requiere-y-requerido-en-hora.md) |
 | Diálogos | Centrados respecto al frame completo | [0095](../../decisiones/04-organismos/atom-dialog/0095-dialogos-centrados-en-el-frame.md) |
 
 ## Verificado en QA

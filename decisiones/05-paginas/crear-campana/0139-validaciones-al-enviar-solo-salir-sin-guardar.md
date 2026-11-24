@@ -1,4 +1,4 @@
-# 0138 — Crear campaña: de las validaciones al enviar queda solo «Salir sin guardar»
+# 0139 — Crear campaña: de las validaciones al enviar queda solo «Salir sin guardar»
 
 **Estado:** vigente
 **Fecha:** 2026-10-19

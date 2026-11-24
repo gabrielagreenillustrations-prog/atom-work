@@ -1,4 +1,4 @@
-# 0139 — Crear campaña: errores «Se requiere…», salvo Hora y Minuto, que siguen con «Requerido»
+# 0140 — Crear campaña: errores «Se requiere…», salvo Hora y Minuto, que siguen con «Requerido»
 
 **Estado:** vigente
 **Fecha:** 2026-10-19

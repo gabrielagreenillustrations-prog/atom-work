@@ -1,6 +1,6 @@
 # Vista previa de plantilla y navegación entre plantillas
 
-Última revisión: **2026-10-19** · Decisiones: [0129](../decisiones/05-paginas/crear-campana/0129-vista-previa-contenedor-inline.md) · [0130](../decisiones/05-paginas/crear-campana/0130-responsive-formulario-600-y-vista-previa-con-clamp.md) · [0131](../decisiones/05-paginas/crear-campana/0131-navegacion-de-plantillas-arriba-de-la-vista-previa.md) · [0132](../decisiones/02-atomos/atom-text-field/0132-contador-n-de-n-text-field-de-48-px.md) · [0140](../decisiones/05-paginas/crear-campana/0140-flujo-elegido-muestra-su-plantilla.md)
+Última revisión: **2026-10-19** · Decisiones: [0130](../decisiones/05-paginas/crear-campana/0130-vista-previa-contenedor-inline.md) · [0131](../decisiones/05-paginas/crear-campana/0131-responsive-formulario-600-y-vista-previa-con-clamp.md) · [0132](../decisiones/05-paginas/crear-campana/0132-navegacion-de-plantillas-arriba-de-la-vista-previa.md) · [0133](../decisiones/02-atomos/atom-text-field/0133-contador-n-de-n-text-field-de-48-px.md) · [0141](../decisiones/05-paginas/crear-campana/0141-flujo-elegido-muestra-su-plantilla.md)
 
 Vale donde se muestra una plantilla con su navegación: Crear campaña y el panel de Métricas de plantilla.
 

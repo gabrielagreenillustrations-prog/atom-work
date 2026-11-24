@@ -1,4 +1,4 @@
-# 0133 — Crear campaña: la hora sigue en 12 h y la finalización se cuenta como hoy
+# 0134 — Crear campaña: la hora sigue en 12 h y la finalización se cuenta como hoy
 
 **Estado:** vigente
 **Fecha:** 2026-10-19
@@ -24,4 +24,4 @@ Diseño pidió conservar el comportamiento actual y que el AM/PM sea un selector
 </content>
 </invoke>
 <invoke name="Bash">
-<parameter name="command">cd /home/claude/gabrielagreenillustrations-prog/atom-work/decisiones/05-paginas/crear-campana && head -1 0133-*.md
+<parameter name="command">cd /home/claude/gabrielagreenillustrations-prog/atom-work/decisiones/05-paginas/crear-campana && head -1 0134-*.md

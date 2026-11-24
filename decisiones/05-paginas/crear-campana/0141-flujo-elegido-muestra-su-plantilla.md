@@ -1,4 +1,4 @@
-# 0140 — Crear campaña: con un flujo elegido, la vista previa muestra su plantilla
+# 0141 — Crear campaña: con un flujo elegido, la vista previa muestra su plantilla
 
 **Estado:** vigente
 **Fecha:** 2026-10-19
@@ -11,7 +11,7 @@ En QA, con un flujo elegido, la vista previa queda vacía («Selecciona un flujo
 
 ## Decisión
 
-Al elegir un flujo, la vista previa muestra su plantilla con el nombre («Plantilla: [nombre]») y «Ver métricas de plantilla». Es el estado inicial de la vista previa del flujo; con varias plantillas se recorren con la navegación de la [0131](0131-navegacion-de-plantillas-arriba-de-la-vista-previa.md).
+Al elegir un flujo, la vista previa muestra su plantilla con el nombre («Plantilla: [nombre]») y «Ver métricas de plantilla». Es el estado inicial de la vista previa del flujo; con varias plantillas se recorren con la navegación de la [0132](0132-navegacion-de-plantillas-arriba-de-la-vista-previa.md).
 
 ## Por qué
 

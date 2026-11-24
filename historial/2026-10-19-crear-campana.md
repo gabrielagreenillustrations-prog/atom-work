@@ -6,14 +6,14 @@ Estado del módulo en [modulos/campanas/crear-campana.md](../modulos/campanas/cr
 
 ## Lote de diseño (19 oct)
 
-- Vista previa como contenedor de contenido, no side panel, con su regla de ancho ([0129](../decisiones/05-paginas/crear-campana/0129-vista-previa-contenedor-inline.md), [0130](../decisiones/05-paginas/crear-campana/0130-responsive-formulario-600-y-vista-previa-con-clamp.md)).
-- Navegación entre plantillas arriba de la vista previa, con el frame de referencia de diseño, nombre de hasta 3 líneas con tooltip y título en singular o plural ([0131](../decisiones/05-paginas/crear-campana/0131-navegacion-de-plantillas-arriba-de-la-vista-previa.md)).
-- El nombre de la plantilla y «Ver métricas de plantilla» en todas las vistas previas con plantilla, como `20.00 · 01` ([0129](../decisiones/05-paginas/crear-campana/0129-vista-previa-contenedor-inline.md)).
-- Fila de la hora en 12 h con AM/PM en un select, y la duración de Finalización como hoy ([0133](../decisiones/05-paginas/crear-campana/0133-hora-en-12-h-y-finalizacion-como-hoy.md)).
-- Bloqueo por facturación como diálogo informativo al entrar ([0134](../decisiones/05-paginas/crear-campana/0134-bloqueo-por-facturacion-con-dialogo-al-entrar.md)).
-- Primer checkbox de Consideraciones marcado en todas las pantallas ([0136](../decisiones/05-paginas/crear-campana/0136-reanudar-automaticamente-marcado-por-defecto.md)).
-- Labels, placeholders y textos de ayuda de los selectores en todas las pantallas ([0135](../decisiones/05-paginas/crear-campana/0135-labels-placeholders-y-ayudas-de-los-selectores.md)).
-- El contador «n/N» pasó de select a text field de solo lectura, en Crear campaña y en la page Métricas de plantillas ([0132](../decisiones/02-atomos/atom-text-field/0132-contador-n-de-n-text-field-de-48-px.md)).
+- Vista previa como contenedor de contenido, no side panel, con su regla de ancho ([0130](../decisiones/05-paginas/crear-campana/0130-vista-previa-contenedor-inline.md), [0131](../decisiones/05-paginas/crear-campana/0131-responsive-formulario-600-y-vista-previa-con-clamp.md)).
+- Navegación entre plantillas arriba de la vista previa, con el frame de referencia de diseño, nombre de hasta 3 líneas con tooltip y título en singular o plural ([0132](../decisiones/05-paginas/crear-campana/0132-navegacion-de-plantillas-arriba-de-la-vista-previa.md)).
+- El nombre de la plantilla y «Ver métricas de plantilla» en todas las vistas previas con plantilla, como `20.00 · 01` ([0130](../decisiones/05-paginas/crear-campana/0130-vista-previa-contenedor-inline.md)).
+- Fila de la hora en 12 h con AM/PM en un select, y la duración de Finalización como hoy ([0134](../decisiones/05-paginas/crear-campana/0134-hora-en-12-h-y-finalizacion-como-hoy.md)).
+- Bloqueo por facturación como diálogo informativo al entrar ([0135](../decisiones/05-paginas/crear-campana/0135-bloqueo-por-facturacion-con-dialogo-al-entrar.md)).
+- Primer checkbox de Consideraciones marcado en todas las pantallas ([0137](../decisiones/05-paginas/crear-campana/0137-reanudar-automaticamente-marcado-por-defecto.md)).
+- Labels, placeholders y textos de ayuda de los selectores en todas las pantallas ([0136](../decisiones/05-paginas/crear-campana/0136-labels-placeholders-y-ayudas-de-los-selectores.md)).
+- El contador «n/N» pasó de select a text field de solo lectura, en Crear campaña y en la page Métricas de plantillas ([0133](../decisiones/02-atomos/atom-text-field/0133-contador-n-de-n-text-field-de-48-px.md)).
 - Mensaje de avance para el tech lead y el equipo (20 HUs terminadas, propuesta de revisión en reunión o video).
 
 ## El contador en otros archivos
@@ -37,15 +37,15 @@ Automatizaciones.
 Se compararon los textos visibles de los 72 frames con las cards y el FRD v12. Cambios de diseño hechos a
 mano en Figma, pasados al FRD (v13) y a 12 cards:
 
-- Botón «Enviar» en 67 frames ([0137](../decisiones/05-paginas/crear-campana/0137-boton-enviar-y-guardar.md)); quedaban cinco «Crear» en la HU-1.
+- Botón «Enviar» en 67 frames ([0138](../decisiones/05-paginas/crear-campana/0138-boton-enviar-y-guardar.md)); quedaban cinco «Crear» en la HU-1.
 - Cuerpo del diálogo de facturación: «Realiza los pagos correspondientes…».
 - Tooltip de la lista sin clientes: «No se pueden utilizar listas estáticas con cero clientes para el envío de campañas.»
 - Botón en carga «Enviando»; snackbar «No se pudo enviar la campaña…».
 - Asignar conversaciones: «Grupo» y «Agente» con «Selecciona un grupo» y «Selecciona un agente».
 - Diseño borró `14.00 · 01–02` (lista sin clientes y horario sin días) y `01.00 · 07`; las cards de 14.00 y
-  15.00 se ajustaron ([0138](../decisiones/05-paginas/crear-campana/0138-validaciones-al-enviar-solo-salir-sin-guardar.md)).
-- `18.00 · 02` y las cards: Hora y Minuto con «Requerido» ([0139](../decisiones/05-paginas/crear-campana/0139-errores-se-requiere-y-requerido-en-hora.md)).
-- `03.00 · 03` muestra la plantilla del flujo; diseño confirmó que es el estado inicial ([0140](../decisiones/05-paginas/crear-campana/0140-flujo-elegido-muestra-su-plantilla.md)).
+  15.00 se ajustaron ([0139](../decisiones/05-paginas/crear-campana/0139-validaciones-al-enviar-solo-salir-sin-guardar.md)).
+- `18.00 · 02` y las cards: Hora y Minuto con «Requerido» ([0140](../decisiones/05-paginas/crear-campana/0140-errores-se-requiere-y-requerido-en-hora.md)).
+- `03.00 · 03` muestra la plantilla del flujo; diseño confirmó que es el estado inicial ([0141](../decisiones/05-paginas/crear-campana/0141-flujo-elegido-muestra-su-plantilla.md)).
 
 FRD v14: salió el punto 07 de la HU-1, a pedido de diseño. Después de cada guardado se releyó el FRD y
 seguían las ediciones de diseño.

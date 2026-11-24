@@ -1,4 +1,4 @@
-# 0135 — Crear campaña: labels, placeholders y ayudas de los selectores
+# 0136 — Crear campaña: labels, placeholders y ayudas de los selectores
 
 **Estado:** vigente
 **Fecha:** 2026-10-19
@@ -33,4 +33,4 @@ Antes, en el FRD: «Selecciona el grupo» y «Selecciona el agente» como labels
 </content>
 </invoke>
 <invoke name="Bash">
-<parameter name="command">cd /home/claude/gabrielagreenillustrations-prog/atom-work/decisiones/05-paginas/crear-campana && head -1 0135-*.md
+<parameter name="command">cd /home/claude/gabrielagreenillustrations-prog/atom-work/decisiones/05-paginas/crear-campana && head -1 0136-*.md

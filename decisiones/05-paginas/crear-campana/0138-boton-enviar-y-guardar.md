@@ -1,4 +1,4 @@
-# 0137 — Crear campaña: el botón principal dice «Enviar» al crear y «Guardar» al editar
+# 0138 — Crear campaña: el botón principal dice «Enviar» al crear y «Guardar» al editar
 
 **Estado:** vigente
 **Fecha:** 2026-10-19

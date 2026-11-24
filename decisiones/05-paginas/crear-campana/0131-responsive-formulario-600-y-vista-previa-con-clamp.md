@@ -1,4 +1,4 @@
-# 0130 — Crear campaña: formulario de hasta 600 px y vista previa con clamp según el área
+# 0131 — Crear campaña: formulario de hasta 600 px y vista previa con clamp según el área
 
 **Estado:** vigente
 **Fecha:** 2026-10-19
@@ -12,7 +12,7 @@ Crear campaña usa *Narrow Page Layout* de Global Patterns. Patterns pone un mar
 ## Decisión
 
 - **Formulario:** una columna centrada, en Fill container, con el header dentro del mismo contenedor. Margen lateral mínimo de 24 px; el formulario crece hasta 600 px y desde ahí se centra. Implementación: `padding-inline: max(24px, (100cqi − 600px) / 2)`, medido sobre el área de scroll del formulario.
-- **Vista previa** (contenedor de la [0129](0129-vista-previa-contenedor-inline.md)):
+- **Vista previa** (contenedor de la [0130](0130-vista-previa-contenedor-inline.md)):
   - área de contenido de 992 px o más: 70 / 30, `clamp(360px, 30%, 480px)`;
   - menor a 992 px: 60 / 40, `clamp(280px, 40%, 360px)`.
   - CSS: `grid-template-columns: 1fr clamp(360px, 30%, 480px)`; con `@container (width < 992px)`: `1fr clamp(280px, 40%, 360px)`.

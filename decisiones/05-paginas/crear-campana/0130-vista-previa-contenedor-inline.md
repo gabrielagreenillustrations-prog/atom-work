@@ -1,4 +1,4 @@
-# 0129 — Crear campaña: la vista previa es un contenedor de contenido inline, no un side panel
+# 0130 — Crear campaña: la vista previa es un contenedor de contenido inline, no un side panel
 
 **Estado:** vigente
 **Fecha:** 2026-10-19
@@ -14,7 +14,7 @@ La vista previa de la plantilla era un `❖ atom-sidepanel`. En desarrollo es un
 - La vista previa es un **contenedor de contenido** según *Form + Preview Panel*: sin sombra, fondo `bg/primary`, separador vertical de 1 px (`border/tertiary`) y `❖ atom-horizontal-divider` debajo del título. Va siempre inline, sin botón de cerrar, y no se oculta en ningún ancho.
 - Título: «Vista previa de plantilla» con 1 plantilla y «Vista previa de plantillas» con más de 1.
 - Con una plantilla elegida, en **todas** las pantallas: debajo del título, «Plantilla: [nombre]» (hasta 3 líneas) y después «Ver métricas de plantilla», como en `20.00 · 01`.
-- El ancho, en la [0130](0130-responsive-formulario-600-y-vista-previa-con-clamp.md).
+- El ancho, en la [0131](0131-responsive-formulario-600-y-vista-previa-con-clamp.md).
 
 ## Por qué
 

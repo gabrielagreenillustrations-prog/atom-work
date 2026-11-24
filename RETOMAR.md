@@ -153,7 +153,7 @@ Del 16 al 19 de octubre se cerró el handoff de **Crear campaña** (`/campaigns/
 archivo de Campañas: 20 HUs, 72 frames, sección `1186:94` de la page «Crear Campaña», con su FRD en Confluence
 (v14). La vista previa pasó a contenedor de contenido con su regla de ancho, la navegación entre plantillas va
 arriba de la vista previa y el contador «n/N» es un text field de solo lectura de 48 px con `4xxl`, también en
-la page Métricas de plantillas (decisiones 0129–0140). El 19 se comparó Figma con las cards y el FRD y se
+la page Métricas de plantillas (decisiones 0130–0141). El 19 se comparó Figma con las cards y el FRD y se
 pasaron al FRD los cambios que diseño hizo a mano (`historial/2026-10-19-crear-campana.md`,
 `modulos/campanas/crear-campana.md`).
 
@@ -163,7 +163,7 @@ pasaron al FRD los cambios que diseño hizo a mano (`historial/2026-10-19-crear-
 |---|---|
 | Crear campaña · `18.00 · 02` | «Fecha de envío» está vacío y en error, pero el placeholder dice «14 Oct 26»; en `11.00 · 01` dice «Selecciona una fecha». ¿Lo cambio? |
 | Crear campaña · botón en carga | `05.00 · 01` dice «Enviando», sin «...»; la [0024](decisiones/02-atomos/atom-button/0024-botones-en-loading.md) pide «Enviando...». El FRD y la card quedaron como el frame. ¿Cuál vale? |
-| Contadores del panel v2 | En *Métricas por plantilla inicial* (page *Nueva UI*), los 14 contadores quedaron en text field de 64 px, sin token. ¿Los paso a 48 px con `4xxl`, como la [0132](decisiones/02-atomos/atom-text-field/0132-contador-n-de-n-text-field-de-48-px.md)? |
+| Contadores del panel v2 | En *Métricas por plantilla inicial* (page *Nueva UI*), los 14 contadores quedaron en text field de 64 px, sin token. ¿Los paso a 48 px con `4xxl`, como la [0133](decisiones/02-atomos/atom-text-field/0133-contador-n-de-n-text-field-de-48-px.md)? |
 | Stepper anterior | *Panel v1* y *Exploración* (archivo de métricas) y `03.9 · 02` de Automatizaciones siguen con el select del stepper anterior. ¿Se actualizan o quedan como versiones anteriores? |
 | HU-14 del FRD de Crear campaña | La descripción todavía habla de validar los casos que impiden enviar, y solo queda «Salir sin guardar». Es tu texto: ¿lo ajusto? |
 | Propuestas de Etiquetas | Hay tres vistas para el CTO en «Propuestas · Etiquetas · Ver etiquetas» ([0117](decisiones/05-paginas/etiquetas/0117-tres-propuestas-de-vista-para-decidir.md)). ¿Cuál se elige? El handoff sigue con list items. |

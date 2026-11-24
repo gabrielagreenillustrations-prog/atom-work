@@ -14,3 +14,4 @@ reflejan el estado vigente, no el historial.
 | [snackbars.md](snackbars.md) | Copy y cierre de los snackbars, con la tabla de los mensajes del código |
 | [acciones-no-disponibles.md](acciones-no-disponibles.md) | Por qué las acciones que no aplican se ocultan en los menús y cuándo va Disabled |
 | [atom-chat.md](atom-chat.md) | Chat atom-chat v2: templates, kit, instancias, logs de IA, prototipo y pendientes |
+| [vista-previa-de-plantilla.md](vista-previa-de-plantilla.md) | Contenedor de la vista previa en formularios, su ancho, y la navegación entre plantillas con el contador «n/N» |

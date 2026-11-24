@@ -6,6 +6,10 @@ Archivo de Figma: **Campañas – Adopción DS 1.0** (`QFcKK4fLWh3DxPNyTTxanr`)
 |---|---|---|
 | Resultados de campañas | `266:150994` | [resultados-de-campanas.md](resultados-de-campanas.md) |
 | Listas | `296:789000` | [listas.md](listas.md) |
+| Crear campaña | `1186:94` (page «Crear Campaña», `1179:166593`) | [crear-campana.md](crear-campana.md) |
+
+La page «Métricas de plantillas» (`1288:189238`) tiene el panel de métricas del handoff; su navegación
+sigue [sistema/vista-previa-de-plantilla.md](../../sistema/vista-previa-de-plantilla.md).
 
 ## Limpieza del archivo
 

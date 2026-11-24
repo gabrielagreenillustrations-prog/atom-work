@@ -19,10 +19,10 @@ y existe para responder tres preguntas cuando vuelvo a un diseño meses después
 RETOMAR.md                   ← dónde quedé y el prompt para abrir otra conversación
 decisiones/                  ← decisiones numeradas, con contexto y razón. No se editan.
   01-fundamentos/            ← fechas, iconografía
-  02-atomos/                 ← atom-button
+  02-atomos/                 ← atom-button, atom-text-field
   03-moleculas/              ← buscador, filtros, menús de acciones, snackbar
   04-organismos/             ← tablas (y sus columnas), panel de métricas, modales
-  05-paginas/                ← Resultados de campañas, Gestión de flujos
+  05-paginas/                ← Resultados de campañas, Crear campaña, Gestión de flujos…
   06-proceso-y-fuentes/      ← épicas que mandan y reglas del handoff
 sistema/                     ← reglas transversales del DS: fechas, íconos, copy, modales…
 modulos/                     ← por módulo: qué es, cómo quedó, qué falta

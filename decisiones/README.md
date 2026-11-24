@@ -40,7 +40,7 @@ el campo **Componente**; se suma su fila en «Por número» y su lugar en «Por 
 | [0050](01-fundamentos/fechas/0050-fechas-sin-relativas.md) | El mismo formato en todas las fechas, también en textos corridos |
 
 **Antes:** [0003](01-fundamentos/fechas/0003-formato-de-fecha.md) → [0035](01-fundamentos/fechas/0035-formato-de-fecha-premade.md)  
-**Ver también:** [0029](04-organismos/atom-data-table/columnas-listas/0029-listas-iconos-y-nombre-de-fechas.md) (Listas: íconos de las fechas)  
+**Ver también:** [0029](04-organismos/atom-data-table/columnas-listas/0029-listas-iconos-y-nombre-de-fechas.md) (Listas: íconos de las fechas), [0129](04-organismos/atom-data-table/0129-catalogos-columnas-segun-table-columns-patterns.md) (Catálogos: fechas premade)  
 
 #### Iconografía · regla vigente: [sistema/iconografia.md](../sistema/iconografia.md)
 
@@ -131,6 +131,7 @@ el campo **Componente**; se suma su fila en «Por número» y su lugar en «Por 
 | [0090](04-organismos/atom-data-table/0090-toolbar-dentro-de-la-tabla-fuera-de-filtros.md) | Toolbar dentro de la tabla; separado solo en los casos de filtros |
 | [0091](04-organismos/atom-data-table/0091-scroll-de-las-tablas-segun-resultados.md) | Scroll vertical con la página llena; horizontal con columnas fijas |
 | [0093](04-organismos/atom-data-table/0093-paginadores-de-listas-segun-el-contexto.md) | Listas: paginador «1 – 10 de 21 registros · Página 1 de 3» y `loading` en la pantalla Cargando |
+| [0129](04-organismos/atom-data-table/0129-catalogos-columnas-segun-table-columns-patterns.md) | Catálogos: cada columna se revisa contra Table Columns Patterns; fechas en las premade «F. Creación» y «F. Actualización» |
 
 *Columna Canal (Gestión de flujos)*
 
@@ -480,6 +481,7 @@ Vigentes en [Métricas](#métricas--regla-vigente-sistemametricasmd): [0063](05-
 | [0126](05-paginas/stickers/0126-stickers-cards-de-ancho-fijo.md) | Stickers: cards de ancho fijo; la última fila puede quedar incompleta | vigente | 2026-10-12 |
 | [0127](05-paginas/stickers/0127-stickers-editar-solo-desde-el-menu.md) | Stickers: el nombre se edita solo desde el menú, en un dialog | vigente | 2026-10-12 |
 | [0128](05-paginas/stickers/0128-stickers-imagenes-de-internet-como-relleno-de-la-card.md) | Stickers: imágenes de internet como relleno del ImageSlot de la card | vigente | 2026-10-12 |
+| [0129](04-organismos/atom-data-table/0129-catalogos-columnas-segun-table-columns-patterns.md) | Catálogos: columnas según Table Columns Patterns, con las fechas premade | vigente | 2026-11-23 |
 
 ## Formato
 

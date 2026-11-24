@@ -1,6 +1,6 @@
 # Fechas y formatos
 
-Última revisión: **2026-09-25** (sesión 10) · Decisiones: [0035](../decisiones/01-fundamentos/fechas/0035-formato-de-fecha-premade.md), que reemplaza a [0003](../decisiones/01-fundamentos/fechas/0003-formato-de-fecha.md) · [0050](../decisiones/01-fundamentos/fechas/0050-fechas-sin-relativas.md)
+Última revisión: **2026-09-25** (sesión 10) · Decisiones: [0129](../decisiones/04-organismos/atom-data-table/0129-catalogos-columnas-segun-table-columns-patterns.md) (Catálogos) · [0035](../decisiones/01-fundamentos/fechas/0035-formato-de-fecha-premade.md), que reemplaza a [0003](../decisiones/01-fundamentos/fechas/0003-formato-de-fecha.md) · [0050](../decisiones/01-fundamentos/fechas/0050-fechas-sin-relativas.md)
 
 ---
 
@@ -30,6 +30,8 @@ Esta semana · Últimos 15 días · Personalizado) son rangos y no cambian.
 | Gestión de flujos | `F. Última edición` | columna fija (el archivo no tiene las premade) | 163 px |
 | Historial de conversaciones | `F. Actualización` | columna fija (el archivo no tiene las premade) | 163 px |
 | Gestión · modal «Campañas asociadas» (`03.4 · 05`) | `F. Creación` | columna fija | 137 px |
+| Configuraciones · Catálogos · lista de catálogos | `F. Creación` · `F. Actualización` | *F. Creación (premade)* · *F. Actualización (premade)* | 137 · 163 px |
+| Configuraciones · Catálogos · archivos de Google Sheets | `F. Actualización` | *F. Actualización (premade)* | 163 px |
 
 - Orden descendente por defecto: flecha `arrow-down` en el encabezado y la fila más reciente arriba.
   Al cambiar de tabla o aplicar filtros, el orden se mantiene.

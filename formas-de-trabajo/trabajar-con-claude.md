@@ -39,6 +39,22 @@ locks de apps: llamar antes a `computer_release_lock`.
 
 ---
 
+## Checklist de tablas antes de entregar
+
+Origen: [0129](../decisiones/04-organismos/atom-data-table/0129-catalogos-columnas-segun-table-columns-patterns.md).
+En Catálogos la mayoría de los comentarios de la revisión fueron columnas mal aplicadas, con la regla
+ya documentada. Antes de dar por lista una tabla:
+
+1. Abrir Global Patterns › `❖ Table Columns` y comparar **cada columna**, no solo el componente.
+2. Fechas: premade *F. Creación* (137 px) y *F. Actualización* (163 px), encabezado con ese nombre,
+   formato `DD Mmm AA HH:mm` (`sistema/fechas-y-formatos.md`), `arrow-down` en la columna que ordena y
+   filas de la más reciente a la más antigua.
+3. Ningún nombre de columna inventado si el patrón ya tiene uno.
+4. Comparar la misma tabla en todos los flujos donde aparece (por ejemplo, la lista de catálogos en
+   API y en Google Sheets): mismas columnas, mismo orden, mismos anchos.
+
+---
+
 ## Gotchas que costaron caro
 
 **El foco se pierde sin aviso.** Dos veces las pulsaciones fueron al canvas en vez de a
